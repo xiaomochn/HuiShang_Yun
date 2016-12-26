@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载</string>
+    <string name="xlistview_header_last_time">更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="xlistview_header_hint_normal_chat">下拉查看更多</string>
+    <string name="xlistview_header_hint_ready_chat">松开加载数据</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="about">关于</string>
+    <string name="account">账号</string>
+    <string name="password">密码</string>
+    <string name="remember_psd">记住密码</string>
+    <string name="auto_login">自动登陆</string>
+    <string name="login">登\u0020录</string>
+    <string name="reset">设\u0020置</string>
+    <string name="contacter">通讯录</string>
+    <string name="new_msg">企信</string>
+    <string name="work_space">应用</string>
+    <string name="office">办公</string>
+    <string name="setting">设置</string>
+    <string name="colleauge">同事</string>
+    <string name="group">群组</string>
+    <string name="record">记录</string>
+    <string name="remind">待办提醒</string>
+    <string name="rcount">0/0</string>
+    <string name="loading">加载中\u0020.\u0020.\u0020.</string>
+    <string name="all">全部</string>
+    <string name="hadread">已读</string>
+    <string name="unread">未读</string>
+    <string name="exit">退出</string>
+    <string name="delete">\u0020删除</string>
+    <string name="reply">\u0020回复</string>
+    <string name="forward">\u0020转发</string>
+    <string name="confirm">确定</string>
+    <string name="cancle">取消</string>
+    <string name="hint_search">输入姓名或电话快速搜索</string>
+    <string name="compan_name">南昌索科特科技有限公司</string>
+    <string name="compan_last_name">科技发展有限公司</string>
+    <string name="compan_setting_title">设置分销商</string>
+    <string name="compan_setting_hint">请输入分销商名称</string>
+    <string name="pull_to_refresh_footer_pull_label">上拉加载更多</string>
+    <string name="pull_to_refresh_footer_release_label">松开后加载</string>
+    <string name="pull_to_refresh_footer_refreshing_label">加载中\u2026</string>
+    <string name="run_bg_ticker">慧商宝正在后台运行</string>
+    <string name="fragment01">全部</string>
+    <string name="fragment02">产品分类</string>
+    <string name="fragment03">促销产品</string>
+    <string name="dinghuodan">订货单</string>
+    <string name="tuihuodan">退货单</string>
+
+    <bool name="is_remember">true</bool>
+    <bool name="is_autologin">false</bool>
+    <bool name="is_novisible">false</bool>
+
+    <!-- 数据库和文件路径 -->
+    <string name="dir">/HSY_Yun</string>
+    <string name="app_dir">/app</string>
+    <string name="db_dir">/database</string>
+    <string name="img_dir">/img</string>
+
+    <string name="pull_to_refresh_pull_label">下拉刷新…</string>
+    <string name="pull_to_refresh_release_label">放开以刷新…</string>
+    <string name="pull_to_refresh_refreshing_label">正在载入…</string>
+    <string name="pull_to_refresh_from_bottom_pull_label">@string/pull_to_refresh_pull_label</string>
+    <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
+    <string name="app_name">慧商宝</string>
+    <string name="app_enname">huishang</string>
+    <integer name="versionCode">3</integer>
+    <string name="versionName">1.3.0</string>
+    <!-- 
+   		服务号后缀
+   		_S_News ：企业资讯
+   		_S_Task ：任务提醒
+   		_S_Message ： 消息推送
+   		_S_Email : 企业邮箱	
+     -->
+    <!--    <string-array name="chat_service_suffix">
+        <item >_s_news</item>
+        <item >_s_task</item>
+        <item >_s_message</item>
+        <item >_s_email</item>
+    </string-array>
+    服务号名称
+    <string-array name="chat_service_name">
+        <item >企业资讯</item>
+        <item >任务提醒</item>
+        <item >消息推送</item>
+        <item >企业邮箱</item>
+    </string-array> -->
+    <!--   <string name="chat_webview_url">http://webapp.yiqiyun.com.cn/Message/View.aspx?id=</string> -->
+    <string name="chat_webview_url">http://webapp.huishangyun.com/AdminLogin.aspx?</string>
+    <string name="about_descrip">\u0020\u0020\u0020\u0020\u0020\u0020慧商是一个社交化工作空间，可通过慧商的企业微博、企业微信、任务中心、客户管理、移动审批等协作应用，打破部门壁垒与地域限制，凝聚企业共识，激发员工创新，提高协作效率。</string>
+    <!-- Content descriptions -->
+    <string name="descr_image">Image</string>
+
+    <string name="updatanew_true">有版本更新</string>
+    <string name="updatanew_no">已是最新版本</string>
+
+
+    <string name="provision1">\u0020\u0020\u0020\u0020\u0020\u0020欢迎您使用慧商宝的服务，请务必认真阅读以下服务条款。\n\u0020\u0020\u0020\u0020\u0020\u0020本服务条款缔约方为南昌索科特科技有限公司与慧商宝注册用户，本服务条款具有合同效力。当您点击"提交"按钮，您已经接受了以下的条款。</string>
+
+    <string name="provision2">1.知识产权</string>
+
+    <string name="provision3">江西慧商云科技有限公司完全拥有慧商宝的全部知识产权。慧商宝的名字、LOGO都已经属于南昌索科特科技有限公司的商标，未经授权不能使用。</string>
+
+    <string name="provision4">2.用户隐私权</string>
+
+    <string name="provision5">a.慧商宝会尽最大努力确保用户数据安全，只是根据用户在网上的行为指示来分发用户的信息，不会将用户产生的具体数据提供任何无关第三方；\nb.慧商宝保留使用汇总统计性信息的权利，这些信息只是匿名，不针对特定用户；\nc.客户如果需要慧商宝全面删除用户数据，需要书面向慧商宝提出申请，并盖有公司印章。</string>
+
+    <string name="provision6">3.使用权限</string>
+
+    <string name="provision7">a.禁止出售、转售或复制、开发使用权限，禁止基于商业目的模仿慧商宝的产品和服务；禁止复制和模仿慧商宝的设计理念、界面、功能和图表。您只能处于您公司商业范围内使用服务，禁止发送兜售信息和违反法律的信息，禁止发送和储存带有病毒的、蠕虫的、木马的和其他有害的计算机代码、文件、脚本和程序；\nb.慧商宝使用客户所拥有的电子邮件地址、手机号码、用户名等作为用户权证的唯一识别信息；当免费试用期过后，未付费客户将不再享有慧商宝的服务，慧商宝有权随时删除用户的所有数据。</string>
+
+    <string name="provision8">4.服务持续</string>
+
+    <string name="provision9" formatted="false">a.慧商宝将尽最大努力保障软件平台的连续可靠运行。对于付费用户，慧商宝承诺99%以上的正常在线率，低于此比例，慧商宝将按照服务中断时间比例向客户退还相应的服务费用；对于未付费用户，慧商宝不提供任何保证和补偿；\nb.慧商宝将尽最大努力保障数据的安全备份。对于付费用户，因服务器存储设备损坏而导致的用户数据丢失，慧商宝承诺以最快的速度从最近的备份中恢复数据，但不保证100%数据恢复，也不承担因数据丢失带来的其他连带或间接的任何责任；对于未付费用户，慧商宝不提供任何恢复服务；\nc.慧商宝通常需要4&#8211;48小时恢复数据，在此时间范围内的数据恢复视作服务是连续的；\nd.慧商宝对因重大自然灾害、战争等不可抗力导致的慧商宝服务中断和长时间终止，不承担赔偿责任。</string>
+
+    <string name="provision10">5.保证条款</string>
+
+    <string name="provision11">此协议的每一部分的条款都在法律的约束下。双方均必须确保其有合法权力同意此协议。</string>
+
+    <string name="provision12">6.条款的修订</string>
+
+    <string name="provision13">慧商宝有权在任何时候修订本服务条款或与"服务"有关的政策。这种修订在本协议的修订文本在"服务"中作出布告时即行生效。您应不时地查看本协议的条款（修订条款始终公布在慧商宝官方网站上）。如在任何修订发生后继续使用"服务"即视为您已接受这些修订。</string>
+
+    <string name="inputtype">qwertyuiopasdfghjklzxcvbnm</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+    <string name="setting_share">慧商宝(http://webapp.huishangyun.com/Download.aspx?p=waiqin)是一个社交化工作空间，可通过慧商的企业微博、企业微信、任务中心、客户管理、移动审批等协作应用，打破部门壁垒与地域限制，凝聚企业共识，激发员工创新，提高协作效率。</string>
+</resources>

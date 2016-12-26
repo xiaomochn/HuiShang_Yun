@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<View
+	    android:layout_height="1px"
+	    android:layout_width="match_parent"
+	    android:background="#166b91"/>
+	<LinearLayout
+	    android:layout_height="50dp"
+	    android:layout_width="match_parent"
+	    android:background="@drawable/title_background"
+	    android:gravity="center_vertical"
+	    android:id="@+id/dingdan">
+	    <ImageView
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:src="@drawable/ding"
+	        android:layout_marginLeft="20dp"/>
+	    <TextView
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:text="@string/dinghuodan"
+	        android:textColor="#ffffff"
+	        android:textSize="16sp"
+	        android:layout_marginLeft="10dp"/>
+	</LinearLayout>
+	
+	<View
+	    android:layout_height="1px"
+	    android:layout_width="match_parent"
+	    android:background="#166b91"/>
+	<LinearLayout
+	    android:layout_height="50dp"
+	    android:layout_width="match_parent"
+	    android:background="@drawable/title_background"
+	    android:gravity="center_vertical"
+	    android:id="@+id/tuidan">
+	    <ImageView
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:src="@drawable/tui"
+	        android:layout_marginLeft="20dp"/>
+	    <TextView
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:text="@string/tuihuodan"
+	        android:textColor="#ffffff"
+	        android:textSize="16sp"
+	        android:layout_marginLeft="10dp"/>
+	</LinearLayout>
+</LinearLayout>

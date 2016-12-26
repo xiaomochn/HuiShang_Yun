@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <include layout="@layout/title_chat" />
+    
+    <LinearLayout android:id="@+id/lay_search"
+        style="@style/used_width_match"	android:padding="@dimen/width_2_80"
+        android:background="@color/m_gray"	android:layout_below="@id/title_chat">
+        <EditText
+            android:layout_width="@dimen/width_60_80"	android:layout_height="wrap_content"
+            android:minHeight="@dimen/width_7_80"	android:background="@drawable/search_box"
+            android:hint="@string/hint_search" />
+    </LinearLayout>
+
+       <ListView android:id="@id/listview_contacter"
+              style="@style/used_width_match"	
+              android:scrollbars="@null"
+              android:cacheColorHint="@null"
+              android:layout_above="@+id/lay_contacter_bottom"
+              android:layout_below="@+id/lay_search" />
+       
+       <LinearLayout	android:id="@+id/lay_contacter_bottom"
+           style="@style/used_width_match"	android:orientation="horizontal"
+           android:padding="@dimen/width_2_80"	android:layout_alignParentBottom="true"
+           android:background="@color/chat_bottom"  android:gravity="center">
+           <TextView 
+               style="@style/used_wrap"	android:text="@string/confirm"
+               android:textSize="@dimen/text_8"	android:drawableLeft="@drawable/pop_manager_icon_yes"
+               android:drawablePadding="@dimen/width_2_80" 
+               android:layout_marginRight="@dimen/width_3_80" />
+           <TextView 
+               style="@style/used_wrap"	android:text="@string/cancle"
+               android:textSize="@dimen/text_8"	android:drawableLeft="@drawable/pop_manager_icon_no"
+               android:drawablePadding="@dimen/width_2_80"
+               android:layout_marginLeft="@dimen/width_3_80" />
+       </LinearLayout>
+       
+</RelativeLayout>

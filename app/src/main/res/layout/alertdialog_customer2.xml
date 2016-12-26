@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="#fff"
+    android:orientation="vertical">
+    
+    <RelativeLayout
+        android:layout_height="44dp"
+        android:layout_width="match_parent"
+        android:background="#21a5de"
+        android:gravity="center_vertical">
+		<TextView android:id="@+id/tv_dialog"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="30dp"
+	        android:layout_centerVertical="true"
+	        android:text="选择类型"
+	        android:textSize="16sp"
+	        android:textColor="#ffffff"/>
+		<ImageView            
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" 
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:scaleType="center"
+            android:src="@drawable/cancel" 
+            android:id="@+id/cancle"/>
+	</RelativeLayout>
+	
+    <!-- 经销商 -->
+    <!-- <RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:paddingLeft="30dp"
+	    android:paddingRight="15dp"
+	    android:id="@+id/rel_rank01">   
+		<TextView
+		    android:layout_height="wrap_content"
+		    android:layout_width="wrap_content"
+		    android:layout_marginTop="12dp"
+		    android:layout_marginBottom="12dp"
+		    android:layout_centerVertical="true"
+		    android:text="经销商"
+		    android:textSize="16sp"
+		    android:textColor="#646464"
+		    android:id="@+id/tv"/>		
+		<ImageView
+		    android:layout_height="wrap_content"
+		    android:layout_width="wrap_content"
+		    android:layout_alignParentRight="true"
+		    android:layout_centerVertical="true"
+		    android:src="@drawable/gou"
+		    android:id="@+id/gou01"
+		    android:visibility="invisible"/>				
+	</RelativeLayout>
+	<View
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#b7e2f6"
+        android:layout_alignParentBottom="true"/>
+	   
+    <RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:paddingLeft="30dp"
+	    android:paddingRight="15dp"
+	    android:id="@+id/rel_rank02">   
+		<TextView
+		    android:layout_height="wrap_content"
+		    android:layout_width="wrap_content"
+		    android:layout_marginTop="12dp"
+		    android:layout_marginBottom="12dp"
+		    android:layout_centerVertical="true"
+		    android:text="终端客户"
+		    android:textSize="16sp"
+		    android:textColor="#646464"/>		
+		<ImageView
+		    android:layout_height="wrap_content"
+		    android:layout_width="wrap_content"
+		    android:layout_alignParentRight="true"
+		    android:layout_centerVertical="true"
+		    android:id="@+id/gou02"
+		    android:visibility="invisible"
+		    android:src="@drawable/gou"/>					
+	</RelativeLayout>
+	<View
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#b7e2f6"
+        android:layout_alignParentBottom="true"/> -->
+		
+	<ListView
+	    android:id="@+id/listview"
+	    android:layout_height="wrap_content"
+	    android:layout_width="match_parent"
+	    android:dividerHeight="0dp"
+	    android:divider="@null"/>
+	
+    <Button
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:background="#21a5de"
+        android:gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="10dp"
+        android:text="确认"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:id="@+id/enter"/>
+</LinearLayout>

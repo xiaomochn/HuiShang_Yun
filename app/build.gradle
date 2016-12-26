@@ -1,0 +1,62 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        applicationId "com.huishangyun.yun"
+        minSdkVersion 8
+        targetSdkVersion 21
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_7
+            targetCompatibility JavaVersion.VERSION_1_7
+        }
+    }
+
+    signingConfigs {
+        release {
+            storeFile file("huishangyun.keystore")
+            storePassword "851207"
+            keyAlias "huishangyun"
+            keyPassword "851207"
+        }
+    }
+//    splits {
+//        abi {
+//            enable true
+//            reset()
+//            include("armeabi", "armeabi-v7a", "armeabi-v8a", "x86", "x86_64")
+//            universalApk true
+//        }
+//    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+        debug {
+            signingConfig signingConfigs.release
+        }
+        release {
+            signingConfig signingConfigs.release
+        }
+    }
+}
+
+dependencies {
+    compile files('libs/baidumapapi_v3_1_1.jar')
+    compile files('libs/gotyeapi.jar')
+    compile files('libs/ksoap2-android-assembly-2.6.5-jar-with-dependencies.jar')
+    compile files('libs/locSDK_4.0.jar')
+    compile files('libs/nineoldandroids-2.4.0.jar')
+    compile files('libs/pinyin4j-2.5.0.jar')
+    compile files('libs/scan_core.jar')
+    compile files('libs/universal-image-loader-1.9.3.jar')
+    compile files('libs/android-support-v4.jar')
+    compile 'com.google.code.gson:gson:2.3.1'
+    compile files('libs/bugly_crash_release.jar')
+    compile files('libs/Msc.jar')
+    compile files('libs/Sunflower.jar')
+    compile 'com.jakewharton:butterknife:5.1.1'
+}

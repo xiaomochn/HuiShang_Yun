@@ -1,0 +1,380 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f0f0f0"
+    tools:context=".EvectionAddActivity" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#21a5de" >
+    <LinearLayout 
+		    android:id="@+id/competing_add"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            android:background="@drawable/btn_for_channel"
+            android:paddingLeft="15dp"
+            android:clickable="true">
+		    <ImageView 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/ret_urn"/>
+		    <TextView 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="新增出差"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp"
+                android:layout_marginLeft="15dp"/>
+		    </LinearLayout>
+		</RelativeLayout>
+	<LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical"
+            android:paddingLeft="15dp" >	
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/evection_add_startpoint" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/imageView1"
+            android:layout_centerVertical="true"
+            android:text="出发地点" 
+            android:textSize="16sp"
+            android:textColor="#646464"/>
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="30dp"
+            android:textSize="15sp"
+            android:background="@null"
+            android:hint="(必填)">
+
+            <requestFocus />
+        </EditText>
+        
+    </RelativeLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="#c8c8c8" />
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/evection_add_destination" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imageView2"
+            android:layout_centerVertical="true"
+            android:text="到达地点" 
+            android:textSize="16sp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#646464"/>
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:paddingRight="30dp"
+            android:textSize="15sp"
+            android:hint="(必填)">
+
+        </EditText>
+    </RelativeLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="#c8c8c8" />
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/evection_add_startdate" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imageView3"
+            android:layout_centerVertical="true"
+            android:text="出发日期" 
+            android:layout_marginLeft="15dp"
+            android:textSize="16sp"
+            android:textColor="#646464"/>
+        <LinearLayout 
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:clickable="true"
+            android:id="@+id/date1"
+            android:background="@drawable/btn_for_channel">
+            <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="(必填)"
+            android:textSize="15sp"
+            android:textColor="#969696"
+            android:paddingRight="3dp"
+            android:id="@+id/time1"/>
+            <ImageView 
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/right"/>
+        </LinearLayout>
+        
+    </RelativeLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="#c8c8c8" />
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/evection_add_enddate" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imageView4"
+            android:layout_centerVertical="true"
+            android:text="结束日期" 
+            android:layout_marginLeft="15dp"
+            android:textSize="16sp"
+            android:textColor="#646464"/>
+        <LinearLayout 
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:clickable="true"
+            android:id="@+id/date2"
+            android:background="@drawable/btn_for_channel">
+            <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="(必填)"
+            android:textColor="#969696"
+            android:paddingRight="3dp"
+            android:textSize="15sp"
+            android:id="@+id/time2"/>
+            <ImageView 
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/right"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="#c8c8c8" />
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Lphoto"
+        android:visibility="gone" 
+        android:orientation="vertical">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:id="@+id/photo"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="照片" 
+            android:textSize="16sp"
+            android:layout_marginRight="35dp"
+            android:textColor="#646464"/>
+    
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="#c8c8c8" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/beizhu"
+        android:visibility="gone" 
+        android:orientation="vertical">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="备注" 
+            android:textSize="16sp"
+            android:layout_marginRight="35dp"
+            android:textColor="#646464"/>
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="230dp"
+            android:layout_height="50dp"
+            android:background="@android:drawable/edit_text"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:textColor="#646464"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="#c8c8c8" />
+    </LinearLayout>
+    <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="72px"
+            android:orientation="horizontal"
+        android:background="#ffffff"
+        android:layout_marginBottom="2px">
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:clickable="true"
+            android:background="@drawable/btn_for_channel"
+            android:id="@+id/a">
+            <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/evection_add_photograph"/>
+            <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="拍照"
+            android:textSize="13sp"
+            android:paddingLeft="5dp"
+            android:textColor="#fa8c35"/>
+        </LinearLayout>
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:clickable="true"
+            android:background="@drawable/btn_for_channel"
+            android:id="@+id/b">
+            <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/evection_add_remarks"/>
+            <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="备注"
+            android:textSize="13sp"
+            android:paddingLeft="5dp"
+            android:textColor="#fa8c35"/>
+        </LinearLayout>
+
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right">
+            <LinearLayout
+            android:id="@+id/c"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:background="@drawable/btn_for_channel"
+            android:clickable="true" >
+
+            <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:src="@drawable/evection_add_start"/>
+            <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="出发"
+            android:layout_marginRight="20dp"
+            android:textSize="13sp"
+            android:textColor="#21a5de"/>
+        </LinearLayout>
+        <LinearLayout 
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:clickable="true"
+            android:background="@drawable/btn_for_channel"
+            android:id="@+id/d">
+            <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="5dp"
+            android:src="@drawable/evection_add_submit"/>
+            <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="提交"
+            android:textSize="13sp"
+            android:paddingRight="15dp"
+            android:textColor="#039958"/>
+        </LinearLayout>
+        </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    
+
+</LinearLayout>

@@ -1,0 +1,1645 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:2:1-1048:12
+	package
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:3:5-34
+		INJECTED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml
+		INJECTED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:5:5-32
+		INJECTED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml
+		INJECTED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml
+		INJECTED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:8:5-10:41
+	android:targetSdkVersion
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:10:9-38
+		INJECTED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml
+		INJECTED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:9:9-34
+		INJECTED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml
+		INJECTED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:13:5-67
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:13:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:15:5-79
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:15:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:17:22-78
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:19:5-84
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:19:22-81
+uses-permission#android.permission.CALL_PHONE
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:22:5-69
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:22:22-66
+uses-permission#android.permission.CAMERA
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:23:5-65
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:23:22-62
+uses-feature#android.hardware.camera
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:25:5-60
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:25:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:26:5-70
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:26:19-67
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:28:5-71
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:28:22-68
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:29:5-75
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:29:22-72
+uses-permission#android.permission.KILL_BACKGROUND_PROCESSES
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:30:5-84
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:30:22-81
+uses-permission#android.permission.RECEIVE_USER_PRESENT
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:32:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:33:5-68
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:33:22-65
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:36:5-80
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:36:22-77
+uses-permission#android.permission.VIBRATE
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:37:5-66
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:37:22-63
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:39:5-78
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:39:22-75
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:42:5-81
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:42:22-78
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:43:5-76
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:43:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:44:5-76
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:44:22-73
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:45:5-79
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:45:22-76
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:46:5-89
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:46:22-86
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:47:5-79
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:47:22-76
+uses-permission#android.permission.GET_TASKS
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:48:5-68
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:48:22-65
+supports-screens
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:66:5-71:39
+	android:largeScreens
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:68:9-36
+	android:smallScreens
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:71:9-36
+	android:normalScreens
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:69:9-37
+	android:resizeable
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:70:9-34
+	android:anyDensity
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:67:9-34
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:74:5-71
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:74:22-68
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:75:5-74
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:75:22-71
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:76:5-74
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:76:22-71
+uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:77:5-80
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:77:22-77
+uses-permission#com.android.launcher.permission.READ_SETTINGS
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:79:5-85
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:79:22-82
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:84:5-75
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:84:22-72
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:85:5-73
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:85:22-70
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:87:5-75
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:87:22-72
+uses-permission#android.permission.READ_CONTACTS
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:89:5-72
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:89:22-69
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:90:5-73
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:90:22-70
+uses-permission#android.permission.WRITE_CALL_LOG
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:91:5-73
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:91:22-70
+uses-permission#android.permission.READ_CALL_LOG
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:92:5-72
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:92:22-69
+uses-permission#android.permission.READ_LOGS
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:93:5-68
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:93:22-65
+uses-permission#android.permission.SYSTEM_OVERLAY_WINDOW
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:95:5-80
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:95:22-77
+uses-permission#android.permission.PROCESS_OUTGOING_CALLS
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:96:5-81
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:96:22-78
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:105:5-81
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:105:22-78
+application
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:108:5-1046:19
+	android:label
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:113:9-41
+	android:hardwareAccelerated
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:111:9-43
+	android:allowBackup
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:110:9-36
+	android:icon
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:112:9-38
+	android:theme
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:114:9-68
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:109:9-57
+activity#com.huishangyun.Activity.IndexActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:118:9-140:20
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:122:13-49
+	android:label
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:121:13-45
+	android:allowBackup
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:120:13-39
+	android:theme
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:123:13-72
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:119:13-66
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:130:13-139:29
+action#android.intent.action.VIEW
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:131:17-69
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:131:25-66
+category#android.intent.category.DEFAULT
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:133:17-76
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:133:27-73
+category#android.intent.category.BROWSABLE
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:134:17-78
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:134:27-75
+data
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:136:17-138:49
+	android:host
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:137:21-51
+	android:scheme
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:138:21-46
+activity#com.huishangyun.ZxingScan.CaptureActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:143:9-147:52
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:147:13-49
+	android:hardwareAccelerated
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:146:13-48
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:145:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:144:13-69
+activity#com.huishangyun.Activity.ScreenActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:152:9-157:73
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:156:13-49
+	android:hardwareAccelerated
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:155:13-48
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:154:13-63
+	android:theme
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:157:13-70
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:153:13-67
+activity#com.huishangyun.Activity.SerivceIfon
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:160:9-164:52
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:164:13-49
+	android:hardwareAccelerated
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:163:13-48
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:162:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:161:13-64
+activity#com.huishangyun.Activity.LandActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:165:9-170:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:168:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:170:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:167:13-63
+	android:theme
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:169:13-60
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:166:13-65
+activity#com.huishangyun.Activity.MainActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:171:9-177:72
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:176:13-49
+	android:hardwareAccelerated
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:174:13-47
+	android:launchMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:175:13-44
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:173:13-63
+	android:theme
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:177:13-60
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:172:13-65
+activity#com.huishangyun.Activity.Chat
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:178:9-183:58
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:182:13-49
+	android:launchMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:181:13-43
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:183:13-55
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:180:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:179:13-57
+activity#com.huishangyun.register.RegisterMainActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:185:9-189:70
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:188:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:189:13-67
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:187:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:186:13-73
+activity#com.huishangyun.register.ForgetPasswordActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:191:9-195:70
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:194:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:195:13-67
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:193:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:192:13-75
+activity#com.huishangyun.Activity.GroupInfoActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:196:9-199:52
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:199:13-49
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:198:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:197:13-70
+activity#com.huishangyun.register.NewPasswordActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:202:9-206:70
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:205:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:206:13-67
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:204:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:203:13-72
+activity#com.huishangyun.register.ProvisionActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:207:9-211:70
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:210:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:211:13-67
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:209:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:208:13-70
+activity#com.huishangyun.Activity.CheckContacter
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:212:9-215:52
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:215:13-49
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:214:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:213:13-67
+activity#com.huishangyun.Activity.Notes
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:216:9-219:52
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:219:13-49
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:218:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:217:13-58
+activity#com.huishangyun.Activity.PrivateData
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:220:9-223:52
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:223:13-49
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:222:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:221:13-64
+activity#com.huishangyun.Activity.ManagerInfo
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:224:9-227:52
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:227:13-49
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:226:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:225:13-64
+activity#com.huishangyun.Activity.WriterEmail
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:228:9-231:52
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:231:13-49
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:230:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:229:13-64
+activity#com.huishangyun.Activity.CompanSettingActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:232:9-235:52
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:235:13-49
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:234:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:233:13-74
+activity#com.huishangyun.Channel.Customers.CustomerMainActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:240:9-244:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:243:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:244:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:242:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:241:13-82
+activity#com.huishangyun.Channel.Customers.CustomerSearchActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:245:9-250:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:248:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:250:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:247:13-63
+	android:theme
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:249:13-47
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:246:13-84
+activity#com.huishangyun.Channel.Customers.CustomerLocationActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:251:9-255:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:254:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:255:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:253:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:252:13-86
+activity#com.huishangyun.Channel.Customers.CustomerMenuActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:256:9-260:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:259:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:260:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:258:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:257:13-82
+activity#com.huishangyun.Channel.Customers.CustomerChooseGroup
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:261:9-265:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:264:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:265:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:263:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:262:13-81
+activity#com.huishangyun.Channel.Customers.CustomerSet
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:266:9-270:67
+	android:hardwareAccelerated
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:269:13-48
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:270:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:268:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:267:13-73
+activity#com.huishangyun.Channel.Customers.Customer_Photo
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:273:9-276:51
+	android:hardwareAccelerated
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:276:13-48
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:275:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:274:13-76
+activity#com.huishangyun.Channel.Customers.CustomerDetails
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:279:9-283:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:282:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:283:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:281:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:280:13-77
+activity#com.huishangyun.Channel.Customers.CustomerInfo
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:284:9-288:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:287:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:288:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:286:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:285:13-74
+activity#com.huishangyun.Channel.Customers.Customer_Photo2
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:289:9-293:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:292:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:293:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:291:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:290:13-77
+activity#com.huishangyun.Channel.Task.TaskMainActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:299:9-303:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:302:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:303:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:301:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:300:13-73
+activity#com.huishangyun.Channel.Task.TaskAddActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:304:9-308:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:307:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:308:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:306:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:305:13-72
+activity#com.huishangyun.Channel.Task.TaskDetailsActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:309:9-313:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:312:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:313:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:311:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:310:13-76
+activity#com.huishangyun.Channel.Task.TaskChooseFileActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:314:9-318:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:317:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:318:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:316:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:315:13-79
+activity#com.huishangyun.Channel.Task.TaskFilelistActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:319:9-323:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:322:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:323:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:321:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:320:13-77
+activity#com.huishangyun.Channel.Task.TaskBackActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:324:9-328:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:327:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:328:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:326:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:325:13-73
+activity#com.huishangyun.Channel.Task.TaskSendActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:329:9-333:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:332:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:333:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:331:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:330:13-73
+activity#com.huishangyun.Channel.Task.SearchActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:334:9-339:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:337:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:339:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:336:13-63
+	android:theme
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:338:13-47
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:335:13-71
+activity#com.huishangyun.Channel.Task.TaskOpportActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:340:9-344:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:343:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:344:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:342:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:341:13-75
+activity#com.huishangyun.Channel.Task.TaskMenuActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:345:9-349:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:348:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:349:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:347:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:346:13-73
+activity#com.huishangyun.Channel.Clues.MainClueActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:354:9-359:76
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:358:13-49
+	android:label
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:357:13-45
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:359:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:356:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:355:13-74
+activity#com.huishangyun.Channel.Clues.MainClueOrdinaryEntryActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:362:9-367:76
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:366:13-49
+	android:label
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:365:13-45
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:367:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:364:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:363:13-87
+activity#com.huishangyun.Channel.Clues.ClueSearchActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:370:9-376:76
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:374:13-49
+	android:label
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:373:13-45
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:376:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:372:13-63
+	android:theme
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:375:13-47
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:371:13-76
+activity#com.huishangyun.Channel.Clues.NewClueActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:377:9-381:76
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:380:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:381:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:379:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:378:13-73
+activity#com.huishangyun.Channel.Clues.DetailClueActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:382:9-386:76
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:385:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:386:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:384:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:383:13-76
+activity#com.huishangyun.Channel.Clues.ModifyClueActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:387:9-391:76
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:390:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:391:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:389:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:388:13-76
+activity#com.huishangyun.Channel.Opport.MainOpportActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:396:9-400:76
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:399:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:400:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:398:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:397:13-77
+activity#com.huishangyun.Channel.Opport.OpportSearch
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:403:9-411:20
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:407:13-49
+	android:label
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:406:13-45
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:409:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:405:13-63
+	android:theme
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:408:13-47
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:404:13-71
+activity#com.huishangyun.Channel.Opport.MainOpportOrdinaryEntryActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:414:9-419:76
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:418:13-49
+	android:label
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:417:13-45
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:419:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:416:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:415:13-90
+activity#com.huishangyun.Channel.Opport.CreateOpportActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:422:9-426:76
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:425:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:426:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:424:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:423:13-79
+activity#com.huishangyun.Channel.Opport.StageOpportActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:429:9-433:76
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:432:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:433:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:431:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:430:13-78
+activity#com.huishangyun.Channel.Opport.TimeOpportActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:436:9-438:72
+	android:theme
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:438:13-60
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:437:13-77
+activity#com.huishangyun.Channel.Opport.MoneyOpportActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:441:9-445:76
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:444:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:445:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:443:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:442:13-78
+activity#com.huishangyun.Channel.Opport.DetailOpportActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:448:9-452:76
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:451:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:452:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:450:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:449:13-79
+activity#com.huishangyun.Channel.Opport.DetailEditOpportActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:455:9-462:20
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:458:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:460:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:457:13-63
+	android:theme
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:459:13-60
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:456:13-83
+activity#com.huishangyun.Channel.Opport.DetailTurnTaskOpportActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:465:9-470:76
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:468:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:470:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:467:13-63
+	android:theme
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:469:13-60
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:466:13-87
+activity#com.huishangyun.Channel.Plan.MainPlanActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:475:9-480:76
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:478:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:480:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:477:13-63
+	android:theme
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:479:13-60
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:476:13-73
+activity#com.huishangyun.Channel.Plan.MainPlanOrdinaryEntryActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:483:9-489:76
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:487:13-49
+	android:label
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:486:13-45
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:489:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:485:13-63
+	android:theme
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:488:13-60
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:484:13-86
+activity#com.huishangyun.Channel.Plan.CreatePlanActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:492:9-496:76
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:495:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:496:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:494:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:493:13-75
+activity#com.huishangyun.Channel.Plan.CreatePlanSecondStep
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:498:9-502:76
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:501:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:502:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:500:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:499:13-77
+activity#com.huishangyun.Channel.Plan.PlanDetailActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:505:9-509:76
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:508:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:509:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:507:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:506:13-75
+activity#com.huishangyun.Channel.Plan.PlanSearch
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:512:9-518:76
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:516:13-49
+	android:label
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:515:13-45
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:518:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:514:13-63
+	android:theme
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:517:13-47
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:513:13-67
+activity#com.huishangyun.Channel.Plan.CustomersListActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:521:9-525:76
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:524:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:525:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:523:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:522:13-78
+activity#com.huishangyun.Channel.Visit.VisitMainActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:531:9-535:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:534:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:535:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:533:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:532:13-75
+activity#com.huishangyun.Channel.Visit.VisitNewAdd
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:536:9-540:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:539:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:540:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:538:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:537:13-69
+activity#com.huishangyun.Channel.Visit.VisitPhotoManage
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:541:9-545:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:544:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:545:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:543:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:542:13-74
+activity#com.huishangyun.Channel.Visit.PictureSkim
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:546:9-550:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:549:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:550:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:548:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:547:13-69
+activity#com.huishangyun.Channel.Display.DisplayMainActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:555:9-559:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:558:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:559:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:557:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:556:13-79
+activity#com.huishangyun.Channel.Display.DisplayNewAdd
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:560:9-564:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:563:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:564:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:562:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:561:13-73
+activity#com.huishangyun.Channel.Competing.CompetingMainActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:569:9-573:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:572:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:573:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:571:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:570:13-83
+activity#com.huishangyun.Channel.Competing.CompetingNewAdd
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:574:9-578:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:577:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:578:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:576:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:575:13-77
+activity#com.huishangyun.Channel.stock.StockMainActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:583:9-587:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:586:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:587:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:585:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:584:13-75
+activity#com.huishangyun.Channel.stock.StockRecord
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:588:9-592:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:591:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:592:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:590:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:589:13-69
+activity#com.huishangyun.Channel.stock.StockReport
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:593:9-597:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:596:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:597:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:595:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:594:13-69
+activity#com.huishangyun.Channel.stock.StockProduct
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:598:9-602:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:601:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:602:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:600:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:599:13-70
+activity#com.huishangyun.Office.Attendance.MainAttendanceActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:611:9-615:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:614:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:615:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:613:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:612:13-84
+activity#com.huishangyun.Office.Attendance.AttendanceRemind
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:616:9-620:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:619:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:620:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:618:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:617:13-78
+activity#com.huishangyun.Office.Attendance.MyAttendance
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:621:9-625:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:624:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:625:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:623:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:622:13-74
+activity#com.huishangyun.Office.Attendance.OfficePhotoSkim
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:626:9-630:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:629:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:630:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:628:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:627:13-77
+receiver#com.huishangyun.Office.Clock.AlarmReceiver
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:632:9-79
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:632:19-76
+activity#com.huishangyun.Office.Clock.RemindShow
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:634:9-641:73
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:639:13-49
+	android:excludeFromRecents
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:637:13-46
+	android:launchMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:638:13-48
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:636:13-83
+	android:theme
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:641:13-70
+	android:taskAffinity
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:640:13-36
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:635:13-67
+activity#com.huishangyun.Office.Information.MainInformation
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:646:9-650:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:649:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:650:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:648:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:647:13-78
+activity#com.huishangyun.Office.Approval.MainApproval
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:655:9-659:76
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:658:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:659:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:657:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:656:13-72
+activity#com.huishangyun.Office.Businesstrip.MainBusinesTrip
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:664:9-668:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:667:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:668:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:666:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:665:13-79
+activity#com.huishangyun.Office.Businesstrip.AddBusinessTrip
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:669:9-673:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:672:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:673:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:671:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:670:13-79
+activity#com.huishangyun.Office.Businesstrip.BusinessTripDetailActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:674:9-678:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:677:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:678:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:676:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:675:13-90
+activity#com.huishangyun.Office.Businesstrip.BusinessTripDetail
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:679:9-683:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:682:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:683:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:681:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:680:13-82
+activity#com.huishangyun.Office.Businesstrip.MainOrdinaryEntryActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:684:9-688:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:687:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:688:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:686:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:685:13-89
+activity#com.huishangyun.Office.Askforleave.MainAskForLeaveActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:693:9-697:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:696:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:697:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:695:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:694:13-86
+activity#com.huishangyun.Office.Askforleave.AddAskForLeaveActivivty
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:698:9-702:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:701:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:702:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:700:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:699:13-86
+activity#com.huishangyun.Office.Askforleave.DetailAskForLeaveActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:703:9-707:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:706:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:707:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:705:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:704:13-88
+activity#com.huishangyun.Office.Askforleave.MainAskForLeaveOrdinaryEntryActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:708:9-712:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:711:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:712:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:710:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:709:13-99
+activity#com.huishangyun.Office.Summary.MainSummaryActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:717:9-721:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:720:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:721:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:719:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:718:13-78
+activity#com.huishangyun.Office.Summary.SummaryReport
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:722:9-726:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:725:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:726:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:724:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:723:13-72
+activity#com.huishangyun.Office.Summary.SummaryDetailActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:727:9-731:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:730:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:731:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:729:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:728:13-80
+activity#com.huishangyun.Office.Summary.MainSummaryOrdinaryEntryActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:732:9-736:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:735:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:736:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:734:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:733:13-91
+receiver#com.huishangyun.Office.Clock.BootCompletedReceiver
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:739:9-743:20
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:739:19-84
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:740:13-742:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:741:17-79
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:741:25-76
+activity#com.huishangyun.Office.WeiGuan.MainOnlookersActivivty
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:745:9-749:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:748:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:749:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:747:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:746:13-81
+activity#com.huishangyun.Office.WeiGuan.CreateOnlookersActivivty
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:750:9-754:70
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:753:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:754:13-67
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:752:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:751:13-83
+activity#com.huishangyun.Office.WeiGuan.OnLooksDetails
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:755:9-759:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:758:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:759:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:757:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:756:13-73
+activity#com.huishangyun.Office.WeiGuan.MyOnlookersActivivty
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:760:9-764:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:763:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:764:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:762:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:761:13-79
+activity#com.huishangyun.Office.WeiGuan.MyOnLooksComment
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:765:9-769:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:768:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:769:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:767:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:766:13-75
+activity#com.huishangyun.Office.WeiGuan.SendOnLooksCommentActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:770:9-774:70
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:773:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:774:13-67
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:772:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:771:13-85
+activity#com.huishangyun.Office.WeiGuan.TopOnlookActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:775:9-779:70
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:778:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:779:13-67
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:777:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:776:13-76
+activity#com.huishangyun.Office.Location.Map
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:786:9-790:70
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:789:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:790:13-67
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:788:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:787:13-63
+activity#com.huishangyun.Activity.ChatWebview
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:799:9-804:67
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:803:13-49
+	android:hardwareAccelerated
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:802:13-47
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:804:13-64
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:801:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:800:13-64
+activity#com.huishangyun.Activity.ChangeUserInfo
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:807:9-811:57
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:810:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:811:13-54
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:809:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:808:13-67
+activity#com.huishangyun.Activity.CharHistory
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:812:9-816:75
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:815:13-49
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:816:13-72
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:814:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:813:13-64
+activity#com.huishangyun.Activity.SettingAbout
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:819:9-822:52
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:822:13-49
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:821:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:820:13-65
+activity#com.huishangyun.Channel.Orders.OrderMainActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:825:9-85
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:825:19-82
+activity#com.huishangyun.Channel.Orders.ShopCarActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:827:9-83
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:827:19-80
+activity#com.huishangyun.Channel.Orders.ShopCar_GoodsListActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:829:9-93
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:829:19-90
+activity#com.huishangyun.Channel.Orders.ShouCangActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:832:9-84
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:832:19-81
+activity#com.huishangyun.Channel.Orders.DingDanListActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:835:9-87
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:835:19-84
+activity#com.huishangyun.Channel.Orders.TuiDanListActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:837:9-86
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:837:19-83
+activity#com.huishangyun.Channel.Orders.DingDan_CommonActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:840:9-90
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:840:19-87
+activity#com.huishangyun.Channel.Orders.FindActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:843:9-845:50
+	android:theme
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:845:13-47
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:844:13-71
+activity#com.huishangyun.Channel.Orders.DatailsActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:848:9-83
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:848:19-80
+activity#com.huishangyun.Channel.Orders.DingDanActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:851:9-83
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:851:19-80
+activity#com.huishangyun.Channel.Orders.FenleiActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:854:9-82
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:854:19-79
+activity#com.huishangyun.Channel.Orders.SubmitActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:857:9-82
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:857:19-79
+activity#com.huishangyun.Channel.Orders.AddressActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:860:9-83
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:860:19-80
+activity#com.huishangyun.Channel.Orders.AddressNewActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:862:9-86
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:862:19-83
+activity#com.huishangyun.Channel.Orders.GoodsListActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:865:9-85
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:865:19-82
+activity#com.huishangyun.Channel.Orders.GoodsListTuiActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:867:9-88
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:867:19-85
+activity#com.huishangyun.Channel.Orders.GoodsList_notActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:869:9-89
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:869:19-86
+activity#com.huishangyun.Channel.Orders.DingDanDatailsActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:872:9-90
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:872:19-87
+activity#com.huishangyun.Channel.Orders.TuiDanDatailsActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:874:9-89
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:874:19-86
+activity#com.huishangyun.Channel.Orders.DingDanCopyActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:877:9-87
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:877:19-84
+activity#com.huishangyun.Channel.Orders.LogActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:880:9-79
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:880:19-76
+activity#com.huishangyun.Channel.xiaoliang.XiaoLiang
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:886:9-888:67
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:888:13-64
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:887:13-71
+activity#com.huishangyun.Channel.xiaoliang.XiaoShouPlan
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:891:9-893:67
+	android:windowSoftInputMode
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:893:13-64
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:892:13-74
+activity#com.huishangyun.service.PhoneActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:894:9-897:52
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:897:13-49
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:896:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:895:13-65
+activity#com.huishangyun.yindao.GuideActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:898:9-901:52
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:901:13-49
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:900:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:899:13-64
+activity#com.huishangyun.Erp.AdjustActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:905:9-908:52
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:908:13-49
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:907:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:906:13-62
+activity#com.huishangyun.Erp.CustomerfileActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:909:9-912:52
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:912:13-49
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:911:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:910:13-68
+activity#com.huishangyun.Erp.DeliveryActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:913:9-916:52
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:916:13-49
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:915:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:914:13-64
+activity#com.huishangyun.Erp.GatheringActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:917:9-920:52
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:920:13-49
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:919:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:918:13-65
+activity#com.huishangyun.Erp.PaymentsActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:921:9-924:52
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:924:13-49
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:923:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:922:13-64
+activity#com.huishangyun.Erp.GoodfilesActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:925:9-928:52
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:928:13-49
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:927:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:926:13-65
+activity#com.huishangyun.Erp.OrderGoodsActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:929:9-932:52
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:932:13-49
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:931:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:930:13-66
+activity#com.huishangyun.Erp.ReportsearchActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:933:9-936:52
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:936:13-49
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:935:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:934:13-68
+activity#com.huishangyun.Erp.SelectActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:937:9-940:52
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:940:13-49
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:939:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:938:13-62
+activity#com.huishangyun.Office.Location.ManagersLocation
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:941:9-944:52
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:944:13-49
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:943:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:942:13-76
+activity#com.huishangyun.Office.Businesstrip.ImagePagerActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:945:9-948:52
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:948:13-49
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:947:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:946:13-82
+activity#com.huishangyun.Office.Markman.MarkMainActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:949:9-952:52
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:952:13-49
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:951:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:950:13-75
+activity#com.huishangyun.Office.Markman.MarkAddActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:953:9-956:52
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:956:13-49
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:955:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:954:13-74
+activity#com.huishangyun.Office.Markman.MarkManListActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:960:9-964:52
+	android:screenOrientation
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:964:13-49
+	android:hardwareAccelerated
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:963:13-48
+	android:configChanges
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:962:13-63
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:961:13-78
+service#com.huishangyun.service.HSChatService
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:967:9-81
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:967:18-70
+service#com.huishangyun.service.PhoneService
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:968:9-972:49
+	android:enabled
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:970:13-35
+	android:process
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:972:13-38
+	android:exported
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:971:13-37
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:969:13-64
+service#com.baidu.location.f
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:973:9-976:49
+	android:enabled
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:975:13-35
+	android:process
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:976:13-38
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:974:13-48
+receiver#com.huishangyun.service.ReStartReceiver
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:978:9-986:20
+	android:label
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:980:13-45
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:979:13-67
+intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.category.LAUNCHER
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:981:13-985:29
+category#android.intent.category.LAUNCHER
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:984:17-77
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:984:27-74
+receiver#com.huishangyun.service.UserPresentReceiver
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:1000:9-1006:20
+	android:label
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:1002:13-45
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:1001:13-71
+intent-filter#android.intent.action.USER_PRESENT
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:1003:13-1005:29
+action#android.intent.action.USER_PRESENT
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:1004:17-77
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:1004:25-74
+meta-data#com.baidu.lbsapi.API_KEY
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:1011:9-1013:56
+	android:value
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:1013:13-53
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:1012:13-52
+service#com.huishangyun.service.LocationService
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:1015:9-1018:47
+	android:enabled
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:1017:13-35
+	android:exported
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:1018:13-36
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:1016:13-67
+meta-data#BUGLY_APPID
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:1021:9-1023:41
+	android:value
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:1023:13-38
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:1022:13-39
+meta-data#BUGLY_APP_VERSION
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:1025:9-1027:37
+	android:value
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:1027:13-34
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:1026:13-45
+meta-data#BUGLY_APP_CHANNEL
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:1029:9-1031:43
+	android:value
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:1031:13-40
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:1030:13-45
+meta-data#BUGLY_ENABLE_DEBUG
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:1033:9-1035:36
+	android:value
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:1035:13-33
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:1034:13-46
+activity#com.huishangyun.Test.TestActivity
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:1039:9-1045:20
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:1039:19-67
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:1040:13-1044:29
+action#android.intent.action.MAIN
+ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:1041:17-69
+	android:name
+		ADDED from E:\androidApplication\HuiShang_Yun\app\src\main\AndroidManifest.xml:1041:25-66

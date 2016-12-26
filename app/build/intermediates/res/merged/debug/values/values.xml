@@ -1,0 +1,758 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="company">
+        <item>阿妹</item>
+        <item>阿郎</item>
+        <item>陈奕迅</item>
+        <item>周杰伦</item>
+        <item>曾一鸣</item>
+        <item>成龙</item>
+        <item>王力宏</item>
+        <item>汪峰</item>
+        <item>王菲</item>
+        <item>那英</item>
+        <item>张伟</item>
+        <item>张学友</item>
+        <item>李德华</item>
+        <item>郑源</item>
+        <item>白水水</item>
+        <item>白天不亮</item>
+        <item>陈龙</item>
+        <item>陈丽丽</item>
+        <item>哈林</item>
+        <item>高进</item>
+        <item>高雷</item>
+        <item>阮今天</item>
+        <item>龚琳娜</item>
+        <item>苏醒</item>
+        <item>苏永康</item>
+        <item>陶喆</item>
+        <item>沙宝亮</item>
+        <item>宋冬野</item>
+        <item>宋伟</item>
+        <item>袁成杰</item>
+        <item>戚薇</item>
+        <item>齐大友</item>
+        <item>齐天大圣</item>
+        <item>品冠</item>
+        <item>吴克群</item>
+        <item>BOBO</item>
+        <item>Jobs</item>
+        <item>动力火车</item>
+        <item>伍佰</item>
+        <item>#蔡依林</item>
+        <item>$797835344$</item>
+        <item>Jack</item>
+        <item>~夏先生</item>
+    </string-array>
+    <string-array name="date">
+        <item>阿妹</item>
+        <item>阿郎</item>
+        <item>陈奕迅</item>
+        <item>周杰伦</item>
+        <item>曾一鸣</item>
+        <item>成龙</item>
+        <item>王力宏</item>
+        <item>汪峰</item>
+        <item>王菲</item>
+        <item>那英</item>
+        <item>张伟</item>
+        <item>张学友</item>
+        <item>李德华</item>
+        <item>郑源</item>
+        <item>白水水</item>
+        <item>白天不亮</item>
+        <item>陈龙</item>
+        <item>陈丽丽</item>
+        <item>哈林</item>
+        <item>高进</item>
+        <item>高雷</item>
+        <item>阮今天</item>
+        <item>龚琳娜</item>
+        <item>苏醒</item>
+        <item>苏永康</item>
+        <item>陶喆</item>
+        <item>沙宝亮</item>
+        <item>宋冬野</item>
+        <item>宋伟</item>
+        <item>袁成杰</item>
+        <item>戚薇</item>
+        <item>齐大友</item>
+        <item>齐天大圣</item>
+        <item>品冠</item>
+        <item>吴克群</item>
+        <item>BOBO</item>
+        <item>Jobs</item>
+        <item>动力火车</item>
+        <item>伍佰</item>
+        <item>#蔡依林</item>
+        <item>$797835344$</item>
+        <item>Jack</item>
+        <item>~夏先生</item>
+    </string-array>
+    <string-array name="groups">
+        <item>南昌索科特科技有限公司</item>
+        <item>南昌索科特科技有限公司</item>
+    </string-array>
+    <string-array name="jazzy_effects">
+        <item>Standard</item>
+        <item>Tablet</item>
+        <item>CubeIn</item>
+        <item>CubeOut</item>
+        <item>FlipVertical</item>
+        <item>FlipHorizontal</item>
+        <item>ZoomIn</item>
+        <item>RotateUp</item>
+        <item>RotateDown</item>
+        <item>Accordion</item>
+    </string-array>
+    <string-array name="jazzy_effects_ch">
+        <item>经典模式</item>
+        <item>淡入淡出</item>
+        <item>立方进入</item>
+        <item>立方退出</item>
+        <item>垂直翻页</item>
+        <item>水平翻页</item>
+        <item>缩放进入</item>
+        <item>向上旋转</item>
+        <item>向下旋转</item>
+        <item>折叠进入</item>
+    </string-array>
+    <attr format="reference" name="SwipeBackLayoutStyle"/>
+    <attr format="color" name="selectedColor"/>
+    <attr format="reference" name="switchStyle"/>
+    <attr format="color" name="unselectedColor"/>
+    <attr format="reference" name="vpiCirclePageIndicatorStyle"/>
+    <bool name="default_circle_indicator_centered">true</bool>
+    <bool name="default_circle_indicator_snap">false</bool>
+    <bool name="is_autologin">false</bool>
+    <bool name="is_novisible">false</bool>
+    <bool name="is_remember">true</bool>
+    <color name="action_sheet_curr_point">#ff9fa1a4</color>
+    <color name="action_sheet_point">#ff5f6268</color>
+    <color name="bh_white">#ececfb</color>
+    <color name="black">@color/color_hei</color>
+    <color name="bt_background">#e6e6e6</color>
+    <color name="bt_color">#646464</color>
+    <color name="button_reply_normal">#ffffffff</color>
+    <color name="c_background">#ffe6f0ff</color>
+    <color name="c_dark">#ff5cb5ee</color>
+    <color name="c_data">#ddedf5</color>
+    <color name="c_hilite">#ffffffff</color>
+    <color name="c_light">#fff0f0f0</color>
+    <color name="c_text">#ff969696</color>
+    <color name="c_tx06cd77">#ff06cd77</color>
+    <color name="c_tx64">#ff646464</color>
+    <color name="c_tx99">#ff999999</color>
+    <color name="c_txe6">#ffe6e6e6</color>
+    <color name="c_txt96">#ff969696</color>
+    <color name="channel_deon_garee">#2896c6</color>
+    <color name="channel_transparent">#00000000</color>
+    <color name="chat_background">@color/window_bg</color>
+    <color name="chat_bottom">#E3E3E3</color>
+    <color name="chat_bubble_btn_text">#ffa86700</color>
+    <color name="chat_time">@color/color_bai</color>
+    <color name="color_bai">#ffffffff</color>
+    <color name="color_bai_8">#ffffffff</color>
+    <color name="color_divider">#ffdddddd</color>
+    <color name="color_hei">#ff000000</color>
+    <color name="color_hei_8">#00000000</color>
+    <color name="color_lan">#ff067bb1</color>
+    <color name="color_zhonghui">#ff798089</color>
+    <color name="common_bg">#ffe6e6e6</color>
+    <color name="contact_category_text">#ff454a52</color>
+    <color name="contact_category_text_focused">#ff4686b3</color>
+    <color name="contents_text">#ff000000</color>
+    <color name="custom_theme_color">#66000000</color>
+    <color name="default_circle_indicator_fill_color">#ff298ecb</color>
+    <color name="default_circle_indicator_page_color">#ff777777</color>
+    <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
+    <color name="early">#e95811</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="gray">#ff777777</color>
+    <color name="h_Transparent">#70222222</color>
+    <color name="h_black">#000000</color>
+    <color name="h_blue">#0000ff</color>
+    <color name="h_cyan">#00ffff</color>
+    <color name="h_gray">#6e6e6e</color>
+    <color name="h_green">#33ff00</color>
+    <color name="h_purple">#9900ff</color>
+    <color name="h_red">#ff0000</color>
+    <color name="h_white">#ffffff</color>
+    <color name="h_yellow">#ffff00</color>
+    <color name="halftransparent">#aa000000</color>
+    <color name="help_button_view">#ffcccccc</color>
+    <color name="help_view">#ff404040</color>
+    <color name="holo_blue">#FF33E5B5</color>
+    <color name="info_card_qzonepic_default">#ffdedede</color>
+    <color name="jiao">#0196BE</color>
+    <color name="l_black">#545454</color>
+    <color name="l_blue">#4d4db3</color>
+    <color name="l_cyan">#4db3b3</color>
+    <color name="l_gray">#c2c2c2</color>
+    <color name="l_green">#44bb44</color>
+    <color name="l_purple">#8c44bb</color>
+    <color name="l_white">#cccccc</color>
+    <color name="l_yellow">#cccc33</color>
+    <color name="late">#e60000</color>
+    <color name="link_color">#ff13679d</color>
+    <color name="m_black">#262626</color>
+    <color name="m_blue">#2222dd</color>
+    <color name="m_blues">#20a5de</color>
+    <color name="m_cyan">#22dddd</color>
+    <color name="m_gray">#a3a3a3</color>
+    <color name="m_green">#1aee1a</color>
+    <color name="m_hui">#EEEEEE</color>
+    <color name="m_huishe">#ccc</color>
+    <color name="m_purple">#9222dd</color>
+    <color name="m_red">#e61a1a</color>
+    <color name="m_white">#f7f7f7</color>
+    <color name="m_whites">#ffffff</color>
+    <color name="m_yellow">#eead01</color>
+    <color name="office_backgroud">#1c8cbd</color>
+    <color name="over">#969696</color>
+    <color name="possible_result_points">#B1F44F</color>
+    <color name="qq_normal">@color/color_hei</color>
+    <color name="qzone_feeditem_nor">#fffafafa</color>
+    <color name="qzone_feeditem_sel">#fff1f1f1</color>
+    <color name="r_blue">#2ba8e9</color>
+    <color name="r_red">#cc3333</color>
+    <color name="result_image_border">#ffffffff</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c000ff00</color>
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="sbc_header_text">#ff808080</color>
+    <color name="sbc_header_view">#ffffffff</color>
+    <color name="sbc_layout_view">#ffffffff</color>
+    <color name="sbc_list_item">#fffff0e0</color>
+    <color name="sbc_page_number_text">#ff000000</color>
+    <color name="sbc_snippet_text">#ff4b4b4b</color>
+    <color name="sc_black">#ff000000</color>
+    <color name="sc_gray">#ff777777</color>
+    <color name="sc_name">#ff5fc4ff</color>
+    <color name="sc_transparent">#00ffffff</color>
+    <color name="sc_transparent_background">@color/color_hei_8</color>
+    <color name="sc_transparent_black">#7f000000</color>
+    <color name="sc_white">@color/color_bai_8</color>
+    <color name="screenshot_normal">#3f000000</color>
+    <color name="screenshot_pressed">#bf000000</color>
+    <color name="search_beforepressed">#21a5de</color>
+    <color name="search_pressed">#1c8cbd</color>
+    <color name="seekbar_bg">#04CC75</color>
+    <color name="seektotal">#F8F8F8</color>
+    <color name="setting_aio_text_size_normal">#ff151617</color>
+    <color name="share_text">#ff000000</color>
+    <color name="share_view">#ffffffff</color>
+    <color name="sidebar_item_background_activated_dark">#ff4c365d</color>
+    <color name="sqqname">#ffee860a</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="status_view">#50000000</color>
+    <color name="tab_no"> #646464</color>
+    <color name="tab_select">#21a5de</color>
+    <color name="tag_textview1">#ff795028</color>
+    <color name="tag_textview2">#ff4a7928</color>
+    <color name="tag_textview3">#ff284479</color>
+    <color name="task_ch_0">#e95811</color>
+    <color name="task_ch_1">#e60000</color>
+    <color name="task_ch_2">#21a5de</color>
+    <color name="task_ch_3">#e95811</color>
+    <color name="task_ch_4">#969696</color>
+    <color name="text_black">#ff333333</color>
+    <color name="text_black_disabled">#80333333</color>
+    <color name="text_gray">#ff777777</color>
+    <color name="text_no"> #969696</color>
+    <color name="text_shadow_color">#66000000</color>
+    <color name="text_white">#ffffffff</color>
+    <color name="text_white_disabled">#80ffffff</color>
+    <color name="theme">#00B2EE</color>
+    <color name="thirty_transparent_black">#4d000000</color>
+    <color name="title_bg">#ff54acea</color>
+    <color name="title_color"> #2896c6</color>
+    <color name="transparent">@color/color_hei_8</color>
+    <color name="transparent2">#00000000</color>
+    <color name="transparent_background">#80000000</color>
+    <color name="twenty_transparent_black">#33000000</color>
+    <color name="video_bg_color">#ffecf3f9</color>
+    <color name="viewfinder_frame">#ff808080</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="window_bg">#00eef1f3</color>
+    <declare-styleable name="CircleImageView"><attr format="dimension" name="border_width"/><attr format="color" name="border_color"/><attr format="boolean" name="border_overlay"/></declare-styleable>
+    <declare-styleable name="CirclePageIndicator"><attr format="boolean" name="centered"/><attr format="color" name="fillColor"/><attr format="color" name="pageColor"/><attr name="android:orientation"/><attr format="dimension" name="radius"/><attr format="boolean" name="snap"/><attr format="color" name="strokeColor"/><attr format="dimension" name="strokeWidth"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="JazzyViewPager"><attr name="style"><enum name="standard" value="0"/><enum name="tablet" value="1"/><enum name="cubein" value="2"/><enum name="cubeout" value="3"/><enum name="flipvertical" value="4"/><enum name="fliphorizontal" value="5"/><enum name="stack" value="6"/><enum name="zoomin" value="7"/><enum name="zoomout" value="8"/><enum name="rotateup" value="9"/><enum name="rotatedown" value="10"/><enum name="accordion" value="11"/></attr><attr format="boolean" name="fadeJazzEnabled"/><attr format="boolean" name="outlineEnabled"/><attr format="color|reference" name="outlineColor"/></declare-styleable>
+    <declare-styleable name="PullToRefresh"><attr format="reference|color" name="ptrRefreshableViewBackground"/><attr format="reference|color" name="ptrHeaderBackground"/><attr format="reference|color" name="ptrHeaderTextColor"/><attr format="reference|color" name="ptrHeaderSubTextColor"/><attr name="ptrMode"><flag name="disabled" value="0x0"/><flag name="pullFromStart" value="0x1"/><flag name="pullFromEnd" value="0x2"/><flag name="both" value="0x3"/><flag name="manualOnly" value="0x4"/><flag name="pullDownFromTop" value="0x1"/><flag name="pullUpFromBottom" value="0x2"/></attr><attr format="reference|boolean" name="ptrShowIndicator"/><attr format="reference" name="ptrDrawable"/><attr format="reference" name="ptrDrawableStart"/><attr format="reference" name="ptrDrawableEnd"/><attr format="reference|boolean" name="ptrOverScroll"/><attr format="reference" name="ptrHeaderTextAppearance"/><attr format="reference" name="ptrSubHeaderTextAppearance"/><attr name="ptrAnimationStyle"><flag name="rotate" value="0x0"/><flag name="flip" value="0x1"/></attr><attr format="reference|boolean" name="ptrScrollingWhileRefreshingEnabled"/><attr format="reference|boolean" name="ptrListViewExtrasEnabled"/><attr format="reference|boolean" name="ptrRotateDrawableWhilePulling"/><attr format="reference|color" name="ptrAdapterViewBackground"/><attr format="reference" name="ptrDrawableTop"/><attr format="reference" name="ptrDrawableBottom"/></declare-styleable>
+    <declare-styleable name="RoundAngleImageView"><attr format="dimension" name="roundWidth"/><attr format="dimension" name="roundHeight"/></declare-styleable>
+    <declare-styleable name="SlidingLayer"><attr format="boolean" name="shadow_drawable"/><attr format="dimension" name="shadow_width"/><attr format="boolean" name="close_on_tapEnabled"/><attr format="enum" name="stickTo"><enum name="right" value="-1"/><enum name="left" value="-2"/><enum name="middle" value="-3"/></attr></declare-styleable>
+    <declare-styleable name="SlidingMenu"><attr name="mode"><enum name="left" value="0"/><enum name="right" value="1"/></attr><attr format="reference" name="viewAbove"/><attr format="reference" name="viewBehind"/><attr format="dimension" name="behindOffset"/><attr format="dimension" name="behindWidth"/><attr format="float" name="behindScrollScale"/><attr name="touchModeAbove"><enum name="margin" value="0"/><enum name="fullscreen" value="1"/></attr><attr name="touchModeBehind"><enum name="margin" value="0"/><enum name="fullscreen" value="1"/></attr><attr format="reference" name="shadowDrawable"/><attr format="dimension" name="shadowWidth"/><attr format="boolean" name="fadeEnabled"/><attr format="float" name="fadeDegree"/><attr format="boolean" name="selectorEnabled"/><attr format="reference" name="selectorDrawable"/></declare-styleable>
+    <declare-styleable name="SwipeBackLayout"><attr format="dimension" name="edge_size"/><attr name="edge_flag"><enum name="left" value="0"/><enum name="right" value="1"/><enum name="bottom" value="2"/><enum name="all" value="3"/></attr><attr format="reference" name="shadow_left"/><attr format="reference" name="shadow_right"/><attr format="reference" name="shadow_bottom"/></declare-styleable>
+    <declare-styleable name="SwipeListView"><attr format="boolean" name="swipeOpenOnLongPress"/><attr format="integer" name="swipeAnimationTime"/><attr format="dimension" name="swipeOffsetLeft"/><attr format="dimension" name="swipeOffsetRight"/><attr format="boolean" name="swipeCloseAllItemsWhenMoveList"/><attr format="reference" name="swipeFrontView"/><attr format="reference" name="swipeBackView"/><attr format="enum" name="swipeMode"><enum name="none" value="0"/><enum name="both" value="1"/><enum name="right" value="2"/><enum name="left" value="3"/></attr><attr format="enum" name="swipeActionLeft"><enum name="reveal" value="0"/><enum name="dismiss" value="1"/><enum name="choice" value="2"/></attr><attr format="enum" name="swipeActionRight"><enum name="reveal" value="0"/><enum name="dismiss" value="1"/><enum name="choice" value="2"/></attr><attr format="reference" name="swipeDrawableChecked"/><attr format="reference" name="swipeDrawableUnchecked"/></declare-styleable>
+    <declare-styleable name="Switch"><attr format="reference" name="thumb"/><attr format="reference" name="track"/><attr format="reference" name="textOn"/><attr format="reference" name="textOff"/><attr format="dimension" name="thumbTextPadding"/><attr format="reference" name="switchTextAppearance"/><attr format="dimension" name="switchMinWidth"/><attr format="dimension" name="switchPadding"/></declare-styleable>
+    <declare-styleable name="SwitchTextAppearance"><attr name="android:textColor"/><attr name="android:textSize"/><attr name="android:textStyle"/><attr name="android:typeface"/><attr name="android:textColorHighlight"/><attr name="android:textColorHint"/><attr name="android:textColorLink"/></declare-styleable>
+    <declare-styleable name="TasksCompletedView"><attr format="dimension" name="radius1"/><attr format="dimension" name="strokeWidth1"/><attr format="dimension" name="strokeWidth2"/><attr format="color" name="circleColor"/><attr format="color" name="ringColor"/><attr format="color" name="ringColor1"/></declare-styleable>
+    <declare-styleable name="ViewPagerIndicator"><attr format="reference" name="vpiIconPageIndicatorStyle"/><attr format="reference" name="vpiLinePageIndicatorStyle"/><attr format="reference" name="vpiTitlePageIndicatorStyle"/><attr format="reference" name="vpiTabPageIndicatorStyle"/><attr format="reference" name="vpiUnderlinePageIndicatorStyle"/></declare-styleable>
+    <declare-styleable name="roundedimageview"><attr format="dimension" name="border_thickness"/><attr format="color" name="border_inside_color"/><attr format="color" name="border_outside_color"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="aio_bubble_padding_align_error">9.0dip</dimen>
+    <dimen name="aio_bubble_padding_align_head">13.0dip</dimen>
+    <dimen name="aio_bubble_padding_align_head2">15.0dip</dimen>
+    <dimen name="aio_bubble_padding_bottom">9.0dip</dimen>
+    <dimen name="aio_bubble_padding_top">9.0dip</dimen>
+    <dimen name="aio_content_padding">6.0dip</dimen>
+    <dimen name="aio_padding_left">10.0dip</dimen>
+    <dimen name="aio_padding_right">10.0dip</dimen>
+    <dimen name="aio_padding_top">11.0dip</dimen>
+    <dimen name="aio_share_padding">6.0dip</dimen>
+    <dimen name="aio_text_padding_align_error">8.0dip</dimen>
+    <dimen name="aio_text_padding_align_head">7.0dip</dimen>
+    <dimen name="aio_text_padding_bottom">6.0dip</dimen>
+    <dimen name="aio_text_padding_top">6.0dip</dimen>
+    <dimen name="aio_text_size_extra_large">22.0sp</dimen>
+    <dimen name="aio_text_size_large">20.0sp</dimen>
+    <dimen name="aio_text_size_middle">18.0sp</dimen>
+    <dimen name="aio_text_size_small">16.0sp</dimen>
+    <dimen name="aio_text_size_small_stable">16.0dip</dimen>
+    <dimen name="aio_timestamp_padding_bottom">10.0dip</dimen>
+    <dimen name="aio_timestamp_padding_top">14.0dip</dimen>
+    <dimen name="album_cover_width">62.0dip</dimen>
+    <dimen name="album_grid_space">2.0dip</dimen>
+    <dimen name="common_menu_dialog_layout_btn_marginBottom">3.0dip</dimen>
+    <dimen name="common_menu_dialog_layout_btn_marginTop">3.0dip</dimen>
+    <dimen name="common_menu_dialog_layout_cancel_marginBottom">18.0dip</dimen>
+    <dimen name="common_menu_dialog_layout_cancel_marginTop">20.0dip</dimen>
+    <dimen name="common_menu_dialog_layout_paddingLR">12.5dip</dimen>
+    <dimen name="common_menu_dialog_tile_marginBottom">5.0dip</dimen>
+    <dimen name="common_menu_dialog_tile_marginTop">10.0dip</dimen>
+    <dimen name="common_menu_dialog_tilte_paddingLR">25.0dip</dimen>
+    <dimen name="contat_buddy_list_name_width">194.0dip</dimen>
+    <dimen name="dataline_msg_item_image_height">150.0dip</dimen>
+    <dimen name="dataline_msg_item_image_width">150.0dip</dimen>
+    <dimen name="default_circle_indicator_radius">3dp</dimen>
+    <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
+    <dimen name="detail_p_activity_v">12.0dip</dimen>
+    <dimen name="dialogBase_btnArea_magrinLeft">10.0dip</dimen>
+    <dimen name="dialogBase_btnArea_magrinRight">10.0dip</dimen>
+    <dimen name="dialogBase_btnArea_magrinTop">20.0dip</dimen>
+    <dimen name="dialogBase_btnHeight">46.0dip</dimen>
+    <dimen name="dialogBase_listWidth">254.0dip</dimen>
+    <dimen name="dialogBase_titleHeight">48.0dip</dimen>
+    <dimen name="dialogBase_titleIconMargin">12.0dip</dimen>
+    <dimen name="dialogBase_width">288.0dip</dimen>
+    <dimen name="fastscroll_overlay_size">104.0dip</dimen>
+    <dimen name="fastscroll_thumb_height">52.0dip</dimen>
+    <dimen name="fastscroll_thumb_width">64.0dip</dimen>
+    <dimen name="font_size_extra_small">12.0sp</dimen>
+    <dimen name="font_size_large">18.0sp</dimen>
+    <dimen name="font_size_middle">16.0sp</dimen>
+    <dimen name="font_size_small">14.0sp</dimen>
+    <dimen name="gallery_space">30.0dip</dimen>
+    <dimen name="gd_arrow_offset">5dp</dimen>
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="info_card_info_marginBottom">12.5dip</dimen>
+    <dimen name="info_card_level_icon_size">16.5dip</dimen>
+    <dimen name="info_card_middle_item_txtsize">15.5sp</dimen>
+    <dimen name="info_card_moreinfo_item_paddingLR">10.0dip</dimen>
+    <dimen name="info_card_moreinfo_item_paddingTB">12.0dip</dimen>
+    <dimen name="layout_common_xlistview_paddingLR">10.0dip</dimen>
+    <dimen name="lite_activity_horizontal_margin">0.0dip</dimen>
+    <dimen name="lite_activity_vertical_margin">0.0dip</dimen>
+    <dimen name="nav_height">52.0dip</dimen>
+    <dimen name="nav_padding_top">50.0dip</dimen>
+    <dimen name="phone_country_code_padding">6.0dip</dimen>
+    <dimen name="phone_country_code_width">115.0dip</dimen>
+    <dimen name="photo_list_cell_edge_padding">4.0dip</dimen>
+    <dimen name="photo_list_cell_horizontal_spacing">4.0dip</dimen>
+    <dimen name="photo_list_cell_vertical_spacing">4.0dip</dimen>
+    <dimen name="photo_wall_host_avatar_size">64.0dip</dimen>
+    <dimen name="photo_wall_lr">7.0dip</dimen>
+    <dimen name="photo_wall_title_marginBottom">9.0dip</dimen>
+    <dimen name="photo_wall_top">12.0dip</dimen>
+    <dimen name="popup_win_height">42.0dip</dimen>
+    <dimen name="recent_list_foot_height">5.0dip</dimen>
+    <dimen name="recent_list_head_height">48.0dip</dimen>
+    <dimen name="recent_list_net_bar_height">40.0dip</dimen>
+    <dimen name="recent_no_chat_height">70.0dip</dimen>
+    <dimen name="refresh_header_height">60.0dip</dimen>
+    <dimen name="search_troop_filter_width">146.0dip</dimen>
+    <dimen name="setting_tips_marginBottom">6.0dip</dimen>
+    <dimen name="setting_tips_marginLeft">10.0dip</dimen>
+    <dimen name="setting_tips_marginRight">0.0dip</dimen>
+    <dimen name="setting_tips_marginTop">11.0dip</dimen>
+    <dimen name="textSize15sp">15.0sp</dimen>
+    <dimen name="textSize20sp">20.0sp</dimen>
+    <dimen name="textSizeS2">18.0sp</dimen>
+    <dimen name="textSizeS3">15.0sp</dimen>
+    <dimen name="textSizeS4">12.0sp</dimen>
+    <dimen name="thumnail_default_height">30dip</dimen>
+    <dimen name="thumnail_default_width">30dip</dimen>
+    <dimen name="tip_layout_padding">10.0dip</dimen>
+    <dimen name="title_bar_height">48.0dip</dimen>
+    <item name="preview_btn_bg_press" type="drawable">#ff000000</item>
+    <drawable name="trans">@color/color_hei_8</drawable>
+    <item name="arrow_down" type="id"/>
+    <item name="auto_focus" type="id"/>
+    <item name="btn_send" type="id"/>
+    <item name="decode" type="id"/>
+    <item name="decode_failed" type="id"/>
+    <item name="decode_succeeded" type="id"/>
+    <item name="department" type="id"/>
+    <item name="encode_failed" type="id"/>
+    <item name="encode_succeeded" type="id"/>
+    <item name="et_writeremail_content" type="id"/>
+    <item name="img_writeremail_addicon" type="id"/>
+    <item name="inputArea" type="id">false</item>
+    <item name="launch_product_query" type="id"/>
+    <item name="lay_loading" type="id"/>
+    <item name="lay_pop_email_del" type="id"/>
+    <item name="lay_pop_email_forword" type="id"/>
+    <item name="lay_pop_email_replay" type="id"/>
+    <item name="lay_writeremail_content" type="id"/>
+    <item name="lay_writeremail_toplay" type="id"/>
+    <item name="listview_contacter" type="id"/>
+    <item name="pop_chat_media" type="id"/>
+    <item name="post" type="id"/>
+    <item name="quit" type="id"/>
+    <item name="radio_group" type="id"/>
+    <item name="record_media" type="id"/>
+    <item name="restart_preview" type="id"/>
+    <item name="return_scan_result" type="id"/>
+    <item name="scroller" type="id"/>
+    <item name="scrollview" type="id"/>
+    <item name="search_book_contents_failed" type="id"/>
+    <item name="search_book_contents_succeeded" type="id"/>
+    <item name="selected_view" type="id"/>
+    <item name="take_image" type="id"/>
+    <item name="take_photo" type="id"/>
+    <item name="title_chat" type="id"/>
+    <item name="title_work" type="id"/>
+    <item name="tv_author" type="id"/>
+    <item name="tv_content" type="id"/>
+    <item name="tv_datetime" type="id"/>
+    <item name="tv_title" type="id"/>
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <integer name="versionCode">3</integer>
+    <string name="about">关于</string>
+    <string name="about_descrip">\u0020\u0020\u0020\u0020\u0020\u0020慧商是一个社交化工作空间，可通过慧商的企业微博、企业微信、任务中心、客户管理、移动审批等协作应用，打破部门壁垒与地域限制，凝聚企业共识，激发员工创新，提高协作效率。</string>
+    <string name="account">账号</string>
+    <string name="action_settings">Settings</string>
+    <string name="all">全部</string>
+    <string name="app_dir">/app</string>
+    <string name="app_enname">huishang</string>
+    <string name="app_name">慧商宝</string>
+    <string name="auto_login">自动登陆</string>
+    <string name="cancle">取消</string>
+    <string name="chat_webview_url">http://webapp.huishangyun.com/AdminLogin.aspx?</string>
+    <string name="colleauge">同事</string>
+    <string name="compan_last_name">科技发展有限公司</string>
+    <string name="compan_name">南昌索科特科技有限公司</string>
+    <string name="compan_setting_hint">请输入分销商名称</string>
+    <string name="compan_setting_title">设置分销商</string>
+    <string name="confirm">确定</string>
+    <string name="contacter">通讯录</string>
+    <string name="customDialog" parent="@android:Theme.Dialog">>
+        
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item> 
+       <!--  <item name="android:windowBackground">#ffffff</item> -->
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+               
+    </string>
+    <string name="db_dir">/database</string>
+    <string name="delete">\u0020删除</string>
+    <string name="descr_image">Image</string>
+    <string name="dinghuodan">订货单</string>
+    <string name="dir">/HSY_Yun</string>
+    <string name="exit">退出</string>
+    <string name="forward">\u0020转发</string>
+    <string name="fragment01">全部</string>
+    <string name="fragment02">产品分类</string>
+    <string name="fragment03">促销产品</string>
+    <string name="group">群组</string>
+    <string name="hadread">已读</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hint_search">输入姓名或电话快速搜索</string>
+    <string name="img_dir">/img</string>
+    <string name="inputtype">qwertyuiopasdfghjklzxcvbnm</string>
+    <string name="loading">加载中\u0020.\u0020.\u0020.</string>
+    <string name="login">登\u0020录</string>
+    <string name="new_msg">企信</string>
+    <string name="office">办公</string>
+    <string name="password">密码</string>
+    <string name="provision1">\u0020\u0020\u0020\u0020\u0020\u0020欢迎您使用慧商宝的服务，请务必认真阅读以下服务条款。\n\u0020\u0020\u0020\u0020\u0020\u0020本服务条款缔约方为南昌索科特科技有限公司与慧商宝注册用户，本服务条款具有合同效力。当您点击"提交"按钮，您已经接受了以下的条款。</string>
+    <string name="provision10">5.保证条款</string>
+    <string name="provision11">此协议的每一部分的条款都在法律的约束下。双方均必须确保其有合法权力同意此协议。</string>
+    <string name="provision12">6.条款的修订</string>
+    <string name="provision13">慧商宝有权在任何时候修订本服务条款或与"服务"有关的政策。这种修订在本协议的修订文本在"服务"中作出布告时即行生效。您应不时地查看本协议的条款（修订条款始终公布在慧商宝官方网站上）。如在任何修订发生后继续使用"服务"即视为您已接受这些修订。</string>
+    <string name="provision2">1.知识产权</string>
+    <string name="provision3">江西慧商云科技有限公司完全拥有慧商宝的全部知识产权。慧商宝的名字、LOGO都已经属于南昌索科特科技有限公司的商标，未经授权不能使用。</string>
+    <string name="provision4">2.用户隐私权</string>
+    <string name="provision5">a.慧商宝会尽最大努力确保用户数据安全，只是根据用户在网上的行为指示来分发用户的信息，不会将用户产生的具体数据提供任何无关第三方；\nb.慧商宝保留使用汇总统计性信息的权利，这些信息只是匿名，不针对特定用户；\nc.客户如果需要慧商宝全面删除用户数据，需要书面向慧商宝提出申请，并盖有公司印章。</string>
+    <string name="provision6">3.使用权限</string>
+    <string name="provision7">a.禁止出售、转售或复制、开发使用权限，禁止基于商业目的模仿慧商宝的产品和服务；禁止复制和模仿慧商宝的设计理念、界面、功能和图表。您只能处于您公司商业范围内使用服务，禁止发送兜售信息和违反法律的信息，禁止发送和储存带有病毒的、蠕虫的、木马的和其他有害的计算机代码、文件、脚本和程序；\nb.慧商宝使用客户所拥有的电子邮件地址、手机号码、用户名等作为用户权证的唯一识别信息；当免费试用期过后，未付费客户将不再享有慧商宝的服务，慧商宝有权随时删除用户的所有数据。</string>
+    <string name="provision8">4.服务持续</string>
+    <string formatted="false" name="provision9">a.慧商宝将尽最大努力保障软件平台的连续可靠运行。对于付费用户，慧商宝承诺99%以上的正常在线率，低于此比例，慧商宝将按照服务中断时间比例向客户退还相应的服务费用；对于未付费用户，慧商宝不提供任何保证和补偿；\nb.慧商宝将尽最大努力保障数据的安全备份。对于付费用户，因服务器存储设备损坏而导致的用户数据丢失，慧商宝承诺以最快的速度从最近的备份中恢复数据，但不保证100%数据恢复，也不承担因数据丢失带来的其他连带或间接的任何责任；对于未付费用户，慧商宝不提供任何恢复服务；\nc.慧商宝通常需要4–48小时恢复数据，在此时间范围内的数据恢复视作服务是连续的；\nd.慧商宝对因重大自然灾害、战争等不可抗力导致的慧商宝服务中断和长时间终止，不承担赔偿责任。</string>
+    <string name="pull_to_refresh_footer_pull_label">上拉加载更多</string>
+    <string name="pull_to_refresh_footer_refreshing_label">加载中\u2026</string>
+    <string name="pull_to_refresh_footer_release_label">松开后加载</string>
+    <string name="pull_to_refresh_from_bottom_pull_label">@string/pull_to_refresh_pull_label</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
+    <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
+    <string name="pull_to_refresh_pull_label">下拉刷新…</string>
+    <string name="pull_to_refresh_refreshing_label">正在载入…</string>
+    <string name="pull_to_refresh_release_label">放开以刷新…</string>
+    <string name="rcount">0/0</string>
+    <string name="record">记录</string>
+    <string name="remember_psd">记住密码</string>
+    <string name="remind">待办提醒</string>
+    <string name="reply">\u0020回复</string>
+    <string name="reset">设\u0020置</string>
+    <string name="run_bg_ticker">慧商宝正在后台运行</string>
+    <string name="setting">设置</string>
+    <string name="setting_share">慧商宝(http://webapp.huishangyun.com/Download.aspx?p=waiqin)是一个社交化工作空间，可通过慧商的企业微博、企业微信、任务中心、客户管理、移动审批等协作应用，打破部门壁垒与地域限制，凝聚企业共识，激发员工创新，提高协作效率。</string>
+    <string name="tuihuodan">退货单</string>
+    <string name="unread">未读</string>
+    <string name="updatanew_no">已是最新版本</string>
+    <string name="updatanew_true">有版本更新</string>
+    <string name="versionName">1.3.0</string>
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+    <string name="work_space">应用</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="xlistview_header_hint_loading">正在加载</string>
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_normal_chat">下拉查看更多</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_ready_chat">松开加载数据</string>
+    <string name="xlistview_header_last_time">更新时间：</string>
+    <style name="AnimBottom" parent="@android:style/Animation">  
+    	<item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/push_bottom_out</item>      
+  </style>
+    <style name="AnimationFade">   
+<!--   PopupWindow左右弹出的效果-->   
+<item name="android:windowEnterAnimation">@anim/in_lefttoright</item>   
+<item name="android:windowExitAnimation">@anim/out_righttoleft</item>   
+</style>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowBackground">@color/white</item>
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="CustomDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    </style>
+    <style name="CustomProgressDialog" parent="@style/CustomDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="MyTextButtonColor">
+        <item name="android:background">@drawable/button_tuch</item>
+    </style>
+    <style name="SwipeBackLayout">
+        <item name="edge_size">50dip</item>
+        <item name="shadow_left">@drawable/shadow_left</item>
+        <item name="shadow_right">@drawable/shadow_right</item>
+        <item name="shadow_bottom">@drawable/shadow_bottom</item>
+    </style>
+    <style name="Transparent">  
+    <item name="android:windowBackground">@color/transparent_background</item>  
+    <item name="android:windowNoTitle">true</item>  
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+  </style>
+    <style name="app_pop">
+        <item name="android:windowEnterAnimation">@anim/pop_up</item>
+        <item name="android:windowExitAnimation">@anim/pop_down</item>
+    </style>
+    <style name="app_regis_top">
+        <item name="android:textSize">12sp</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:button">@null</item>
+        <!-- <item name="android:background">@drawable/rbtn_main</item> -->
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:drawablePadding">2dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:minHeight">@dimen/width_5_80</item>
+        <item name="android:minWidth">@dimen/width_5_80</item>
+    </style>
+    <style name="app_tab_top">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:button">@null</item>
+         <!--<item name="android:background">@drawable/rbtn_main</item>-->
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:drawablePadding">3dp</item>
+        <item name="android:paddingTop">20dp</item>
+        <item name="android:minHeight">@dimen/width_5_80</item>
+        <item name="android:minWidth">@dimen/width_5_80</item>
+    </style>
+    <style name="checkbox_style" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/cbox_login</item>
+    </style>
+    <style name="dialog" parent="@android:style/Theme.Dialog">  
+        <!-- 更换背景图片实现全透明 -->  
+        <item name="android:windowBackground">@color/transparent</item>  
+        <!-- 屏幕背景不变暗 -->  
+        <item name="android:backgroundDimEnabled">false</item>  
+        <!-- 隐藏标题 -->  
+        <item name="android:windowNoTitle">true</item>  
+    </style>
+    <style name="main_tab_bottom">
+        <item name="android:textSize">@dimen/text_4</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:button">@null</item>
+        <item name="android:background">@drawable/rbtn_main</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:padding">@dimen/width_2_80</item>
+        <item name="android:minHeight">@dimen/width_5_80</item>
+        <item name="android:minWidth">@dimen/width_5_80</item>
+    </style>
+    <style name="popdialog" parent="@android:style/Theme.Dialog">
+    	<item name="android:windowFrame">@null</item>
+    	<item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="progressdialog" parent="@android:style/Theme.Dialog">
+    	<item name="android:windowFrame">@null</item>
+    	<item name="android:windowIsFloating">true</item>
+    	<item name="android:windowIsTranslucent">false</item>
+    	<item name="android:windowNoTitle">true</item>
+    	<item name="android:windowBackground">@android:color/transparent</item>
+    	<item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="text_size_6">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_6</item>
+    </style>
+    <style name="text_size_7">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_7</item>
+    </style>
+    <style name="text_size_8">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_8</item>
+    </style>
+    <style name="text_size_9">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+    <style name="used_height_match">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="used_horizontal_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1.0px</item>
+    </style>
+    <style name="used_image">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+    <style name="used_match">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="used_min_2">
+        <item name="android:minHeight">@dimen/width_2_80</item>
+        <item name="android:minWidth">@dimen/width_2_80</item>
+    </style>
+    <style name="used_min_3">
+        <item name="android:minHeight">@dimen/width_3_80</item>
+        <item name="android:minWidth">@dimen/width_3_80</item>
+    </style>
+    <style name="used_min_4">
+        <item name="android:minHeight">@dimen/width_4_80</item>
+        <item name="android:minWidth">@dimen/width_4_80</item>
+    </style>
+    <style name="used_min_5">
+        <item name="android:minHeight">@dimen/width_5_80</item>
+        <item name="android:minWidth">@dimen/width_5_80</item>
+    </style>
+    <style name="used_min_6">
+        <item name="android:minHeight">@dimen/width_6_80</item>
+        <item name="android:minWidth">@dimen/width_6_80</item>
+    </style>
+    <style name="used_min_7">
+        <item name="android:minHeight">@dimen/width_7_80</item>
+        <item name="android:minWidth">@dimen/width_7_80</item>
+    </style>
+    <style name="used_min_8">
+        <item name="android:minHeight">@dimen/width_8_80</item>
+        <item name="android:minWidth">@dimen/width_8_80</item>
+    </style>
+    <style name="used_vertical_line">
+        <item name="android:layout_width">1.0px</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="used_weight_height">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0dip</item>
+    </style>
+    <style name="used_weight_width">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="used_width_match">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="used_wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="workspace_img">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/width_5_80</item>
+        <item name="android:minWidth">@dimen/width_5_80</item>
+    </style>
+    <style name="workspace_text">
+        <item name="android:textSize">@dimen/text_6</item>
+        <item name="android:textColor">@color/m_black</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_marginTop">@dimen/width_2_80</item>
+    </style>
+</resources>

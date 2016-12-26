@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/front"
+    android:layout_width="fill_parent"
+    android:layout_height="55dip"
+    android:background="@drawable/setting_back"
+    android:tag="front" >
+	
+    <FrameLayout 
+        android:id="@+id/icon_layout"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true">
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:layout_gravity="center"
+        android:src="@drawable/contact_person"/>
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView
+	        android:id="@+id/unreadmsg"
+	        android:layout_width="15dp"
+	        android:layout_height="15dp"
+	        android:background="@drawable/scree_prompt"
+	        android:gravity="center"
+	        android:includeFontPadding="false"
+	        android:shadowColor="#19000000"
+	        android:shadowDy="1.0"
+	        android:layout_alignParentRight="true"
+	        android:layout_alignParentTop="true"
+	        android:shadowRadius="1.0"
+	        android:text="99+"
+	        android:visibility="visible"
+	        android:textColor="#ffffffff"
+	        android:textSize="8dip" />
+    </RelativeLayout>
+	</FrameLayout>
+  
+
+    <TextView
+        android:id="@+id/recent_list_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10.0dp"
+        android:layout_marginRight="58.0dp"
+        android:layout_toRightOf="@id/icon_layout"
+        android:duplicateParentState="true"
+        android:ellipsize="end"
+       	android:layout_marginTop="10dip"
+        android:gravity="left|center"
+        android:includeFontPadding="false"
+        android:padding="0.0dip"
+        android:text="潘佛荣"
+        android:singleLine="true"
+        android:textColor="#ff0e0e0e"
+        android:textSize="15.0sp" />
+
+    <TextView
+        android:id="@+id/recent_list_item_msg"
+        android:layout_width="fill_parent"
+        android:layout_height="30.0dip"
+        android:layout_below="@id/recent_list_item_name"
+        android:layout_marginLeft="65.0dip"
+        android:layout_marginRight="30.0dip"
+        android:layout_marginTop="2.0dip"
+        android:duplicateParentState="true"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:includeFontPadding="false"
+        android:paddingLeft="6.0dip"
+        android:text="[图片]"
+        android:paddingRight="6.0dip"
+        android:singleLine="true"
+        android:textColor="#ffacabab"
+        android:textSize="12.0sp" />
+
+    <TextView
+        android:id="@+id/recent_list_item_time"
+        android:layout_width="wrap_content"
+        android:layout_height="25.0dip"
+        android:layout_above="@id/recent_list_item_msg"
+        android:layout_alignParentRight="true"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_marginRight="10dip"
+        android:duplicateParentState="true"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:padding="0.0dip"
+        android:singleLine="true"
+        android:text="昨天"
+        android:textColor="#ffacabab"
+        android:textSize="10.0sp" />
+
+    
+    
+   
+	 <RelativeLayout
+	    android:id="@+id/msg_line" 
+	    android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="#e0e0e0"
+        android:layout_alignParentBottom="true"/>
+	<RelativeLayout 
+	    android:id="@+id/msg_line_no"
+	    android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="#e0e0e0"
+        android:layout_marginLeft="65dip"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

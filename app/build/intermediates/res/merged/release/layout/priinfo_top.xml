@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 联系人信息头部 布局 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        style="@style/used_width_match"	android:paddingLeft="@dimen/width_6_80"
+        android:paddingRight="@dimen/width_6_80"	android:orientation="horizontal"
+        android:layout_marginTop="@dimen/width_3_80" >
+        <TextView 
+            style="@style/used_weight_width"	android:textColor="@color/theme"
+            android:textSize="@dimen/text_7"	android:text="@string/hello_world"
+            android:layout_weight="0.65" />
+        <TextView 
+            style="@style/used_weight_width"	android:textColor="@color/theme"
+            android:textSize="@dimen/text_4"	android:text="@string/hello_world"
+            android:layout_weight="0.35" android:gravity="right"/>
+</LinearLayout>

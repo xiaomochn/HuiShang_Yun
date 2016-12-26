@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    tools:context=".LoginActivity">
+<com.huishangyun.View.BounceScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#21a5de"
+    android:fillViewport="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#21a5de"
+    android:orientation="vertical"
+     >
+	 <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:src="@drawable/login_logo" />
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="0.3"
+        android:orientation="vertical"
+        android:gravity="center" >
+
+       
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <View 
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.16"/>
+            <ImageView 
+                android:id="@+id/login_compan_logo"
+                android:layout_width="@dimen/width_15_80"
+                android:layout_height="@dimen/width_15_80"
+                android:src="@drawable/login_icons"/>
+            <LinearLayout 
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.7"
+                android:orientation="vertical"
+                android:gravity="center_vertical">
+                <TextView 
+                    android:id="@+id/login_company_name"
+                   	style="@style/text_size_7"
+                    android:textColor="@color/h_white"
+                    android:textSize="@dimen/text_7"
+                    android:text="@string/compan_name"
+                    android:shadowColor="#FF000000"  
+    				android:shadowDx="0"
+    				android:shadowDy="2"
+    				android:paddingRight="@dimen/width_8_80"
+    				android:shadowRadius="1"
+    				android:ellipsize="end" 
+                    android:paddingLeft="@dimen/width_6_80"/>
+                <!-- <TextView 
+                    android:id="@+id/login_company_lastname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/h_white"
+                    android:textSize="@dimen/text_7"
+                    android:text="@string/compan_last_name"
+                    android:shadowColor="#FF000000"  
+    				android:shadowDx="0"
+    				android:shadowDy="2"
+    				android:shadowRadius="1"
+    				android:layout_marginTop="@dimen/height_1_80"
+                    android:paddingLeft="@dimen/width_6_80"/> -->
+                
+            </LinearLayout>
+            
+        </LinearLayout>
+	
+        
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/et_account"
+            android:layout_width="@dimen/width_57_80"
+            android:layout_height="@dimen/width_10_80"
+            android:background="@color/bh_white"
+            android:drawableLeft="@drawable/login_input_icon_user"
+            android:drawablePadding="6.0dip"
+            android:hint="@string/account"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="@dimen/width_2_80"
+            android:textSize="@dimen/text_7" />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="@dimen/width_57_80"
+            android:layout_height="@dimen/width_10_80"
+            android:layout_marginTop="@dimen/height_2_80"
+            android:background="@color/bh_white"
+            android:drawableLeft="@drawable/login_input_icon_pwd"
+            android:drawablePadding="6.0dip"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:paddingLeft="@dimen/width_2_80"
+            android:textSize="@dimen/text_7" />
+
+        <LinearLayout
+            android:layout_width="@dimen/width_57_80"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/height_2_80"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/cbox_rmb_psd"
+                style="@style/checkbox_style"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="@string/remember_psd"
+                android:textColor="@color/bh_white"
+                android:textSize="@dimen/text_7" />
+
+
+            <CheckBox
+                android:id="@+id/cbox_auto_login"
+                style="@style/checkbox_style"
+                android:layout_width="0.0dip"
+                android:layout_weight="0.5"
+                android:layout_height="wrap_content"
+                android:text="@string/auto_login"
+                android:textColor="@color/bh_white"
+                android:textSize="@dimen/text_7" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="@dimen/width_64_80"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/height_3_80" >
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="@dimen/width_28_80"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_login"
+                android:minHeight="@dimen/width_10_80"
+                android:text="@string/login"
+                android:textColor="@color/h_white"
+                android:textSize="@dimen/text_8"
+                android:shadowColor="#FF000000"  
+                android:shadowDx="0"
+    			android:shadowDy="2"
+    			android:shadowRadius="1" />
+
+            <Button
+                android:id="@+id/btn_reset"
+                android:layout_width="@dimen/width_28_80"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/btn_login"
+                android:minHeight="@dimen/width_10_80"
+                android:text="@string/reset"
+                android:textColor="@color/h_white"
+                android:textSize="@dimen/text_8"
+                android:shadowColor="#FF000000"  
+                android:shadowDx="0"
+    			android:shadowDy="2"
+    			android:shadowRadius="1" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="0.26" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/height_2_80"
+            android:minHeight="@dimen/width_17_80"
+            android:minWidth="@dimen/width_36_80"
+            android:scaleType="fitCenter"
+            android:src="@drawable/login_copyright" />
+    </RelativeLayout>
+
+</LinearLayout>
+</com.huishangyun.View.BounceScrollView>
+</LinearLayout>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#f0f0f0">
+    
+	<!-- 头部 -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:background="#00658f">
+		
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:background="@drawable/title_background"
+            android:id="@+id/back">
+	        <ImageView
+	            android:layout_height="wrap_content"
+	            android:layout_width="wrap_content"
+	            android:src="@drawable/ret_urn"	            
+	            android:layout_gravity="center_vertical"/>
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center_vertical"
+	            android:text="食品饮料"
+	            android:textSize="21sp"
+	            android:textColor="#ffffff" 
+	            android:layout_marginLeft="10dp"
+	            android:id="@+id/title_name"/>
+        </LinearLayout>
+               
+        <!-- 更多 -->
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_centerVertical="true"
+	        android:layout_alignParentRight="true"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:background="@drawable/title_background"
+            android:id="@+id/xiala">
+	        <ImageView            
+	            android:layout_height="wrap_content"
+	            android:layout_width="wrap_content"
+	            android:src="@drawable/more"
+	            android:layout_gravity="center"/>
+        </LinearLayout>
+         <!-- 收藏 -->
+        <FrameLayout
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_toLeftOf="@id/xiala"
+            android:background="@drawable/title_background"
+            android:id="@+id/shoucang">
+            <ImageView
+	            android:layout_height="wrap_content"
+	            android:layout_width="wrap_content"
+	            android:src="@drawable/coll"
+	            android:layout_gravity="center"/>
+            <TextView
+	            android:layout_height="wrap_content"
+	            android:layout_width="wrap_content"
+	            android:background="@drawable/cart_dian"
+	            android:text="0"
+	            android:textSize="8sp"	            	            
+	            android:textColor="#ffffff"
+	            android:layout_marginTop="12dp"
+	            android:id="@+id/nub_shoucang"
+	            android:layout_gravity="right|top"
+	            android:gravity="center"
+	            android:visibility="gone"/>
+        </FrameLayout> 
+        
+        <!-- 购物车 -->
+        <FrameLayout
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"         
+            android:layout_toLeftOf="@id/shoucang"
+            android:background="@drawable/title_background"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:id="@+id/gouwuche">
+            <ImageView
+	            android:layout_height="wrap_content"
+	            android:layout_width="wrap_content"
+	            android:src="@drawable/shopping_car"
+	            android:layout_gravity="center"/>
+            <TextView
+	            android:layout_height="wrap_content"
+	            android:layout_width="wrap_content"
+	            android:background="@drawable/cart_dian"
+	            android:id="@+id/nub_gouwuche"
+	            android:text="0"	
+	            android:textSize="8sp"	 	                       	            
+	            android:textColor="#ffffff"
+	            android:layout_marginTop="12dp" 
+	            android:layout_gravity="right|top"
+	            android:gravity="center"
+	            android:visibility="gone"/>
+        </FrameLayout>    
+    </RelativeLayout>
+    
+    
+    <FrameLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">      
+        <ImageView android:id="@+id/no_img"
+		    android:layout_height="wrap_content"
+		    android:layout_width="wrap_content"
+		    android:src="@drawable/nomessagelist"
+		    android:layout_gravity="center"
+		    android:layout_marginBottom="50dp"
+		    android:visibility="gone"/>
+			<com.huishangyun.swipelistview.MyXListView
+			    android:layout_height="wrap_content"
+			    android:layout_width="match_parent"
+			    android:layout_marginTop="5dp"
+			    android:id="@+id/listview"
+			    android:divider="#f0f0f0"        
+			    android:dividerHeight="-5dp"
+			    android:layout_marginLeft="8sp"
+		        android:layout_marginRight="8dp"
+			    android:fadingEdge="none"
+			    android:cacheColorHint="#00000000"
+			    android:scrollbars="none"/>
+	</FrameLayout>
+			    
+</LinearLayout>

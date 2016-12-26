@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/app_radiogroup"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+    android:background="@drawable/frame_top_bg">
+    <RadioButton 
+        android:id="@+id/app_channel"
+        style="@style/app_tab_top"
+        android:drawableTop="@drawable/app_channels_sel"
+        android:text="渠道"
+        android:visibility="gone"
+        android:textColor="@drawable/app_text"/>
+    <RadioButton 
+        android:id="@+id/app_office"
+        style="@style/app_tab_top"
+        android:drawableTop="@drawable/app_office_sel"
+        android:textColor="@drawable/app_text"
+        android:visibility="gone"
+        android:text="办公"/>
+    <RadioButton 
+        android:id="@+id/app_light"
+        style="@style/app_tab_top"
+        android:drawableTop="@drawable/app_light_sel"
+        android:textColor="@drawable/app_text"
+        android:visibility="gone"
+        android:text="轻应用"/>
+    
+    <RadioButton 
+        android:id="@+id/app_erp"
+        style="@style/app_tab_top"
+        android:drawableTop="@drawable/app_erps"
+        android:textColor="@drawable/app_text"
+        android:visibility="gone"
+        android:text="客户"/>
+
+</RadioGroup>

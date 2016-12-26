@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- 头部 -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:background="#00658f">
+		
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:background="@drawable/title_background"
+            android:id="@+id/back">
+	        <ImageView
+	            android:layout_height="wrap_content"
+	            android:layout_width="wrap_content"
+	            android:src="@drawable/ret_urn"	            
+	            android:layout_gravity="center_vertical"/>
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center_vertical"
+	            android:text="订货单"
+	            android:textSize="21sp"
+	            android:textColor="#ffffff" 
+	            android:layout_marginLeft="10dp"
+	            android:id="@+id/text"/>
+        </LinearLayout>                    
+        
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:background="@drawable/title_background"
+            android:id="@+id/add">
+	        <ImageView
+	            android:layout_height="wrap_content"
+	            android:layout_width="wrap_content"
+	            android:src="@drawable/add_title"	            
+	            android:layout_gravity="center_vertical"/>
+        </LinearLayout> 
+        
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_toLeftOf="@id/add"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:background="@drawable/title_background"
+            android:id="@+id/find">
+	        <ImageView
+	            android:layout_height="wrap_content"
+	            android:layout_width="wrap_content"
+	            android:src="@drawable/research_title"	            
+	            android:layout_gravity="center_vertical"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+   
+   <include layout="@layout/viewpager_fragment2"/>  
+</LinearLayout>

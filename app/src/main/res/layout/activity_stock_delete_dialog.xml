@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="#21a5de"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            
+           <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:text="提示"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+         <ImageView
+            android:id="@+id/cancel"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/cancel"          
+             /> 
+        
+        <!-- cancel_nice本身没有任何作用，只是解决代码报空指针问题 -->
+        <ImageView
+            android:id="@+id/cancel_nice"           
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp" 
+            android:visibility="invisible"/>
+     </RelativeLayout>
+    </LinearLayout>
+    <TextView 
+        android:id="@+id/delete"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="30dp"
+        android:textColor="#646464"
+        android:textSize="15sp"
+        android:text="删除该内容"/>
+    
+      <View 
+           android:layout_width="fill_parent"
+           android:layout_height="0.5dp"
+           android:layout_marginLeft="15dp"
+           android:layout_marginRight="15dp"
+           android:background="#b7e2f6"/> 
+           
+       <TextView 
+        android:id="@+id/rewrite"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="30dp"
+        android:gravity="center_vertical"
+        android:textColor="#646464"
+        android:textSize="15sp"
+        android:text="修改该内容"/>
+              
+        </LinearLayout>

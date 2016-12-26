@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+       
+    <!-- 照片展示 -->
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+        
+    <android.support.v4.view.ViewPager
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/img_show"/>
+    
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp">
+        <LinearLayout
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent"
+	        android:layout_weight="1"
+	        android:gravity="center_horizontal">
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/again"
+            android:text="重拍"
+            android:textColor="#ffffff"
+            android:textSize="20sp"           
+            android:background="@drawable/gtlk_saoyisao"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent"
+	        android:layout_weight="1"
+	        android:gravity="center_horizontal">
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/delete"
+            android:text="删除"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:background="@drawable/gtlk_saoyisao"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    
+    </RelativeLayout>
+    
+    
+</LinearLayout>

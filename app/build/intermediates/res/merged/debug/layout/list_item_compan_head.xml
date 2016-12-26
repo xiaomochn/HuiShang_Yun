@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <TextView 
+        android:layout_width="fill_parent"
+        android:textSize="@dimen/text_7"
+        android:textColor="@color/h_black"
+        android:gravity="center_vertical"
+        android:text="请选择分销商"
+        android:paddingLeft="@dimen/width_2_80"
+        android:background="@drawable/comp_list_item_select"
+        android:layout_height="@dimen/height_7_80"/>
+
+</LinearLayout>

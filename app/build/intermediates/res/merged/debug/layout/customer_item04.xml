@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#ffffff">
+    
+    <!--联系人 -->
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        >
+    	<TextView
+		    android:layout_height="wrap_content"
+		    android:layout_width="wrap_content"
+		    android:layout_marginLeft="15dp"
+		    android:text="联系人"
+		    android:textSize="16sp"
+		    android:textColor="#646464"/>	
+	
+		<EditText
+		    android:layout_height="wrap_content"
+		    android:layout_width="match_parent"
+		    android:paddingTop="15dp"
+    		android:paddingBottom="15dp"
+		    android:paddingRight="15dp"
+		    android:paddingLeft="5dp"
+		    
+		    android:background="@null"
+		    android:gravity="right"
+		    android:textColor="#969696"
+		    android:textSize="15sp"
+		    android:id="@+id/item04_01"/>
+	</LinearLayout>
+	<View
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:background="#e0e0e0"
+        android:layout_marginLeft="15dp"/>
+	
+	<!-- 职务 -->
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        >
+    	<TextView
+		    android:layout_height="wrap_content"
+		    android:layout_width="wrap_content"
+		    android:layout_marginLeft="15dp"
+		    android:layout_centerVertical="true"
+		    android:text="职务"
+		    android:textSize="16sp"
+		    android:textColor="#646464"/>	
+		<EditText
+		    android:layout_height="wrap_content"
+		    android:layout_width="match_parent"
+		    android:paddingTop="15dp"
+    		android:paddingBottom="15dp"
+		    android:paddingRight="15dp"
+		    android:paddingLeft="5dp"
+		    
+		    android:background="@null"
+		    android:gravity="right"
+		    android:textColor="#969696"
+		    android:textSize="15sp"
+		    android:id="@+id/item04_02"/>
+	</LinearLayout>
+	<View
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:background="#e0e0e0"
+        android:layout_marginLeft="15dp"/>
+	
+	<!-- 电话 -->
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        >
+		
+    	<TextView
+		    android:layout_height="wrap_content"
+		    android:layout_width="wrap_content"
+		    android:layout_marginLeft="15dp"
+		    android:layout_centerVertical="true"
+		    android:text="电话"
+		    android:textSize="16sp"
+		    android:textColor="#646464"/>	
+		<EditText
+		    android:layout_height="wrap_content"
+		    android:layout_width="match_parent"
+		    android:paddingTop="15dp"
+    		android:paddingBottom="15dp"
+		    android:paddingRight="15dp"
+		    android:paddingLeft="5dp"
+		    
+		    android:background="@null"
+		    android:gravity="right"
+		    android:inputType="phone"
+		    android:textColor="#969696"
+		    android:textSize="15sp"
+		    android:id="@+id/item04_03"/>
+	</LinearLayout>
+	<View
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:background="#e0e0e0"
+        android:layout_marginLeft="15dp"/>
+	
+    <!-- 省市县 -->
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        >
+    	<TextView
+		    android:layout_height="wrap_content"
+		    android:layout_width="wrap_content"
+		    android:layout_marginLeft="15dp"
+		    android:layout_centerVertical="true"
+		    android:text="省-市-县"
+		    android:textSize="16sp"
+		    android:textColor="#646464"/>	
+    	
+		<TextView
+		    android:layout_height="wrap_content"
+		    android:layout_width="match_parent"
+		    android:paddingTop="15dp"
+    		android:paddingBottom="15dp"
+		    android:paddingRight="15dp"
+		    android:paddingLeft="5dp"
+		    
+		    android:gravity="right"
+		    android:textColor="#969696"
+		    android:textSize="15sp"
+		    android:id="@+id/item04_04"/>
+	</LinearLayout>
+	<View
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:background="#e0e0e0"
+        android:layout_marginLeft="15dp"/>
+	
+    <!-- 详细地址 -->
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        >
+    	<TextView android:id="@+id/xiangxi"
+		    android:layout_height="wrap_content"
+		    android:layout_width="wrap_content"
+		    android:layout_marginLeft="15dp"
+		    android:layout_centerVertical="true"
+		    android:text="详细地址"
+		    android:textSize="16sp"
+		    android:textColor="#646464"/>	
+    	
+		<EditText
+		    android:layout_height="wrap_content"
+		    android:layout_width="match_parent"
+		    android:paddingTop="15dp"
+    		android:paddingBottom="15dp"
+		    android:paddingRight="15dp"
+		    android:paddingLeft="5dp"
+		
+		    android:background="@null"
+		    android:gravity="right"
+		    android:textColor="#969696"
+		    android:textSize="15sp"
+		    android:maxLength="50"
+		    android:id="@+id/item04_05"/>
+	</LinearLayout>
+	<View
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:background="#e0e0e0"
+        android:layout_marginLeft="15dp"/>
+	
+    <!-- QQ/微信 -->
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        >
+    	<TextView
+		    android:layout_height="wrap_content"
+		    android:layout_width="wrap_content"
+		    android:layout_marginLeft="15dp"
+		    android:layout_centerVertical="true"
+		    android:text="QQ/微信"
+		    android:textSize="16sp"
+		    android:textColor="#646464"/>	
+    	
+		<EditText
+		    android:layout_height="wrap_content"
+		    android:layout_width="match_parent"
+		    android:paddingTop="15dp"
+    		android:paddingBottom="15dp"
+		    android:paddingRight="15dp"
+		    android:paddingLeft="5dp"
+		    
+		    android:background="@null"
+		    android:gravity="right"
+		    android:inputType="textEmailAddress"
+		    android:textColor="#969696"
+		    android:textSize="15sp"
+		    android:id="@+id/item04_06"/>
+	</LinearLayout>
+	<View
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:background="#e0e0e0"/>
+		
+</LinearLayout>

@@ -1,0 +1,1049 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.huishangyun.yun"
+    android:versionCode="3"
+    android:versionName="1.3.0" >
+ <!-- android:versionCode="@integer/versionCode" -->
+    <!-- android:versionName="@string/versionName" -->
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <!-- 访问Internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- - 访问网络状态 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 往SDCard写入数据权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 在SDCard中创建与删除文件权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- 往SDCard写入数据权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <!-- Required  一些系统要求的权限，如访问网络等 -->
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <!-- Optional for location -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <!-- BugDy使用 权限下面有暂时注释掉 -->
+    <!-- <uses-permission android:name="android.permission.READ_PHONE_STATE" /> -->
+    <!-- <uses-permission android:name="android.permission.INTERNET" /> -->
+    <!-- <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> -->
+    <!-- <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> -->
+    <!-- <uses-permission android:name="android.permission.READ_LOGS" /> -->
+    <!-- 亲加 使用新权限 -->
+    <!-- <uses-permission android:name="android.permission.INTERNET" /> -->
+    <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> -->
+    <!-- <uses-permission android:name="android.permission.RECORD_AUDIO" /> -->
+    <!-- <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> -->
+    <!-- <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> -->
+    <!-- <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" /> -->
+    <!-- <uses-permission android:name="android.permission.READ_PHONE_STATE" /> -->
+    <!-- <uses-permission android:name="android.permission.READ_CONTACTS" /> -->
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <!-- 以下为百度地图需要用到的权限 -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+
+    <!-- 设置默认闹钟铃声权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <!-- 手机震动权限 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- 开机启动类权限设置 -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <!-- android:theme="@style/AppTheme" -->
+    <application
+        android:name="com.huishangyun.App.MyApplication"
+        android:allowBackup="false"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+
+        <!-- android:excludeFromRecents="true" -->
+        <!-- android:theme="@android:style/Theme.NoTitleBar"易注释 -->
+        <activity
+            android:name="com.huishangyun.Activity.IndexActivity"
+            android:allowBackup="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+            <!-- 打开本地app -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="huishangyun.com"
+                    android:scheme="huishang" />
+            </intent-filter>
+        </activity>
+
+        <!-- 格特拉克：扫描页面 -->
+        <activity
+            android:name="com.huishangyun.ZxingScan.CaptureActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" />
+        <!-- 格特拉克：照片删除 -->
+
+
+        <!-- 锁屏弹出窗口 -->
+        <activity
+            android:name="com.huishangyun.Activity.ScreenActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Wallpaper.NoTitleBar" />
+
+        <!-- 服务号信息 -->
+        <activity
+            android:name="com.huishangyun.Activity.SerivceIfon"
+            android:configChanges="orientation|keyboardHidden"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huishangyun.Activity.LandActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="com.huishangyun.Activity.MainActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.huishangyun.Activity.Chat"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <!-- 注册页面 -->
+        <activity
+            android:name="com.huishangyun.register.RegisterMainActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <!-- 忘记密码 -->
+        <activity
+            android:name="com.huishangyun.register.ForgetPasswordActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.huishangyun.Activity.GroupInfoActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+
+        <!-- 修改密码 -->
+        <activity
+            android:name="com.huishangyun.register.NewPasswordActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.huishangyun.register.ProvisionActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.huishangyun.Activity.CheckContacter"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huishangyun.Activity.Notes"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huishangyun.Activity.PrivateData"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huishangyun.Activity.ManagerInfo"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huishangyun.Activity.WriterEmail"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huishangyun.Activity.CompanSettingActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+
+        <!-- ************************* 渠道[Begin]***************************** -->
+        <!-- 客户 [Begin] -->
+
+        <activity
+            android:name="com.huishangyun.Channel.Customers.CustomerMainActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.huishangyun.Channel.Customers.CustomerSearchActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Transparent"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.huishangyun.Channel.Customers.CustomerLocationActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.huishangyun.Channel.Customers.CustomerMenuActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.huishangyun.Channel.Customers.CustomerChooseGroup"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.huishangyun.Channel.Customers.CustomerSet"
+            android:configChanges="orientation|keyboardHidden"
+            android:hardwareAccelerated="false"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <!-- 创建客户 -->
+
+        <activity
+            android:name="com.huishangyun.Channel.Customers.Customer_Photo"
+            android:configChanges="orientation|keyboardHidden"
+            android:hardwareAccelerated="false" />
+        <!-- 客户照片显示 -->
+
+        <activity
+            android:name="com.huishangyun.Channel.Customers.CustomerDetails"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.huishangyun.Channel.Customers.CustomerInfo"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.huishangyun.Channel.Customers.Customer_Photo2"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <!-- 客户 [End] -->
+
+
+        <!-- 任务 [Begin] -->
+        <activity
+            android:name="com.huishangyun.Channel.Task.TaskMainActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.huishangyun.Channel.Task.TaskAddActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.huishangyun.Channel.Task.TaskDetailsActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.huishangyun.Channel.Task.TaskChooseFileActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.huishangyun.Channel.Task.TaskFilelistActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.huishangyun.Channel.Task.TaskBackActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.huishangyun.Channel.Task.TaskSendActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.huishangyun.Channel.Task.SearchActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Transparent"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.huishangyun.Channel.Task.TaskOpportActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.huishangyun.Channel.Task.TaskMenuActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <!-- 任务 [End] -->
+
+
+        <!-- 线索 [Begin] -->
+        <activity
+            android:name="com.huishangyun.Channel.Clues.MainClueActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <!-- 普通人进入主界面 -->
+        <activity
+            android:name="com.huishangyun.Channel.Clues.MainClueOrdinaryEntryActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <!-- 搜索界面 -->
+        <activity
+            android:name="com.huishangyun.Channel.Clues.ClueSearchActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Transparent"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.huishangyun.Channel.Clues.NewClueActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.huishangyun.Channel.Clues.DetailClueActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.huishangyun.Channel.Clues.ModifyClueActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <!-- 线索[End] -->
+
+
+        <!-- 商机主页[Begin] -->
+        <activity
+            android:name="com.huishangyun.Channel.Opport.MainOpportActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <!-- 商机搜索界面 -->
+        <activity
+            android:name="com.huishangyun.Channel.Opport.OpportSearch"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Transparent"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+            >
+        </activity>
+
+        <!-- 普通人进入主界面 -->
+        <activity
+            android:name="com.huishangyun.Channel.Opport.MainOpportOrdinaryEntryActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <!-- 商机**创建 -->
+        <activity
+            android:name="com.huishangyun.Channel.Opport.CreateOpportActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <!-- 商机**阶段 -->
+        <activity
+            android:name="com.huishangyun.Channel.Opport.StageOpportActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <!-- 商机**时间 -->
+        <activity
+            android:name="com.huishangyun.Channel.Opport.TimeOpportActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+
+        <!-- 商机**金额 -->
+        <activity
+            android:name="com.huishangyun.Channel.Opport.MoneyOpportActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <!-- 商机**详情 -->
+        <activity
+            android:name="com.huishangyun.Channel.Opport.DetailOpportActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <!-- 商机**详情**编辑 -->
+        <activity
+            android:name="com.huishangyun.Channel.Opport.DetailEditOpportActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+            >
+        </activity>
+
+        <!-- 商机**详情**转任务 -->
+        <activity
+            android:name="com.huishangyun.Channel.Opport.DetailTurnTaskOpportActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <!-- 商机[End] -->
+
+
+        <!-- 计划 [Begin] -->
+        <activity
+            android:name="com.huishangyun.Channel.Plan.MainPlanActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <!-- 普通人进入主界面 -->
+        <activity
+            android:name="com.huishangyun.Channel.Plan.MainPlanOrdinaryEntryActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <!-- 创建计划第一步 -->
+        <activity
+            android:name="com.huishangyun.Channel.Plan.CreatePlanActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <!-- 创建计划第二步 -->
+        <activity
+            android:name="com.huishangyun.Channel.Plan.CreatePlanSecondStep"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <!-- 创建计划详情 -->
+        <activity
+            android:name="com.huishangyun.Channel.Plan.PlanDetailActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <!-- 计划搜索界面 -->
+        <activity
+            android:name="com.huishangyun.Channel.Plan.PlanSearch"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Transparent"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <!-- 选择客户 -->
+        <activity
+            android:name="com.huishangyun.Channel.Plan.CustomersListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <!-- 计划 [End] -->
+
+
+        <!-- 拜访 [Begin] -->
+        <activity
+            android:name="com.huishangyun.Channel.Visit.VisitMainActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.huishangyun.Channel.Visit.VisitNewAdd"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.huishangyun.Channel.Visit.VisitPhotoManage"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.huishangyun.Channel.Visit.PictureSkim"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <!-- 拜访 [End] -->
+
+
+        <!-- 陈列 [Begin] -->
+        <activity
+            android:name="com.huishangyun.Channel.Display.DisplayMainActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.huishangyun.Channel.Display.DisplayNewAdd"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <!-- 陈列 [End] -->
+
+
+        <!-- 竞品[Begin] -->
+        <activity
+            android:name="com.huishangyun.Channel.Competing.CompetingMainActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.huishangyun.Channel.Competing.CompetingNewAdd"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <!-- 竞品[End] -->
+
+
+        <!-- 库存[Begin] -->
+        <activity
+            android:name="com.huishangyun.Channel.stock.StockMainActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.huishangyun.Channel.stock.StockRecord"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.huishangyun.Channel.stock.StockReport"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.huishangyun.Channel.stock.StockProduct"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <!-- 库存[End] -->
+
+
+        <!-- ************************* 渠道[End]***************************** -->
+
+
+        <!-- ************************* 办公[Start]***************************** -->
+        <!-- 考勤[Start] -->
+        <activity
+            android:name="com.huishangyun.Office.Attendance.MainAttendanceActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.huishangyun.Office.Attendance.AttendanceRemind"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.huishangyun.Office.Attendance.MyAttendance"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.huishangyun.Office.Attendance.OfficePhotoSkim"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <!-- 注册闹钟接收 -->
+        <receiver android:name="com.huishangyun.Office.Clock.AlarmReceiver" />
+
+        <activity
+            android:name="com.huishangyun.Office.Clock.RemindShow"
+            android:configChanges="orientation|keyboardHidden|keyboard|navigation"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:taskAffinity=""
+            android:theme="@android:style/Theme.Wallpaper.NoTitleBar" />
+        <!-- 考勤[End] -->
+
+
+        <!-- 信息[Start] -->
+        <activity
+            android:name="com.huishangyun.Office.Information.MainInformation"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <!-- 信息[End] -->
+
+
+        <!-- 审批[Start] -->
+        <activity
+            android:name="com.huishangyun.Office.Approval.MainApproval"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <!-- 审批[End] -->
+
+
+        <!-- 出差[Start] -->
+        <activity
+            android:name="com.huishangyun.Office.Businesstrip.MainBusinesTrip"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.huishangyun.Office.Businesstrip.AddBusinessTrip"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.huishangyun.Office.Businesstrip.BusinessTripDetailActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.huishangyun.Office.Businesstrip.BusinessTripDetail"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.huishangyun.Office.Businesstrip.MainOrdinaryEntryActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <!-- 出差[End] -->
+
+
+        <!-- 请假[Start] -->
+        <activity
+            android:name="com.huishangyun.Office.Askforleave.MainAskForLeaveActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.huishangyun.Office.Askforleave.AddAskForLeaveActivivty"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.huishangyun.Office.Askforleave.DetailAskForLeaveActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.huishangyun.Office.Askforleave.MainAskForLeaveOrdinaryEntryActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <!-- 请假[End] -->
+
+
+        <!-- 小结[Start] -->
+        <activity
+            android:name="com.huishangyun.Office.Summary.MainSummaryActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.huishangyun.Office.Summary.SummaryReport"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.huishangyun.Office.Summary.SummaryDetailActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.huishangyun.Office.Summary.MainSummaryOrdinaryEntryActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <!-- 小结[End] -->
+        <!-- 闹钟开机启动设置 -->
+        <receiver android:name="com.huishangyun.Office.Clock.BootCompletedReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <!-- 围观[Start] -->
+        <activity
+            android:name="com.huishangyun.Office.WeiGuan.MainOnlookersActivivty"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.huishangyun.Office.WeiGuan.CreateOnlookersActivivty"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.huishangyun.Office.WeiGuan.OnLooksDetails"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.huishangyun.Office.WeiGuan.MyOnlookersActivivty"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.huishangyun.Office.WeiGuan.MyOnLooksComment"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.huishangyun.Office.WeiGuan.SendOnLooksCommentActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.huishangyun.Office.WeiGuan.TopOnlookActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+
+        <!-- 围观[End] -->
+
+
+        <!-- 获取定位Map[Start] -->
+
+        <activity
+            android:name="com.huishangyun.Office.Location.Map"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+
+        <!-- 获取定位Map[End] -->
+
+
+        <!-- ************************* 办公[End]***************************** -->
+
+
+        <!-- 服务号打开详细信息页 -->
+        <activity
+            android:name="com.huishangyun.Activity.ChatWebview"
+            android:configChanges="orientation|keyboardHidden"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+
+        <!-- 设置-个人信息页 -->
+        <activity
+            android:name="com.huishangyun.Activity.ChangeUserInfo"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.huishangyun.Activity.CharHistory"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+
+        <!-- 设置-关于 -->
+        <activity
+            android:name="com.huishangyun.Activity.SettingAbout"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+
+        <!-- ************************* 订单[star]***************************** -->
+        <activity android:name="com.huishangyun.Channel.Orders.OrderMainActivity" />
+        <!-- 主界面 -->
+        <activity android:name="com.huishangyun.Channel.Orders.ShopCarActivity" />
+        <!-- 购物车 -->
+        <activity android:name="com.huishangyun.Channel.Orders.ShopCar_GoodsListActivity" />
+        <!-- 提交订单那前的产品清单（和购物车一样，但要提交） -->
+
+        <activity android:name="com.huishangyun.Channel.Orders.ShouCangActivity" />
+        <!-- 收藏 -->
+
+        <activity android:name="com.huishangyun.Channel.Orders.DingDanListActivity" />
+        <!-- 订单展示列表 -->
+        <activity android:name="com.huishangyun.Channel.Orders.TuiDanListActivity" />
+        <!-- 退货单展示列表 -->
+
+        <activity android:name="com.huishangyun.Channel.Orders.DingDan_CommonActivity" />
+        <!-- 普通员工订单列表页面 -->
+
+        <activity
+            android:name="com.huishangyun.Channel.Orders.FindActivity"
+            android:theme="@style/Transparent" />
+        <!-- 查询 -->
+
+        <activity android:name="com.huishangyun.Channel.Orders.DatailsActivity" />
+        <!-- 产品详情 -->
+
+        <activity android:name="com.huishangyun.Channel.Orders.DingDanActivity" />
+        <!-- 订单管理 -->
+
+        <activity android:name="com.huishangyun.Channel.Orders.FenleiActivity" />
+        <!-- 产品分类 -->
+
+        <activity android:name="com.huishangyun.Channel.Orders.SubmitActivity" />
+        <!-- 提交订单 -->
+
+        <activity android:name="com.huishangyun.Channel.Orders.AddressActivity" />
+        <!-- 收货信息 -->
+        <activity android:name="com.huishangyun.Channel.Orders.AddressNewActivity" />
+        <!-- 新建收货信息 -->
+
+        <activity android:name="com.huishangyun.Channel.Orders.GoodsListActivity" />
+        <!-- 产品清单 -->
+        <activity android:name="com.huishangyun.Channel.Orders.GoodsListTuiActivity" />
+        <!-- 退货产品清单 -->
+        <activity android:name="com.huishangyun.Channel.Orders.GoodsList_notActivity" />
+        <!-- 不能修改的产品清单 -->
+
+        <activity android:name="com.huishangyun.Channel.Orders.DingDanDatailsActivity" />
+        <!-- 订单详情 -->
+        <activity android:name="com.huishangyun.Channel.Orders.TuiDanDatailsActivity" />
+        <!-- 退单详情 -->
+
+        <activity android:name="com.huishangyun.Channel.Orders.DingDanCopyActivity" />
+        <!-- 复制订单 -->
+
+        <activity android:name="com.huishangyun.Channel.Orders.LogActivity" />
+        <!-- 订单日志 -->
+        <!-- ************************* 订单[end]***************************** -->
+
+
+        <!-- 销量上报 -->
+        <activity
+            android:name="com.huishangyun.Channel.xiaoliang.XiaoLiang"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <!-- 销售计划 -->
+        <activity
+            android:name="com.huishangyun.Channel.xiaoliang.XiaoShouPlan"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.huishangyun.service.PhoneActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huishangyun.yindao.GuideActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+
+        <!-- 正邦集团客户 Start -->
+
+        <activity
+            android:name="com.huishangyun.Erp.AdjustActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huishangyun.Erp.CustomerfileActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huishangyun.Erp.DeliveryActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huishangyun.Erp.GatheringActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huishangyun.Erp.PaymentsActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huishangyun.Erp.GoodfilesActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huishangyun.Erp.OrderGoodsActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huishangyun.Erp.ReportsearchActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huishangyun.Erp.SelectActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huishangyun.Office.Location.ManagersLocation"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huishangyun.Office.Businesstrip.ImagePagerActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huishangyun.Office.Markman.MarkMainActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.huishangyun.Office.Markman.MarkAddActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+
+        <!-- 正邦集团客户 End -->
+
+        <activity
+            android:name="com.huishangyun.Office.Markman.MarkManListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" />
+
+        <!-- 自定义后台服务 -->
+        <service android:name="com.huishangyun.service.HSChatService" />
+        <service
+            android:name="com.huishangyun.service.PhoneService"
+            android:enabled="true"
+            android:exported="false"
+            android:process=":remote" />
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" />
+
+        <receiver
+            android:name="com.huishangyun.service.ReStartReceiver"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 来电监听 -->
+        <!--
+        <receiver 
+            android:name="PhoneReceiver"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE"/> 
+				<action android:name="android.intent.action.NEW_OUTGOING_CALL" /> 
+            </intent-filter>
+        </receiver>
+        -->
+
+        <receiver
+            android:name="com.huishangyun.service.UserPresentReceiver"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT" />
+            </intent-filter>
+        </receiver>
+        <!--
+            正式key 9eR677QGZ7u8Plk0MizuQW0E
+            测试key ACSWy6viY2ObcbFRF5frCFU8
+        -->
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="9eR677QGZ7u8Plk0MizuQW0E" />
+
+        <service
+            android:name="com.huishangyun.service.LocationService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <!-- 配置APP ID -->
+        <meta-data
+            android:name="BUGLY_APPID"
+            android:value="900052149" />
+        <!-- 配置APP版本号 -->
+        <meta-data
+            android:name="BUGLY_APP_VERSION"
+            android:value="1.2.0" />
+        <!-- 配置APP渠道号 -->
+        <meta-data
+            android:name="BUGLY_APP_CHANNEL"
+            android:value="APP Channel" />
+        <!-- 配置Bugly调试模式（true或者false） -->
+        <meta-data
+            android:name="BUGLY_ENABLE_DEBUG"
+            android:value="true" />
+
+        <!-- 测试 -->
+        <activity android:name="com.huishangyun.Test.TestActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

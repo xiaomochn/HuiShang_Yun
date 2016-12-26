@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/width_4_80"
+    android:paddingRight="@dimen/width_4_80"
+    android:paddingBottom="@dimen/width_3_80"
+    android:paddingTop="@dimen/width_3_80" >
+    
+    <ImageView android:id="@+id/img_item_icon"
+        android:layout_width="wrap_content"	android:layout_height="wrap_content"
+        android:src="@drawable/message_icon01"	android:scaleType="fitCenter" 
+        android:layout_centerVertical="true"	android:minHeight="@dimen/width_5_80"
+        android:minWidth="@dimen/width_5_80"/>
+    <TextView  android:id="@+id/tv_item_title"
+        style="@style/text_size_7"
+        android:text="@string/hello_world"	android:textColor="@color/m_black"
+        android:layout_toRightOf="@+id/img_item_icon"
+        android:layout_marginLeft="@dimen/width_3_80" android:layout_centerVertical="true"/>
+    
+    <TextView  android:id="@+id/tv_item_count"
+        style="@style/text_size_6"
+        android:text="@string/hello_world"	android:textColor="@color/theme"
+        android:layout_toLeftOf="@+id/img_item_arrow_right"
+        android:layout_marginRight="@dimen/width_3_80" android:layout_centerVertical="true"/>
+    
+   <ImageView android:id="@+id/img_item_arrow_right"
+        android:layout_width="wrap_content"	android:layout_height="wrap_content"
+        android:src="@drawable/arr01"	android:scaleType="fitCenter" 
+        android:layout_centerVertical="true"	android:layout_alignParentRight="true"/>
+    
+
+</RelativeLayout>

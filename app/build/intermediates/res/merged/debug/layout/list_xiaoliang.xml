@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>   
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+   	
+    <View
+        android:layout_height="match_parent"
+        android:layout_width="1dp"
+        android:background="#e0e0e0"/>
+    
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="#ffffff">
+        <!-- 产品单位 -->
+        <LinearLayout
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent"
+	        android:paddingLeft="10dp"
+	        android:paddingTop="5dp"
+	        android:paddingBottom="5dp"
+	        android:background="#ededed">
+           <TextView android:id="@+id/chanpin"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"	                
+                android:singleLine="true"
+                android:textSize="13sp"
+                android:textColor="#646464"
+                android:text="产品"/>
+           <TextView android:id="@+id/danwei"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"	                
+                android:singleLine="true"
+                android:textSize="12sp"
+               	android:textColor="#646464"
+                android:text="（瓶）"/>
+        </LinearLayout>
+        
+        <View
+          android:layout_height="1dp"
+          android:layout_width="match_parent"
+          android:background="#e0e0e0"/>
+           
+        <!-- 五个排列数据 -->
+           <LinearLayout
+		        android:layout_height="wrap_content"
+		        android:layout_width="match_parent"
+		        android:gravity="center">           
+	           <TextView android:id="@+id/xiaoliang"
+	               android:layout_height="match_parent"
+	               android:layout_width="0dp"
+	               android:layout_weight="1"
+	               android:layout_marginTop="10dp"
+	               android:layout_marginBottom="10dp"
+	               android:gravity="center"
+	               android:textSize="13sp"
+	               android:textColor="#646464"
+	               android:text="销量"/>
+	           <View
+		            android:layout_height="match_parent"
+		            android:layout_width="1dp"
+		            android:background="#e0e0e0"/>	           
+	           <TextView android:id="@+id/daohuo"
+	               android:layout_height="match_parent"
+	               android:layout_width="0dp"
+	               android:layout_weight="1"
+	               android:layout_marginTop="10dp"
+	               android:layout_marginBottom="10dp"
+	               android:gravity="center"
+	               android:textSize="13sp"
+	               android:textColor="#646464"
+	               android:text="到货"/>
+	           <View
+		            android:layout_height="match_parent"
+		            android:layout_width="1dp"
+		            android:background="#e0e0e0"/>
+	           
+	           <TextView android:id="@+id/jingpin"
+	               android:layout_height="match_parent"
+	               android:layout_width="0dp"
+	               android:layout_weight="1"
+	               android:layout_marginTop="10dp"
+	               android:layout_marginBottom="10dp"
+	               android:gravity="center"
+	               android:textSize="13sp"
+	               android:textColor="#646464"
+	               android:text="竞品"/>
+	           <View
+		            android:layout_height="match_parent"
+		            android:layout_width="1dp"
+		            android:background="#e0e0e0"/>
+	           
+	           <TextView android:id="@+id/tuihuo"
+	               android:layout_height="match_parent"
+	               android:layout_width="0dp"
+	               android:layout_weight="1"
+	               android:layout_marginTop="10dp"
+	               android:layout_marginBottom="10dp"
+	               android:gravity="center"
+	               android:textSize="13sp"
+	               android:textColor="#646464"
+	               android:text="退货"/>
+	           <View
+		            android:layout_height="match_parent"
+		            android:layout_width="1dp"
+		            android:background="#e0e0e0"/>
+	           
+	           <TextView android:id="@+id/qizhong"
+	               android:layout_height="match_parent"
+	               android:layout_width="0dp"
+	               android:layout_weight="1"
+	               android:layout_marginTop="10dp"
+	               android:layout_marginBottom="10dp"
+	               android:gravity="center"
+	               android:textSize="13sp"
+	               android:textColor="#646464"
+	               android:text="其中"/>
+		   </LinearLayout>
+		   
+          <View
+            android:layout_height="1dp"
+            android:layout_width="match_parent"
+            android:background="#e0e0e0"/>
+      </LinearLayout>
+      
+    
+   	<View
+        android:layout_height="match_parent"
+        android:layout_width="1dp"
+        android:background="#e0e0e0"/>       
+</LinearLayout>
+    

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="10dp" >
+
+    <TextView
+        android:id="@+id/task_proglist_progname"
+        android:layout_width="20dp"
+        android:layout_height="fill_parent"
+        android:background="#0688ec"
+        android:ems="1"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text="进度①"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="0.0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:orientation="vertical"
+        android:background="@drawable/task_progtxt" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="5dp" >
+
+            <!--
+                 <ImageView 
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/names"/>			<TextView 
+			    android:layout_width="wrap_content"
+			    android:layout_height="fill_parent"
+			    android:gravity="center_vertical"
+			    android:textSize="15sp"
+			    android:textColor="#969696"
+			    android:text="石晓晓"
+			    android:layout_marginLeft="2dp"/>
+            -->
+
+            <LinearLayout
+                android:layout_width="0.0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.2"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/names" />
+
+                <TextView
+                    android:id="@+id/task_proglist_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_vertical"
+                    android:text="石晓晓"
+                    android:textColor="#969696"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <!--
+            <ImageView 
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/percentage"
+                android:layout_marginLeft="25dp"/>
+			<TextView 
+			    android:layout_width="wrap_content"
+			    android:layout_height="fill_parent"
+			    android:gravity="center_vertical"
+			    android:textSize="15sp"
+			    android:textColor="#969696"
+			    android:text="20%"
+			    android:layout_marginLeft="5dp"/>
+            -->
+
+            <LinearLayout
+                android:layout_width="0.0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/percentage" />
+
+                <TextView
+                    android:id="@+id/task_proglist_prog"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_vertical"
+                    android:text="20%"
+                    android:textColor="#969696"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0.0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2.0"
+                android:gravity="center_vertical|right"
+                android:orientation="horizontal"
+                android:paddingRight="5dp" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/submitted" />
+
+                <TextView
+                    android:id="@+id/task_proglist_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_vertical"
+                    android:text="2014-08-13"
+                    android:textColor="#969696"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+        
+        <!-- 描述 -->
+        <View 
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="#0C8AED"/>
+        
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp">
+            <ImageView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/descri"/>
+            <TextView
+                android:id="@+id/task_proglist_miaoshu"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_vertical"
+                    android:text="精度不是很好"
+                    android:textColor="#969696"
+                    android:textSize="14sp" />
+        </LinearLayout>
+        
+        <View 
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="#0C8AED"/>
+        
+        <LinearLayout 
+            android:id="@+id/task_proglist_line"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            
+            
+        </LinearLayout>
+        
+    </LinearLayout>
+
+</LinearLayout>

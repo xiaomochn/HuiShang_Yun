@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"	android:layout_height="wrap_content"
+    android:orientation="horizontal" android:paddingTop="@dimen/width_4_80"
+    android:paddingLeft="@dimen/width_4_80" android:paddingRight="@dimen/width_4_80"
+    android:gravity="center">
+    
+    <EditText	android:id="@id/et_writeremail_content"
+        android:layout_weight="0.75"	android:background="@drawable/chat_msgs"
+        android:layout_width="0.0dip"	android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/width_1_80"	/>
+    
+    <ImageView android:id="@id/img_writeremail_addicon"
+        style="@style/used_min_6"	android:src="@drawable/user_add"
+        android:layout_width="0.0dip"	android:layout_height="wrap_content"
+        android:layout_weight="0.25" android:layout_gravity="center"/>
+
+</LinearLayout>

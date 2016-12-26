@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:id="@+id/head_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#21a5de" >
+
+        <RelativeLayout
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:background="@drawable/btn_for_channel" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/back" />
+
+            <TextView
+                android:id="@+id/headname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="40dp"
+                android:paddingRight="15dp"
+                android:text="审批"
+                android:textColor="#ffffff"
+                android:textSize="22sp" />
+        </RelativeLayout>
+    
+    </RelativeLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        >
+        <TextView 
+            android:id="@+id/start"
+            android:layout_width="0.0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:textSize="17sp"
+            android:textColor="#21a5de"
+            android:text="发起"/>
+         <TextView 
+            android:id="@+id/todo"
+            android:layout_width="0.0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:textSize="17sp"
+            android:textColor="#646464"
+            android:text="待办(4)"/>
+         
+          <TextView 
+            android:id="@+id/reminders"
+            android:layout_width="0.0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:textSize="17sp"
+            android:textColor="#646464"
+            android:text="催办"/>
+          
+         <TextView 
+            android:id="@+id/search"
+            android:layout_width="0.0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:textSize="17sp"
+            android:textColor="#646464"
+            android:text="查询"/>
+        
+    </LinearLayout>
+    
+      <ImageView   
+        android:id="@+id/cursor"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:layout_marginTop="-2dp"
+        android:scaleType="matrix"  
+        android:src="@drawable/approval_line"/> 
+        
+     
+      
+    <android.support.v4.view.ViewPager  
+        android:id="@+id/viewpager"  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent"  
+        android:flipInterval="30"  
+        android:persistentDrawingCache="animation"/>  
+
+</LinearLayout>

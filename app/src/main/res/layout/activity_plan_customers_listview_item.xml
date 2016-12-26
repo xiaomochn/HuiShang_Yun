@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/item_left"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#ffffff"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="15dp" >
+
+            <TextView
+                android:id="@+id/company_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="江西亿华科技股份有限公司"
+                android:textColor="#646464"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/company_adress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="2dp"
+                android:text="南昌高新火炬大街559号"
+                android:textColor="#c8c8c8"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="15dp"
+            android:background="#e0e0e0" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/item_right"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#e60000"
+        android:gravity="center" >
+
+        <!-- 删除按钮 -->
+
+        <TextView
+            android:id="@+id/delete"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:background="#e60000"
+            android:gravity="center"
+            android:text="删除"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

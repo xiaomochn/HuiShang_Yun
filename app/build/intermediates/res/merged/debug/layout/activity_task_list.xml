@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <include layout="@layout/main_title" />
+
+        <include layout="@layout/task_scroll_top" />
+        <TextView 
+	        android:id="@+id/task_customer_name"
+	        android:layout_width="fill_parent"
+	        android:layout_height="40dp"
+	        android:gravity="center_vertical"
+	        android:paddingLeft="15dp"
+	        android:textSize="16sp"
+	        android:textColor="#646464"
+	        android:text="客户名称"
+	        android:background="#ffffff"
+	        android:visibility="gone"/>
+		<FrameLayout 
+		    android:layout_width="fill_parent"
+            android:layout_height="0.0dp"
+            android:layout_weight="1.0">
+		    <android.support.v4.view.ViewPager
+	            android:id="@+id/viewpager_miantask"
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+	            android:layout_weight="1.0"
+	            android:background="#f0f0f0" 
+	            android:visibility="visible"/>
+		    
+		</FrameLayout>
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/task_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone">
+        <View 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#7F000000"/>
+    </LinearLayout>
+
+</RelativeLayout>

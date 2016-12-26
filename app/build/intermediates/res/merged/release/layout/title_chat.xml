@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/title_chat"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:background="#383838"
+    android:minHeight="@dimen/height_6_80" >
+
+    <ImageView
+        android:id="@+id/img_title_chat_back"
+        style="@style/used_min_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/width_3_80"
+        android:contentDescription="@string/hello_world"
+        android:scaleType="fitCenter"
+        android:src="@drawable/head_back" />
+
+    <TextView
+        android:id="@+id/tv_title_chat_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@color/m_white"
+        android:textSize="@dimen/text_9" />
+
+    <ImageView
+        android:id="@+id/img_title_chat_icon1"
+        style="@style/used_min_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/width_13_80"
+        android:layout_toLeftOf="@+id/img_title_chat_icon2"
+        android:contentDescription="@string/hello_world"
+        android:scaleType="fitCenter"
+        android:visibility="visible"
+        android:src="@drawable/head_profile" />
+
+    <ImageView
+        android:id="@+id/img_title_chat_icon2"
+        style="@style/used_min_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/width_3_80"
+        android:contentDescription="@string/hello_world"
+        android:scaleType="fitCenter"
+        android:src="@drawable/head_profile" />
+
+</RelativeLayout>

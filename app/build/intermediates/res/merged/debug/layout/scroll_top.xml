@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/contact_scroll_layout"
+    android:layout_width="match_parent"
+    android:layout_height="38dp"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/contact_tongshi"
+            android:layout_width="0.0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@null"
+            android:text="同事"
+            android:textColor="#646464"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/contact_qun"
+            android:layout_width="0.0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@null"
+            android:text="群组"
+            android:textColor="#646464"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/contact_kehu"
+            android:layout_width="0.0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@null"
+            android:text="客户"
+            android:textColor="#646464"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="3dp" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="bottom"
+            android:background="#e0e0e0" />
+
+        <ImageView
+            android:id="@+id/contact_line"
+            android:layout_width="@dimen/width_26_80"
+            android:layout_height="3dp"
+            android:background="#00658f" />
+    </FrameLayout>
+
+</LinearLayout>

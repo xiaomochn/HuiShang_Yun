@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <include layout="@layout/title_work" />
+    
+    <LinearLayout android:id="@+id/lay_activity_notice_top"
+        style="@style/used_width_match"	android:layout_below="@id/title_work">
+    	<include layout="@layout/scroll_top" />
+    </LinearLayout>"
+    
+    <com.huishangyun.View.MyScrollLayout
+        android:id="@+id/myscolllayout_notice"
+        style="@style/used_match"	android:layout_below="@+id/lay_activity_notice_top">
+        
+            <ListView android:id="@+id/listview_notice_all"
+               style="@style/used_width_match"	
+               android:scrollbars="@null"
+               android:cacheColorHint="@null" />
+        
+             <ListView android:id="@+id/listview_notice_read"
+               style="@style/used_width_match"	
+               android:scrollbars="@null"
+               android:cacheColorHint="@null" />
+        
+             <ListView android:id="@+id/listview_notice_unread"
+               style="@style/used_width_match"	
+               android:scrollbars="@null"
+               android:cacheColorHint="@null" />
+    </com.huishangyun.View.MyScrollLayout>
+    
+    
+ 	<LinearLayout android:id="@id/lay_loading"
+        style="@style/used_width_match"	android:layout_alignParentBottom="true"
+        android:visibility="gone">
+    	<include layout="@layout/loading" />
+    </LinearLayout>"
+	
+</RelativeLayout>

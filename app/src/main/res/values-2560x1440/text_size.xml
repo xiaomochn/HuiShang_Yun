@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ 	<dimen name="text_9">24.0sp</dimen>
+    <dimen name="text_8">22.0sp</dimen>
+    <dimen name="text_7">19.0sp</dimen>
+    <dimen name="text_6">18.0sp</dimen>
+    <dimen name="text_5">17.0sp</dimen>
+    <dimen name="text_4">16.0sp</dimen>
+    <dimen name="text_3">15.0sp</dimen>
+    <dimen name="text_2">14.0sp</dimen>
+    <dimen name="text_1">13.0sp</dimen>
+    
+    <dimen name="text_work_item">14.0sp</dimen>
+    
+</resources>

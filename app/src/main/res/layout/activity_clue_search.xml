@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+      <!-- 搜索栏 -->
+     <LinearLayout
+        android:id="@+id/search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+         android:background="#00658f"
+       
+         >
+         
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="#00658f" >
+         
+
+            <RelativeLayout
+                android:id="@+id/back"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/title_background" >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/back" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/search"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true" 
+                android:background="@drawable/title_background">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/research" />
+            </RelativeLayout>
+          
+             <EditText
+                android:id="@+id/ed_text"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/ed"
+                android:layout_toLeftOf="@+id/search"
+                android:layout_toRightOf="@+id/back"
+                android:paddingLeft="10dp"
+                android:textCursorDrawable="@null"
+                android:gravity="center_vertical"               
+                android:layout_centerVertical="true"
+                android:hint="请输入公司名称或者联系人"
+                android:textColor="#646464"
+                android:textColorHint="#c8c8c8"
+                android:textSize="14sp" /> 
+                
+           
+        </RelativeLayout>
+    </LinearLayout>
+  
+ <FrameLayout 
+        android:id="@+id/child_fragment"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        >
+   
+    <!--第一层 listview界面  -->
+  <LinearLayout
+      android:id="@+id/listview_backgroud"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:orientation="horizontal"
+     android:background="#f0f0f0"
+    android:visibility="gone"
+      >
+    
+<com.huishangyun.swipelistview.MyXListView
+        android:id="@+id/search_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+         android:divider="#f0f0f0"
+        android:dividerHeight="5dp"       
+        android:fadingEdge="none"
+	    android:cacheColorHint="#00000000"
+	    android:scrollbars="none"
+        />
+</LinearLayout>
+
+<!--第二层 半透明界面 --> 
+ <RelativeLayout
+            android:id="@+id/transparent_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            />
+ 
+  <!-- 第三层 用于当搜索无结果时，提示！ -->
+    <LinearLayout
+        android:id="@+id/search_hint"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+        >
+
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/button_nosearch"/>
+        
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#f0f0f0"
+            android:textSize="20sp"
+            android:text="搜索无结果"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            />
+    </LinearLayout>
+
+ </FrameLayout>
+</LinearLayout>

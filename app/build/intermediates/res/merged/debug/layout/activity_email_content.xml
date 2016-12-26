@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <include layout="@layout/title_chat"/>
+    
+    <ScrollView 
+        style="@style/used_width_match"	android:scrollbars="@null"
+        android:layout_below="@id/title_chat">
+        <LinearLayout
+            style="@style/used_match"	android:orientation="vertical"
+            android:padding="@dimen/width_2_80">
+            <TextView android:id="@id/tv_title"
+                style="@style/text_size_7"	android:text="@string/hello_world" 
+                android:layout_width="match_parent"	android:layout_height="wrap_content"
+                android:padding="@dimen/width_1_80"	android:gravity="center" />
+
+            <TextView android:id="@id/tv_author"
+                android:textSize="@dimen/text_4"	android:text="@string/hello_world" 
+                style="@style/used_width_match"	android:layout_weight="1.0"
+                android:layout_marginLeft="@dimen/width_1_80"
+                android:textColor="@color/m_gray" android:gravity="center"/>
+            <TextView android:id="@id/tv_datetime"
+                android:textSize="@dimen/text_4"	android:text="@string/hello_world" 
+                style="@style/used_width_match"	android:layout_weight="1.0"
+                android:layout_marginLeft="@dimen/width_1_80"
+                android:textColor="@color/m_gray" android:gravity="center"/>
+            
+            <View style="@style/used_horizontal_line"	android:background="@color/h_Transparent"
+                android:layout_marginTop="@dimen/width_2_80"	/>
+            
+            <TextView android:id="@id/tv_content"
+                style="@style/used_width_match"  android:padding="@dimen/width_2_80"
+                android:textIsSelectable="true"/>          
+            
+        </LinearLayout>
+    </ScrollView>
+	
+</RelativeLayout>

@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:fadingEdge="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    
+	    <!-- 头 -->
+	    <RelativeLayout android:id="@+id/title_weihu"
+	        android:layout_width="match_parent"
+	        android:layout_height="50dp"
+	        android:background="@drawable/head_saomiao" >
+	
+	        <ImageView
+	            android:id="@+id/back"
+	            android:layout_width="40dp"
+	            android:layout_height="match_parent"
+	            android:layout_centerVertical="true"
+	            android:background="@drawable/gtlk_back"
+	            android:scaleType="center"
+	            android:src="@drawable/left" />
+	
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerInParent="true"
+	            android:text="信息维护"
+	            android:textColor="#ffffff"
+	            android:textSize="21sp" />
+	
+	        <ImageView
+	            android:id="@+id/search"
+	            android:layout_width="40dp"
+	            android:layout_height="match_parent"
+	            android:layout_alignParentRight="true"
+	            android:layout_centerVertical="true"
+	            android:background="@drawable/gtlk_back"
+	            android:scaleType="center"
+	            android:src="@drawable/search" />
+	    </RelativeLayout>
+	
+	    <!-- 内容 -->
+	    <LinearLayout 
+	      android:id="@+id/context"
+	      android:layout_width="match_parent"
+	      android:layout_height="wrap_content"
+	      android:layout_below="@id/title_weihu"
+	      android:gravity="center_vertical"
+	      android:layout_marginTop="10dp"
+	      android:orientation="vertical" >
+	      
+	      <!-- 客户名称 -->
+	      <LinearLayout
+	          android:layout_width="match_parent"
+	          android:layout_height="50dp"
+	          android:background="@drawable/text1"
+	          android:paddingLeft="10dp" >
+	
+	          <TextView
+	              android:layout_width="wrap_content"
+	              android:layout_height="wrap_content"
+	              android:layout_gravity="center_vertical"
+	              android:text="客户名称"
+	              android:textSize="18sp" />
+	
+	          <EditText
+	              android:id="@+id/edt_name"
+	              android:layout_width="match_parent"
+	              android:layout_height="match_parent"
+	              android:layout_weight="1"
+	              android:background="@null"
+	              android:paddingLeft="10dp" />
+	
+	          <ImageView
+	              android:id="@+id/img_name"
+	              android:layout_width="40dp"
+	              android:layout_height="match_parent"
+	              android:gravity="center_vertical|right"
+	              android:scaleType="center"
+	              android:src="@drawable/right" />
+	      </LinearLayout>
+	
+	      <ListView
+	          android:id="@+id/list_name"
+	          android:layout_width="match_parent"
+	          android:layout_height="200dp"
+	          android:background="@drawable/search_drop_down2"
+	          android:visibility="gone" />
+	      
+	      <!-- 产品型号 -->
+	      <LinearLayout
+	          android:layout_width="match_parent"
+	          android:layout_height="50dp"
+	          android:background="@drawable/text1"
+	          android:paddingLeft="10dp" >
+	
+	          <TextView
+	              android:layout_width="wrap_content"
+	              android:layout_height="wrap_content"
+	              android:layout_gravity="center_vertical"
+	              android:text="产品型号"
+	              android:textSize="18sp" />
+	
+	          <EditText
+	              android:id="@+id/edt_size"
+	              android:layout_width="match_parent"
+	              android:layout_height="match_parent"
+	              android:imeOptions="actionNext"
+	              android:layout_weight="1"
+	              android:background="@null"
+	              android:paddingLeft="10dp" />
+	
+	          <ImageView
+	              android:id="@+id/img_size"
+	              android:layout_width="40dp"
+	              android:layout_height="match_parent"
+	              android:gravity="center_vertical|right"
+	              android:scaleType="center"
+	              android:src="@drawable/right" />
+	      </LinearLayout>
+	
+	      <ListView
+	          android:id="@+id/list_size"
+	          android:layout_width="match_parent"
+	          android:layout_height="200dp"
+	          android:background="@drawable/search_drop_down2"
+	          android:visibility="gone" />
+	
+	      <!-- 所属日期 -->
+	      <LinearLayout
+	          android:layout_width="match_parent"
+	          android:layout_height="50dp"
+	          android:background="@drawable/text1"
+	          android:paddingLeft="10dp" >
+	
+	          <TextView
+	              android:layout_width="wrap_content"
+	              android:layout_height="wrap_content"
+	              android:layout_gravity="center_vertical"
+	              android:text="所属日期"
+	              android:textSize="18sp" />
+	
+	          <TextView
+	              android:id="@+id/tv_date"
+	              android:layout_width="wrap_content"
+	              android:layout_height="wrap_content"
+	              android:layout_gravity="center_vertical"
+	              android:layout_weight="1"
+	              android:textSize="18sp"
+	              android:paddingLeft="10dp" />
+	
+	          <ImageView
+	              android:id="@+id/img_date"
+	              android:layout_width="40dp"
+	              android:layout_height="match_parent"
+	              android:gravity="center_vertical|right"
+	              android:scaleType="center"
+	              android:src="@drawable/right" />
+	      </LinearLayout>
+	    </LinearLayout>
+    
+            <!-- 实际装机数 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/text1" >
+
+                <TextView
+                    android:layout_width="115dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical|right"
+                    android:text="实际装机数" />
+
+                <EditText
+                    android:id="@+id/edt_01"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:imeOptions="actionNext"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:numeric="integer"
+                    android:paddingLeft="5dp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|right"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/editor" />
+            </LinearLayout>
+            
+            <!-- 实际到货数 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/text1" >
+
+                <TextView
+                    android:layout_width="115dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical|right"
+                    android:text="实际到货数" />
+
+                <EditText
+                    android:id="@+id/edt_02"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:imeOptions="actionNext"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:numeric="integer"
+                    android:paddingLeft="5dp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|right"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/editor" />
+            </LinearLayout>
+            
+            <!-- 竞争对手装机数 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/text1" >
+
+                <TextView
+                    android:layout_width="115dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical|right"
+                    android:text="竞争对手装机数" />
+
+                <EditText
+                    android:id="@+id/edt_03"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:imeOptions="actionNext"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:numeric="integer"
+                    android:paddingLeft="5dp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|right"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/editor" />
+            </LinearLayout>
+            
+            <!-- 自动挡装机数 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/text1" >
+
+                <TextView
+                    android:layout_width="115dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical|right"
+                    android:text="自动挡装机数" />
+
+                <EditText
+                    android:id="@+id/edt_04"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:imeOptions="actionNext"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:numeric="integer"
+                    android:paddingLeft="5dp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|right"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/editor" />
+            </LinearLayout>
+            
+            <!-- 退货数量 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/text1" >
+
+                <TextView
+                    android:layout_width="115dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical|right"
+                    android:text="退货数量" />
+
+                <EditText
+                    android:id="@+id/edt_05"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:imeOptions="actionDone"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:numeric="integer"
+                    android:paddingLeft="5dp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|right"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/editor" />
+            </LinearLayout>
+
+		    <Button
+		        android:id="@+id/bt_submit"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="30dp"
+		        android:layout_marginRight="30dp"
+		        android:layout_marginTop="20dp"
+		        android:background="@drawable/gtlk_submit"
+		        android:paddingBottom="10dp"
+		        android:paddingTop="10dp"
+		        android:text="提交"
+		        android:textColor="#ffffff"
+		        android:textSize="18sp" />
+		    
+		    <ListView
+		        android:layout_height="wrap_content"
+		        android:layout_width="match_parent"
+		        android:id="@+id/submitnot"
+		        android:layout_marginTop="40dp"
+		        android:layout_marginBottom="20dp"
+		        android:visibility="gone"/>
+		    
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="10dp" >
+
+    <include layout="@layout/back_title" />
+
+    <com.huishangyun.View.BounceScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#eeeeee"
+        android:fillViewport="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/chage_user_head"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/setting_back"
+                android:gravity="center_vertical"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="15dp"
+                    android:text="头像:"
+                    android:textColor="#646464"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/chage_head"
+                    android:layout_width="31dp"
+                    android:layout_height="31dp"
+                    android:layout_marginRight="15dp"
+                    android:src="@drawable/contact_person" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/height_6_80"
+                android:layout_marginTop="20dip"
+                android:background="@drawable/settion_top_normal"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/width_5_80"
+                    android:text="账号:"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/chage_name"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/width_1_80"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:textSize="@dimen/text_7" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/chage_password_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/height_6_80"
+                android:background="@drawable/but_normal"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/width_5_80"
+                    android:text="密码:"
+                    
+                    android:textSize="@dimen/text_7" />
+
+                <EditText
+                    android:id="@+id/chage_password"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/width_1_80"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:textColor="#969696"
+                    android:textSize="17sp" />
+            </LinearLayout>
+            
+
+            <LinearLayout
+                android:id="@+id/chage_lastname_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="44dp"
+                android:layout_marginTop="20dip"
+                android:background="@drawable/setting_back"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:text="姓名:"
+                    android:textColor="#646464"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/chage_lastname"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:textColor="#969696"
+                    android:textSize="15sp" />
+            </LinearLayout>
+            
+            <LinearLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:orientation="horizontal"
+                android:background="#FFFFFF">
+                <View 
+	                android:layout_width="fill_parent"
+	                android:layout_height="1px"
+	                android:layout_marginLeft="15dp"
+	                android:background="#e0e0e0"/>
+            </LinearLayout>
+            
+           <LinearLayout
+                android:id="@+id/chage_sex_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="44dp"
+                android:background="@drawable/setting_back"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:text="性别:"
+                    android:textColor="#646464"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/chage_sex"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:textColor="#969696"
+                    android:textSize="15sp" />
+            </LinearLayout>
+            
+            <LinearLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:orientation="horizontal"
+                android:background="#FFFFFF">
+                <View 
+	                android:layout_width="fill_parent"
+	                android:layout_height="1px"
+	                android:layout_marginLeft="15dp"
+	                android:background="#e0e0e0"/>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/chage_name_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="44dp"
+                android:background="@drawable/setting_back"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:text="标签:"
+                    android:textColor="#646464"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/chage_biaoqian"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:textColor="#969696"
+                    android:textSize="15sp" />
+            </LinearLayout>
+            
+            
+
+            <LinearLayout
+                android:id="@+id/chage_phone_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="44dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/setting_back"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:text="手机:"
+                    android:textColor="#646464"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/chage_phone"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:inputType="number"
+                    android:textColor="#969696"
+                    android:textSize="15sp" />
+            </LinearLayout>
+			
+            <LinearLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:orientation="horizontal"
+                android:background="#FFFFFF">
+                <View 
+	                android:layout_width="fill_parent"
+	                android:layout_height="1px"
+	                android:layout_marginLeft="15dp"
+	                android:background="#e0e0e0"/>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/chage_email_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="44dp"
+                android:background="@drawable/setting_back"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:text="邮箱:"
+                    android:textColor="#646464"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/chage_email"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:textColor="#969696"
+                    android:textSize="15sp" />
+            </LinearLayout>
+            
+            
+            <LinearLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:orientation="horizontal"
+                android:background="#FFFFFF">
+                <View 
+	                android:layout_width="fill_parent"
+	                android:layout_height="1px"
+	                android:layout_marginLeft="15dp"
+	                android:background="#e0e0e0"/>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="44dp"
+                android:background="@drawable/setting_back"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:text="备注:"
+                    android:textColor="#646464"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/chage_beizhu"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:textColor="#969696"
+                    android:textSize="15sp" />
+            </LinearLayout>
+           <!--  <LinearLayout
+                android:id="@+id/chage_adress_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/height_6_80"
+                android:layout_marginTop="20dip"
+                android:background="@drawable/settion_top_normal"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/width_5_80"
+                    android:text="地址:"
+                    android:textSize="@dimen/text_7" />
+
+                <EditText
+                    android:id="@+id/chage_adress"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/width_1_80"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:textSize="@dimen/text_7" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/chage_email_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/height_6_80"
+                android:background="@drawable/but_normal"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="收货地址:"
+                    android:textSize="@dimen/text_6" 
+                    android:paddingLeft="@dimen/width_1_80"/>
+
+                <EditText
+                    android:id="@+id/chage_email"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/width_1_80"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:inputType="textPassword"
+                    android:textSize="@dimen/text_6" />
+            </LinearLayout> -->
+            <Button
+                android:id="@+id/chage_upload"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/button_tuch"
+                android:text="提交"
+                android:textColor="@color/h_white"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </com.huishangyun.View.BounceScrollView>
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#ffffff" >
+    <!-- 内容 -->
+    <FrameLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+        
+        <ImageView android:id="@+id/no_img"
+		    android:layout_height="wrap_content"
+		    android:layout_width="wrap_content"
+		    android:src="@drawable/nomessagelist"
+		    android:layout_gravity="center"
+		    android:layout_marginBottom="50dp"
+		    android:visibility="gone"/>
+        
+		<ListView
+		    android:layout_height="wrap_content"
+		    android:layout_width="match_parent"	   	    
+		    android:fadingEdge="none"
+		    android:cacheColorHint="#00000000"
+		    android:divider="@null"
+		    android:dividerHeight="0dp"
+		    android:scrollbars="none"
+		    android:id="@+id/listview_classify"/>
+	</FrameLayout>
+	
+    
+	<!-- <View
+	    android:layout_height="1dp"
+	    android:layout_width="match_parent"
+	    android:background="#e0e0e0"/> --> 
+</LinearLayout>

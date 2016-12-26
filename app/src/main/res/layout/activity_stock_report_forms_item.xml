@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0"
+    android:orientation="vertical" >
+    
+ <!-- 产品、客户-->
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#ffffff"
+        android:orientation="vertical" >
+        
+       <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#e0e0e0" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="36dp"
+                android:background="#e0e0e0" />
+            <TextView
+                android:id="@+id/report_product"
+                android:layout_width="188dp"
+                android:layout_height="36dp"
+                android:layout_weight="6"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="王老吉"
+                android:textColor="#646464"
+                android:textSize="13sp" />
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="36dp"
+                android:background="#e0e0e0" />
+
+            <TextView
+                android:id="@+id/report_amount_unit"
+                android:layout_width="60dp"
+                android:layout_height="36dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="3箱"
+                android:textColor="#646464"
+                android:textSize="13sp" />
+            
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="36dp"
+                android:background="#e0e0e0" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#e0e0e0" />
+
+    </LinearLayout>  
+
+</LinearLayout>

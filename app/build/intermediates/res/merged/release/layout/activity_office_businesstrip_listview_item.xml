@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f0f0f0"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/data_linear"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:gravity="center_vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/office_bus_time"/>
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#f0f0f0"
+            android:paddingLeft="5dp"
+            android:text="2014-8-13"
+            android:textColor="#646464"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/list_background"
+        android:layout_marginLeft="15dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/person_img"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/contact_person"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp" >
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="欧阳少恭"
+                    android:textColor="#646464"
+                    android:textSize="16sp" />
+
+                <com.huishangyun.Office.Attendance.MarqueeText
+                    android:id="@+id/end_address"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center_vertical|left"
+                    android:ellipsize="end"
+                    android:text="南昌市"
+                    android:paddingLeft="5dp"
+                    android:textColor="#00658f"
+                    android:textSize="15sp" />
+                <ImageView
+                    android:id="@+id/img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:paddingRight="5dp"
+                    android:layout_toLeftOf="@+id/end_address"
+                    android:src="@drawable/office_bus_go" />
+
+                <com.huishangyun.Office.Attendance.MarqueeText
+                    android:id="@+id/start_address"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/img"
+                    android:paddingRight="5dp"
+                    android:gravity="center_vertical|right"
+                    android:ellipsize="end"
+                    android:text="南昌市"
+                    android:textColor="#00658f"
+                    android:textSize="15sp" />
+
+                
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:paddingBottom="5dp"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp" >
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                     android:layout_centerVertical="true"
+                    android:text="2014-8-13  11:11"
+                    android:textColor="#c8c8c8"
+                    android:paddingBottom="5dp"
+                    android:textSize="13sp" />
+                
+                <TextView
+                    android:id="@+id/state"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="60dp"
+                    android:text="已取消"
+                    android:textColor="#00658f"
+                    android:paddingBottom="5dp"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/days"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                     android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="15dp"
+                    android:paddingBottom="5dp"
+                    android:text="2天"
+                    android:textColor="#c8c8c8"
+                    android:textSize="13sp" />
+
+                
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:layout_marginLeft="15dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#f0f0f0"
+            android:layout_marginLeft="65dp"/>
+            </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

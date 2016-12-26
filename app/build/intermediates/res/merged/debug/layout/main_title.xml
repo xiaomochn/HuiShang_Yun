@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#00658f"
+    android:gravity="center_vertical" >
+    
+	<!-- 产品 -->
+    <LinearLayout
+        android:id="@+id/title_back"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:background="@drawable/title_background"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ret_urn" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="任务"
+            android:textColor="#ffffff"
+            android:textSize="21sp" />
+    </LinearLayout>
+    
+    <!-- 更多 -->
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_centerVertical="true"
+     	android:layout_alignParentRight="true"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:background="@drawable/title_background"
+        android:id="@+id/title_more">
+    	 <ImageView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/more"
+            android:layout_gravity="center"/>
+        
+    </LinearLayout>
+    
+    <!-- 添加 -->
+    <LinearLayout 
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_centerVertical="true"
+     	android:layout_toLeftOf="@+id/title_more"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:background="@drawable/title_background"
+        android:id="@+id/title_add">
+        <ImageView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/add1"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+    
+    <!-- 搜索 -->
+    <LinearLayout 
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_centerVertical="true"
+     	android:layout_toLeftOf="@+id/title_add"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:background="@drawable/title_background"
+        android:id="@+id/title_search">
+        <ImageView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/search"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+    
+
+</RelativeLayout>

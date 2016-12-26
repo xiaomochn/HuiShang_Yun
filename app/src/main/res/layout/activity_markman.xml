@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0"
+    android:orientation="vertical">
+
+    <include layout="@layout/back_title" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/markman_reserve"
+                    android:layout_width="0.0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/setting_back"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/markman_reserve"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/make_appointment" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12.5dp"
+                        android:text="预约拜访"
+                        android:textColor="#969696"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/markman_annal"
+                    android:layout_width="0.0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/setting_back"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/markman_annal"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/markman_annal_num"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="18"
+                            android:textColor="#66c4db"
+                            android:textSize="22sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12.5dp"
+                        android:text="来访记录"
+                        android:textColor="#969696"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/markman_record"
+                    android:layout_width="0.0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/setting_back"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/markman_record"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/markman_record_num"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="20"
+                            android:textColor="#7dd5cf"
+                            android:textSize="22sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12.5dp"
+                        android:text="预约记录"
+                        android:textColor="#969696"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#e0e0e0" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="#e0e0e0" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/markman_left_mou"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/setting_back"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/direction_keyleft" />
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:id="@+id/markman_mou"
+                        android:layout_width="0.0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/setting_back"
+                        android:gravity="center"
+                        android:text="2015年07月"
+                        android:textColor="#646464"
+                        android:textSize="20sp" />
+
+                    <LinearLayout
+                        android:id="@+id/markman_right_mou"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/setting_back"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/direction_keyright" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#e0e0e0" />
+
+                <!--<android.support.v4.view.ViewPager
+                    android:id="@+id/markman_pager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" />-->
+                <com.huishangyun.widget.CalendarView
+                    android:id="@+id/markman_calendarview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="#e0e0e0" />
+
+                    <com.huishangyun.swipelistview.MyXListView
+                        android:id="@+id/markman_listview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:cacheColorHint="#00000000"
+                        android:divider="@null"
+                        android:dividerHeight="0.0dp"
+                        android:fadingEdge="none"
+                        android:scrollbars="none" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

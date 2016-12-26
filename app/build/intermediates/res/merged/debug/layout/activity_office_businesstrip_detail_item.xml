@@ -1,0 +1,1132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0"
+    android:orientation="vertical" >
+
+    <!-- 时间 -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp" >
+
+        <RelativeLayout
+            android:id="@+id/top_line"
+            android:layout_width="0.5dp"
+            android:layout_height="13dp"
+            android:layout_marginLeft="32dp"
+            android:background="#e0e0e0" />
+
+        <RelativeLayout
+            android:id="@+id/txt_visit_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true" >
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="25dp"
+                android:background="@drawable/textview_dateshow"
+                android:paddingLeft="17dp"
+                android:paddingRight="8dp"
+                android:text="2014年08月17号"
+                android:textColor="#ffffff"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="4dp"
+                android:layout_height="4dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/textview_radius" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0.5dp"
+            android:layout_height="13dp"
+            android:layout_below="@+id/txt_visit_layout"
+            android:layout_marginLeft="32dp"
+            android:background="#e0e0e0" />
+    </RelativeLayout>
+
+    <!-- 出差概述 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#ffffff"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" >
+
+            <TextView
+                android:id="@+id/start_address"
+                android:layout_width="0.0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="right"
+                android:paddingRight="10dp"
+                android:text="南昌"
+                android:textColor="#e95811"
+                android:textSize="13sp" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="0.0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:src="@drawable/busidetails_arrow" />
+
+            <TextView
+                android:id="@+id/end_address"
+                android:layout_width="0.0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="left"
+                android:paddingLeft="10dp"
+                android:text="长沙"
+                android:textColor="#e95811"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp" >
+
+            <LinearLayout
+                android:layout_width="0.0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="left"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="出发日期: "
+                    android:textColor="#646464"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/startdate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2014-08-13"
+                    android:textColor="#646464"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0.0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="right"
+                android:orientation="horizontal"
+                android:paddingRight="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="结束日期: "
+                    android:textColor="#646464"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/enddate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2014-08-13"
+                    android:textColor="#646464"
+                    android:textSize="13sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#e0e0e0" />
+
+    <!-- 提交信息 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#ffffff"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/business_submit" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical" >
+
+            <!-- 客户 -->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="提交："
+                    android:textColor="#646464"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/submit_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2014-10-22 10:40"
+                    android:textColor="#646464" >
+                </TextView>
+            </LinearLayout>
+
+            <!-- 地点 -->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="地点："
+                    android:textColor="#646464"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="江西南昌高新区火炬大街"
+                    android:textColor="#646464"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <!-- 内容 -->
+
+            <LinearLayout
+                android:id="@+id/submitNote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="备注："
+                    android:textColor="#646464"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/submit_note"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLength="100"
+                    android:text="结果看对方看得开古井贡酒结果空旷的结果看得开广告费好好"
+                    android:textColor="#646464"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <!-- 照片 -->
+
+            <LinearLayout
+                android:id="@+id/submitphoto"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="照片："
+                    android:textColor="#646464"
+                    android:textSize="13sp" />
+
+                <ImageView
+                    android:id="@+id/submit_picture1"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/visit_img" />
+
+                <ImageView
+                    android:id="@+id/submit_picture2"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/visit_img"
+                    android:visibility="invisible"/>
+
+                <ImageView
+                    android:id="@+id/submit_picture3"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:scaleType="centerCrop"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:visibility="invisible"
+                    android:src="@drawable/visit_img" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#e0e0e0" />
+    <!-- 照片 -->
+
+    <LinearLayout
+        android:id="@+id/zhaopian"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#ffffff"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:paddingRight="20dp"
+            android:text="照片"
+            android:textColor="#646464"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/photo1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/list_background"
+            android:clickable="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/visit_img" />
+        <ImageView
+            android:id="@+id/photo2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/list_background"
+            android:clickable="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/visit_img" />
+        <ImageView
+            android:id="@+id/photo3"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/list_background"
+            android:clickable="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/visit_img" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#e0e0e0" />
+
+    <!-- 备注 -->
+
+    <LinearLayout
+        android:id="@+id/beizhu"
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#ffffff"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:paddingRight="20dp"
+            android:text="备注"
+            android:textColor="#646464"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/note"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/edt_note"
+            android:ems="10"
+            android:gravity="center_vertical|top"
+            android:hint="请输入备注信息"
+            android:maxLength="200"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:textColor="#969696"
+            android:textColorHint="#c8c8c8"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#e0e0e0" />
+
+    <!-- 菜单栏 -->
+
+    <LinearLayout
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/takephoto"
+            android:layout_width="0.0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/list_background"
+            android:drawableLeft="@drawable/business_takingpicture"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:text="  拍照"
+            android:textColor="#fa8c35"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/writenote"
+            android:layout_width="0.0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/list_background"
+            android:drawableLeft="@drawable/business_note"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:text="  备注"
+            android:textColor="#fa8c35"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/cancel"
+            android:layout_width="0.0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/list_background"
+            android:drawableLeft="@drawable/business_cancel"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:text="  取消"
+            android:textColor="#039958"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/setouttxt"
+            android:layout_width="0.0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/list_background"
+            android:drawableLeft="@drawable/business_setout"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:text="  出发"
+            android:textColor="#21a5de"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#e0e0e0" />
+
+    <!-- 出发 -->
+
+    <LinearLayout
+        android:id="@+id/seoutdetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/business_setout" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical" >
+
+            <!-- 客户 -->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="出发："
+                    android:textColor="#646464"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/getstarttime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2014-10-22 10:40"
+                    android:textColor="#646464" >
+                </TextView>
+            </LinearLayout>
+
+            <!-- 地点 -->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="地点："
+                    android:textColor="#646464"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="江西南昌高新区火炬大街"
+                    android:textColor="#646464"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <!-- 定位 -->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="定位："
+                    android:textColor="#646464"
+                    android:textSize="13sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:src="@drawable/visit_position" />
+
+                <TextView
+                    android:id="@+id/setout_gps_Address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="( 定位后得到的地址 )"
+                    android:textColor="#646464"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <!-- 内容 -->
+
+            <LinearLayout
+                android:id="@+id/getnote_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="备注："
+                    android:textColor="#646464"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/getnote"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLength="100"
+                    android:text="结果看对方看得开古井贡酒结果空旷的结果看得开广告费好好"
+                    android:textColor="#646464"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <!-- 照片 -->
+
+            <LinearLayout
+                android:id="@+id/setout_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="照片："
+                    android:textColor="#646464"
+                    android:textSize="13sp" />
+
+                <ImageView
+                    android:id="@+id/setout_picture1"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/visit_img" />
+
+                <ImageView
+                    android:id="@+id/setout_picture2"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/visit_img"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/setout_picture3"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/visit_img"
+                    android:visibility="invisible" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#e0e0e0" />
+
+    <!-- 照片 -->
+
+    <LinearLayout
+        android:id="@+id/zhaopian1"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#ffffff"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:paddingRight="20dp"
+            android:text="照片"
+            android:textColor="#646464"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/arrive_photo1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/list_background"
+            android:clickable="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/visit_img" />
+
+        <ImageView
+            android:id="@+id/arrive_photo2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/list_background"
+            android:clickable="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/visit_img" />
+
+        <ImageView
+            android:id="@+id/arrive_photo3"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/list_background"
+            android:clickable="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/visit_img" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view6"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#e0e0e0" />
+
+    <!-- 备注 -->
+
+    <LinearLayout
+        android:id="@+id/beizhu1"
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#ffffff"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:paddingRight="20dp"
+            android:text="备注"
+            android:textColor="#646464"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/arrive_writenote"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/edt_note"
+            android:ems="10"
+            android:gravity="center_vertical|top"
+            android:hint="请输入备注信息"
+            android:maxLength="200"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:textColor="#969696"
+            android:textColorHint="#c8c8c8"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view7"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#e0e0e0" />
+
+    <!-- 菜单栏 -->
+
+    <LinearLayout
+        android:id="@+id/menu1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/arrive_takephoto"
+            android:layout_width="0.0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/list_background"
+            android:drawableLeft="@drawable/business_takingpicture"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:text="  拍照"
+            android:textColor="#fa8c35"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/arrive_gowritenote"
+            android:layout_width="0.0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/list_background"
+            android:drawableLeft="@drawable/business_note"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:text="  备注"
+            android:textColor="#fa8c35"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/arrive_cancel"
+            android:layout_width="0.0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/list_background"
+            android:drawableLeft="@drawable/business_cancel"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:text="  取消"
+            android:textColor="#039958"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/arrive_already"
+            android:layout_width="0.0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/list_background"
+            android:drawableLeft="@drawable/business_arrive"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:text="  到达"
+            android:textColor="#21a5de"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <!-- 到达 -->
+
+    <LinearLayout
+        android:id="@+id/arrivdetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/business_arrive" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="到达："
+                    android:textColor="#646464"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/arrivetime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2014-10-22 12:12"
+                    android:textColor="#646464" >
+                </TextView>
+            </LinearLayout>
+
+            <!-- 地点 -->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="地点："
+                    android:textColor="#646464"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="江西南昌高新区火炬大街"
+                    android:textColor="#646464"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <!-- 定位 -->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="定位："
+                    android:textColor="#646464"
+                    android:textSize="13sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:src="@drawable/visit_position" />
+
+                <TextView
+                    android:id="@+id/arrive_gps_Address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="( 定位后得到的地址 )"
+                    android:textColor="#646464"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <!-- 内容 -->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="备注："
+                    android:textColor="#646464"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/arrive_note"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLength="100"
+                    android:text="结果看对方看得开古井贡酒结果空旷的结果看得开广告费好好"
+                    android:textColor="#646464"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <!-- 照片 -->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="照片："
+                    android:textColor="#646464"
+                    android:textSize="13sp" />
+
+                <ImageView
+                    android:id="@+id/arrive_picture1"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/visit_img" />
+
+                <ImageView
+                    android:id="@+id/arrive_picture2"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/visit_img"
+                    android:visibility="invisible" />
+
+                <ImageView
+                    android:id="@+id/arrive_picture3"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/visit_img"
+                    android:visibility="invisible" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- 出差取消 -->
+
+    <LinearLayout
+        android:id="@+id/canceldetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#ffffff"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingLeft="40dp"
+            android:paddingTop="5dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="取消事由："
+                android:textColor="#646464"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/cancel_note"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLength="100"
+                android:text="熬夜加班"
+                android:textColor="#646464"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingLeft="40dp"
+            android:paddingTop="5dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="取消时间："
+                android:textColor="#646464"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/cancel_datetime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLength="100"
+                android:text="2014-10-23  15:11"
+                android:textColor="#646464"
+                android:textSize="13sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

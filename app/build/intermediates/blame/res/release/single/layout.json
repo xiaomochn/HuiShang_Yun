@@ -1,0 +1,1418 @@
+[
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\list_fenlei.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_fenlei.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\main.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\markman_pop.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\markman_pop.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\contact_pager3.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\contact_pager3.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\chek_message.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\chek_message.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\alertdialog_customer.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\alertdialog_customer.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\alertdialog_goodsnub.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\alertdialog_goodsnub.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\alertdialog_luyin.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\alertdialog_luyin.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_competing_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_competing_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\file_view.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\file_view.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_chat_right.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\item_chat_right.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_stock_record_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_stock_record_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_chat_histroy.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_chat_histroy.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_dingdan.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_dingdan.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\list_item_main.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_item_main.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_group_info.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_group_info.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_image_pager.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_image_pager.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\task_item_choosefile.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\task_item_choosefile.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_summary_searchfragment.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_summary_searchfragment.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\groupdata_line_parent.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\groupdata_line_parent.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_onlookers_create_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_onlookers_create_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_contact.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\item_contact.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_stock_product.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_stock_product.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_setting.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_setting.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_markmanlist.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\item_markmanlist.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_adjust.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_adjust.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_channel_customer.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_channel_customer.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_all.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_all.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activivty_office_onlooks_details_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activivty_office_onlooks_details_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_huodanding.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_huodanding.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\customer_item02.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\customer_item02.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_plan_create_first_step.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_plan_create_first_step.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_clue_mian_all.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_mian_all.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_approval_searchfragment.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_approval_searchfragment.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\define_progressbar.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\define_progressbar.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\register_main.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\register_main.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_stock_record_myitem.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_stock_record_myitem.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_apport_popuwindow.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_apport_popuwindow.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_opport_viewpager_department.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_opport_viewpager_department.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\mprogressdialog.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\mprogressdialog.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_askforleave_my_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_askforleave_my_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_new_password.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_new_password.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_search.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_search.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_summary_note_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_summary_note_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\popupwindow.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\popupwindow.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_main.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\contact_pager1.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\contact_pager1.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_summary_all_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_summary_all_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\task_launch_listview.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\task_launch_listview.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_onlooks_main.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_onlooks_main.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_onlooks_my.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_onlooks_my.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_clue_new_staff_list.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_new_staff_list.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\pull_to_refresh_header_horizontal.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_onlooks_mycomment_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_onlooks_mycomment_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\task_scroll_top.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\task_scroll_top.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\radio_group.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\radio_group.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\scroll_top.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\scroll_top.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\customer_item04.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\customer_item04.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\viewpager_fragment.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\viewpager_fragment.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\customerset.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\customerset.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_task_filelist.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_task_filelist.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_attendance_remind.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_attendance_remind.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\list_dingdan.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_dingdan.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_poi_detail.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\item_poi_detail.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_clue_new_customvisitdialog_listviewitem.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_new_customvisitdialog_listviewitem.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\service_menu.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\service_menu.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\photo.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\photo.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\vw_xscrollview_layout.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\vw_xscrollview_layout.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_clue_new_customvisitdialog.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_new_customvisitdialog.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_visit_record_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_visit_record_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\screen_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\screen_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_screen.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_screen.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_image_detail.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_image_detail.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_summary_my.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_summary_my.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_top_onlook.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_top_onlook.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\task_item_filelist.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\task_item_filelist.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_evection_add.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_evection_add.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_main_order.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_main_order.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_businesstrip_main.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_businesstrip_main.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\alertdialog_customer2.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\alertdialog_customer2.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_plan_customerslist.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_plan_customerslist.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_plan_mian.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_plan_mian.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\sub_app_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\sub_app_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\xlistview_header.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\xlistview_header.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_plan.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_plan.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_customer_details.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_customer_details.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_notice.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_notice.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_cuxiao.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_cuxiao.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_clue_new_customdialog_listviewitem.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_new_customdialog_listviewitem.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\viewpager_fragment3.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\viewpager_fragment3.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\listview_task_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\listview_task_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_choose_group.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\item_choose_group.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_onlooks_recording_play.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_onlooks_recording_play.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_opport_viewpager_my.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_opport_viewpager_my.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_opport_detail_edit.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_opport_detail_edit.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_clue_new_customdialog.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_new_customdialog.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\list_changxian.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_changxian.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\guide_splash.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\guide_splash.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\writeremail_line.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\writeremail_line.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_clue_main.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_main.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\dialog_notice.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\dialog_notice.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_summary_my_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_summary_my_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_fenlei_shipin.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_fenlei_shipin.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_plan_create_secondstep.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_plan_create_secondstep.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_opport_mian.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_opport_mian.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_register.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_register.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_onlooks_recording.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_onlooks_recording.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\title_chat.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\title_chat.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_register_success.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_register_success.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\chat_left_service.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\chat_left_service.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_visit_skim_photo.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_visit_skim_photo.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_onlooks_details_scrollview_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_onlooks_details_scrollview_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_summary_detail.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_summary_detail.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\radiogroup_app.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\radiogroup_app.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_clue_main_search.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_main_search.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\guide_viewpager.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\guide_viewpager.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_gathering.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_gathering.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\task_item_prog.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\task_item_prog.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_select.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_select.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_task_choosefile.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_task_choosefile.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_pridata.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_pridata.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_businesstrip_listview_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_businesstrip_listview_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_display_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_display_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_competing_new.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_competing_new.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_business_cancel_popwindow.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_business_cancel_popwindow.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\pull_to_refresh_header_vertical.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\list_goodslist.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_goodslist.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_task_type.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\item_task_type.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\list_all.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_all.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\list_gouwuche.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_gouwuche.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_clue_main_ordinary_entry.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_main_ordinary_entry.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_plan_customers_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_plan_customers_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_opport_viewpager_all.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_opport_viewpager_all.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\task_detail_progre.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\task_detail_progre.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\markman_pop_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\markman_pop_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\pridata_line.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\pridata_line.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_title.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_title.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_approval_main.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_approval_main.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_msg.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_msg.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_onlooks_girdview_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_onlooks_girdview_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\office_common_datetime.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\office_common_datetime.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_phone.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_phone.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\group_item_contact.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\group_item_contact.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\chathistoryitem.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\chathistoryitem.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_task_menu.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_task_menu.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_task_add.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_task_add.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_information_main.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_information_main.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_clue_search.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_search.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\list_customerset04.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_customerset04.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_stock_table.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_stock_table.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_dingdandatails.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_dingdandatails.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_task_back.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_task_back.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\title_work.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\title_work.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\list_goodslist_not.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_goodslist_not.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\softupdata.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\softupdata.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\setting_about.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\setting_about.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\contact_chat_list.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\contact_chat_list.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_task_list.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_task_list.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\map_view.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\map_view.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\guide_four.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\guide_four.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\chat__error_page.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\chat__error_page.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_work.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_work.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_customerfiles.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_customerfiles.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_onlooks_main_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_onlooks_main_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_ordergoods.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_ordergoods.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\chat_ordinary_service.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\chat_ordinary_service.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_attendance_mian.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_attendance_mian.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\contact_pager2.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\contact_pager2.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\groupdata_line.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\groupdata_line.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\search_box.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\search_box.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_onlooks_create.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_onlooks_create.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_businesstrip_add.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_businesstrip_add.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_plan_person_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_plan_person_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\net_status_bar_info_top.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\net_status_bar_info_top.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_chat.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_chat.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_visit_record.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_visit_record.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_stock_no_classify.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_stock_no_classify.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\task_popwindow.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\task_popwindow.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\chageuserinfo.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\chageuserinfo.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_customer_accper.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_customer_accper.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\list_xiaoliang.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_xiaoliang.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_app.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_app.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_customer_launchb.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_customer_launchb.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_memberinfo.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_memberinfo.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_opport_create.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_opport_create.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_compan_setting.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_compan_setting.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_group.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\item_group.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_writeremail.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_writeremail.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\popupwindow_customer.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\popupwindow_customer.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\workspace_line.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\workspace_line.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_register_fail.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_register_fail.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_checkcontacter.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_checkcontacter.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_customer_list.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\item_customer_list.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_onlooks_popuwindow.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_onlooks_popuwindow.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_approval_startfragment.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_approval_startfragment.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\weihu.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\weihu.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\customer_item03.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\customer_item03.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_clue_modify.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_modify.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_datails.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_datails.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activitty_plan_detail.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activitty_plan_detail.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_markman_list.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_markman_list.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\message_header.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\message_header.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_summary_report.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_summary_report.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_task_opport.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_task_opport.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\guide_two.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\guide_two.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_competing.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_competing.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_shoucang.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_shoucang.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_task_send.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_task_send.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_myatendance_fistfragment.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_myatendance_fistfragment.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_log.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_log.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\custormer_popwindow.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\custormer_popwindow.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\swipeback_layout.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\swipeback_layout.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_stock_record.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_stock_record.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\task_detail_info.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\task_detail_info.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\xiaoshoujihua.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\xiaoshoujihua.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_opport_stage_listview_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_opport_stage_listview_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_clue_new.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_new.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_payments.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_payments.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\group_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\group_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\gridview_work.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\gridview_work.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\chat_service_webview.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\chat_service_webview.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\list_log.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_log.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_allbusinesstripfragment.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_allbusinesstripfragment.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_clue_detail.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_detail.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\task_alllistview.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\task_alllistview.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\customer_popmenu.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\customer_popmenu.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_onlooks_mycomment.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_onlooks_mycomment.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_visit_new.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_visit_new.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_dinghuodan.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_dinghuodan.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\guide_three.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\guide_three.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_businesstrip_detail.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_businesstrip_detail.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\title.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\title.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_opport_morelistview.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_opport_morelistview.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\list_goodslist_tui.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_goodslist_tui.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_forget_pass.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_forget_pass.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_customer_group.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_customer_group.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_businesstrip_mylistview_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_businesstrip_mylistview_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_summary_main.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_summary_main.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_businesstrip_detail_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_businesstrip_detail_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\task_item_file.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\task_item_file.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_approval_remindsfragment.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_approval_remindsfragment.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\list_item_compan_head.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_item_compan_head.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\alertdialog_address.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\alertdialog_address.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_markmain.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\item_markmain.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\group_user_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\group_user_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_dingdanlist.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_dingdanlist.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\list_item_compan.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_item_compan.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\list_notice_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_notice_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\customer_item01.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\customer_item01.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_askforleave_all_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_askforleave_all_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_chat_left.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\item_chat_left.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\list_customerset.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_customerset.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_works.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_works.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_forgetpassword.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_forgetpassword.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_opport_money_listview_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_opport_money_listview_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\list_chat_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_chat_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_askforleave_main.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_askforleave_main.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_myattendance_secondfragment.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_myattendance_secondfragment.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\chatheadview.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\chatheadview.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\list_shengshi.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_shengshi.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\notif_view.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\notif_view.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_opport_listview_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_opport_listview_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_imagefragment.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_imagefragment.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\back_title.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\back_title.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_stock_report_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_stock_report_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\loaddialog.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\loaddialog.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_clue_custom_toast.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_custom_toast.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\list_address.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_address.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_customer_all.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_customer_all.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_register_provision.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_register_provision.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_clue_listview_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_listview_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_companynews.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_companynews.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\photo_customer.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\photo_customer.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_email_content.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_email_content.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\face.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\face.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\app_list_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\app_list_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_stock_report_forms_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_stock_report_forms_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_reportsearch.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_reportsearch.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_alarm_widget.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_alarm_widget.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\main_zxing.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\main_zxing.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\guide_one.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\guide_one.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\xiaoliangshangbao.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\xiaoliangshangbao.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_stock_classify.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_stock_classify.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_goodfiles.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_goodfiles.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\viewpager_fragment2.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\viewpager_fragment2.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_plan_customers_imgitem.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_plan_customers_imgitem.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\view.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\view.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_classify.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_classify.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_huodantui.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_huodantui.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_opport_time_listview_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_opport_time_listview_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_find.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_find.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_login.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_askforleave_detail.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_askforleave_detail.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_channel.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_channel.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_opport_detail.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_opport_detail.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\service_layout.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\service_layout.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\customprogressdialog.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\customprogressdialog.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\refresh_header.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\refresh_header.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_addressnew.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_addressnew.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_location_map_text.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_location_map_text.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_summary_my_note_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_summary_my_note_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_dingdancommon.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_dingdancommon.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\chathistory.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\chathistory.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_visit_viewpager_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_visit_viewpager_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_businersstrip_mylistview_item_2.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_businersstrip_mylistview_item_2.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\priinfo_top.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\priinfo_top.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_customer_location.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_customer_location.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\settingabout.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\settingabout.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_delivery.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_delivery.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_address.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_address.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_summary_detail_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_summary_detail_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_task_details.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_task_details.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_register_phone.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_register_phone.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_menu.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_menu.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_allaskforleavefragment.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_allaskforleavefragment.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_location_map.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_location_map.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_recent_msg.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\item_recent_msg.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_display.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_display.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\loading.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\loading.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_add_mrakman.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_add_mrakman.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_onlooks_details.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_onlooks_details.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_clue_main_department.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_main_department.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_stock_report.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_stock_report.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_shoping_car.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_shoping_car.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\xlistview_footer.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\xlistview_footer.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_display_new.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_display_new.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\list_xiaoshoujihua.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_xiaoshoujihua.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_opport_turn_task.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_opport_turn_task.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_contact.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_contact.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\chat_history_service.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\chat_history_service.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_clue_mian_my.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_mian_my.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\main_title.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\main_title.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_register_success_in.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_register_success_in.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_serviceinfo.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_serviceinfo.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\list_cuxiao.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_cuxiao.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_plan_customers_listview_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_plan_customers_listview_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_land.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_land.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\contact_group.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\contact_group.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_lightapp.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_lightapp.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_submit.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_submit.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_markman.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_markman.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_notice_content.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_notice_content.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_stock_delete_dialog.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_stock_delete_dialog.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_erp.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_erp.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_approval_todofragment.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_approval_todofragment.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\saomiao.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\saomiao.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_attendance_my.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_attendance_my.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\task_accepted_listview.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\task_accepted_listview.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\list_weihu.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_weihu.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\popup_horizontal.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\popup_horizontal.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_office.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_office.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_office_askforleave_add.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_askforleave_add.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_tuihuodan.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_tuihuodan.xml"
+    }
+]

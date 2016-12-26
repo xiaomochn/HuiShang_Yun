@@ -1,0 +1,1320 @@
+<?xml version="1.0" encoding="utf-8"?>
+   
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 头 -->
+    <RelativeLayout android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/head_saomiao">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:scaleType="center"
+            android:src="@drawable/left" 
+            android:background="@drawable/gtlk_back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="装机计划"
+            android:textColor="#ffffff"
+            android:textSize="21sp" />
+
+        <ImageView
+            android:id="@+id/search"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:scaleType="center"
+            android:src="@drawable/search" 
+            android:background="@drawable/gtlk_back"/>
+    </RelativeLayout>
+
+    <!-- 客户名称 -->
+  <LinearLayout 
+        android:id="@+id/context"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/head"
+        android:gravity="center_vertical"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+       	<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/text1"
+            android:paddingLeft="10dp" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="客户名称"
+                android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/edt_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:paddingLeft="10dp" 
+                    android:layout_weight="1"
+                    android:lines="2"/>
+            	<ImageView
+	                android:id="@+id/change1"
+	                android:layout_width="40dp"
+	                android:layout_height="match_parent"
+	                android:gravity="center_vertical|right"
+	                android:scaleType="center"
+	                android:src="@drawable/right" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/list_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" 
+            android:background="@drawable/search_drop_down2"/>
+
+        <!-- 产品类型 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/text1"
+            android:paddingLeft="10dp" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="产品类型"
+                android:textSize="18sp" />
+            <EditText
+                android:id="@+id/edt_size"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:paddingLeft="10dp" 
+                android:singleLine="true"/>
+            <ImageView
+                android:id="@+id/change2"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|right"
+                android:scaleType="center"
+                android:src="@drawable/right" />
+        </LinearLayout>
+
+       
+        <ListView
+            android:id="@+id/list_size"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:visibility="gone" 
+            android:background="@drawable/search_drop_down2"/>
+	
+        <!-- 所属月份 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/text1"
+            android:paddingLeft="10dp" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="所属月份"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/edt_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:paddingLeft="10dp"/>
+            <ImageView
+                android:id="@+id/change3"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|right"
+                android:scaleType="center"
+                android:src="@drawable/right" />
+        </LinearLayout>
+        
+         <!-- 上月库存数量 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/text1"
+            android:paddingLeft="10dp" 
+            android:layout_marginTop="10dp"
+            android:id="@+id/shangyue">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="上月库存数量"
+                android:textSize="18sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="vertical" 
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="50dp"
+                android:gravity="center_vertical">
+                <EditText
+                    android:id="@+id/edt_nub"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"                                       
+                    android:textSize="18sp"
+					android:background="@null"
+					android:singleLine="true"
+					android:inputType="number"/>
+                <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:src="@drawable/text2"/>
+            </LinearLayout>
+	</LinearLayout>
+	</LinearLayout>
+        
+    <!-- 1-31号  -->
+	<ScrollView 
+	    android:id="@+id/scrollview"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	   	android:layout_above="@+id/submit1"
+	    android:layout_below="@id/context"
+	    android:layout_marginTop="10dp"
+	    android:scrollbars="none" 
+	    android:fadingEdge="none">
+
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_vertical"
+	        android:orientation="vertical">	
+	        <ListView
+	            android:id="@+id/list_month"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:visibility="gone" />
+	
+	        <!-- 1号 周四 -->
+	
+	        <LinearLayout android:id="@+id/lin_01"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginRight="10dp"
+	            android:background="@drawable/text1"
+	            android:paddingLeft="5dp" >
+	
+	            <TextView android:id="@+id/tv_01"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical"
+	                android:text="1号 周四" />
+	
+	            <EditText
+	                android:id="@+id/edt_01"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_marginLeft="5dp"
+	                android:layout_weight="1"
+	                android:background="@null"
+	                android:paddingLeft="5dp" 
+	                android:imeOptions="actionNext"
+	                android:singleLine="true"
+	                android:inputType="number"/>
+	
+	            <ImageView
+	                android:id="@+id/img_name"
+	                android:layout_width="40dp"
+	                android:layout_height="match_parent"
+	                android:gravity="center_vertical|right"
+	                android:scaleType="center"
+	                android:src="@drawable/editor" />
+	        </LinearLayout>
+	    
+	        
+	        <!-- 2号周五 -->
+	        <LinearLayout android:id="@+id/lin_02"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginRight="10dp"
+	            android:background="@drawable/text1"
+	            android:paddingLeft="5dp" >
+	
+	            <TextView android:id="@+id/tv_02"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical"
+	                android:text="2号 周五" />
+	
+	            <EditText
+	                android:id="@+id/edt_02"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_marginLeft="5dp"
+	                android:layout_weight="1"
+	                android:background="@null"
+	                android:paddingLeft="5dp" 
+	                android:imeOptions="actionNext"
+	                android:singleLine="true"
+	                android:inputType="number"/>
+	
+	            <ImageView
+	                android:layout_width="40dp"
+	                android:layout_height="match_parent"
+	                android:gravity="center_vertical|right"
+	                android:scaleType="center"
+	                android:src="@drawable/editor" />
+	        </LinearLayout>
+	        
+	        <!-- 3号 周六 -->
+	        <LinearLayout android:id="@+id/lin_03"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginRight="10dp"
+	            android:background="@drawable/text1"
+	            android:paddingLeft="5dp" >
+	
+	            <TextView android:id="@+id/tv_03"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical"
+	                android:text="3号 周六" />
+	
+	            <EditText
+	                android:id="@+id/edt_03"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_marginLeft="5dp"
+	                android:layout_weight="1"
+	                android:background="@null"
+	                android:paddingLeft="5dp" 
+	                android:imeOptions="actionNext"
+	                android:singleLine="true"
+	                android:inputType="number"/>
+	
+	            <ImageView
+	                android:layout_width="40dp"
+	                android:layout_height="match_parent"
+	                android:gravity="center_vertical|right"
+	                android:scaleType="center"
+	                android:src="@drawable/editor" />
+	        </LinearLayout>
+	        
+	        <!-- 4号 周日 -->
+	        <LinearLayout android:id="@+id/lin_04"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginRight="10dp"
+	            android:background="@drawable/text1"
+	            android:paddingLeft="5dp" >
+	
+	            <TextView android:id="@+id/tv_04"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical"
+	                android:text="4号 周日" />
+	
+	            <EditText
+	                android:id="@+id/edt_04"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_marginLeft="5dp"
+	                android:layout_weight="1"
+	                android:background="@null"
+	                android:paddingLeft="5dp"
+	                android:imeOptions="actionNext"
+	                android:singleLine="true"
+	                android:inputType="number" />
+	
+	            <ImageView
+	                android:layout_width="40dp"
+	                android:layout_height="match_parent"
+	                android:gravity="center_vertical|right"
+	                android:scaleType="center"
+	                android:src="@drawable/editor" />
+	        </LinearLayout>
+	        
+	        <!-- 5号 周一 -->
+	        <LinearLayout android:id="@+id/lin_05"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginRight="10dp"
+	            android:background="@drawable/text1"
+	            android:paddingLeft="5dp" >
+	
+	            <TextView android:id="@+id/tv_05"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical"
+	                android:text="5号 周一" />
+	
+	            <EditText
+	                android:id="@+id/edt_05"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_marginLeft="5dp"
+	                android:layout_weight="1"
+	                android:background="@null"
+	                android:paddingLeft="5dp"
+	                android:imeOptions="actionNext"
+	                android:singleLine="true" 
+	                android:inputType="number"/>
+	
+	            <ImageView
+	                android:layout_width="40dp"
+	                android:layout_height="match_parent"
+	                android:gravity="center_vertical|right"
+	                android:scaleType="center"
+	                android:src="@drawable/editor" />
+	        </LinearLayout>
+	        
+	        <!-- 6号 周二 -->
+	        <LinearLayout android:id="@+id/lin_06"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginRight="10dp"
+	            android:background="@drawable/text1"
+	            android:paddingLeft="5dp" >
+	
+	            <TextView android:id="@+id/tv_06"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical"
+	                android:text="6号 周二" />
+	
+	            <EditText
+	                android:id="@+id/edt_06"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_marginLeft="5dp"
+	                android:layout_weight="1"
+	                android:background="@null"
+	                android:paddingLeft="5dp" 
+	                android:imeOptions="actionNext"
+	                android:singleLine="true"
+	                android:inputType="number"/>
+	
+	            <ImageView
+	                android:layout_width="40dp"
+	                android:layout_height="match_parent"
+	                android:gravity="center_vertical|right"
+	                android:scaleType="center"
+	                android:src="@drawable/editor" />
+	        </LinearLayout>
+	        
+	        <!-- 7号 周三 -->
+	        <LinearLayout android:id="@+id/lin_07"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginRight="10dp"
+	            android:background="@drawable/text1"
+	            android:paddingLeft="5dp" >
+	
+	            <TextView android:id="@+id/tv_07"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical"
+	                android:text="7号 周三" />
+	
+	            <EditText
+	                android:id="@+id/edt_07"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_marginLeft="5dp"
+	                android:layout_weight="1"
+	                android:background="@null"
+	                android:paddingLeft="5dp" 
+	                android:imeOptions="actionNext"
+	                android:singleLine="true"
+	                android:inputType="number"/>
+	
+	            <ImageView
+	                android:layout_width="40dp"
+	                android:layout_height="match_parent"
+	                android:gravity="center_vertical|right"
+	                android:scaleType="center"
+	                android:src="@drawable/editor" />
+	        </LinearLayout>
+	        
+	        <!-- 8号 周四 -->
+	        <LinearLayout android:id="@+id/lin_08"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginRight="10dp"
+	            android:background="@drawable/text1"
+	            android:paddingLeft="5dp" >
+	
+	            <TextView  android:id="@+id/tv_08"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical"
+	                android:text="8号 周四" />
+	
+	            <EditText
+	                android:id="@+id/edt_08"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_marginLeft="5dp"
+	                android:layout_weight="1"
+	                android:background="@null"
+	                android:paddingLeft="5dp" 
+	                android:imeOptions="actionNext"
+	                android:singleLine="true"
+	                android:inputType="number"/>
+	
+	            <ImageView
+	                android:layout_width="40dp"
+	                android:layout_height="match_parent"
+	                android:gravity="center_vertical|right"
+	                android:scaleType="center"
+	                android:src="@drawable/editor" />
+	        </LinearLayout>
+	        
+	        <!-- 9号 周五 -->
+	        <LinearLayout android:id="@+id/lin_09"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginRight="10dp"
+	            android:background="@drawable/text1"
+	            android:paddingLeft="5dp" >
+	
+	            <TextView android:id="@+id/tv_09"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical"
+	                android:text="9号 周五" />
+	
+	            <EditText
+	                android:id="@+id/edt_09"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_marginLeft="5dp"
+	                android:layout_weight="1"
+	                android:background="@null"
+	                android:paddingLeft="5dp" 
+	                android:imeOptions="actionNext"
+	                android:singleLine="true"
+	                android:inputType="number"/>
+	
+	            <ImageView
+	                android:layout_width="40dp"
+	                android:layout_height="match_parent"
+	                android:gravity="center_vertical|right"
+	                android:scaleType="center"
+	                android:src="@drawable/editor" />
+	        </LinearLayout>
+	        
+	        <!-- 10号 周六一 -->
+	        <LinearLayout android:id="@+id/lin_10"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginRight="10dp"
+	            android:background="@drawable/text1"
+	            android:paddingLeft="5dp" >
+	
+	            <TextView  android:id="@+id/tv_10"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical"
+	                android:text="10号 周六" />
+	
+	            <EditText
+	                android:id="@+id/edt_10"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_marginLeft="5dp"
+	                android:layout_weight="1"
+	                android:background="@null"
+	                android:paddingLeft="5dp"
+	                android:imeOptions="actionNext"
+	                android:singleLine="true" 
+	                android:inputType="number"/>
+	
+	            <ImageView
+	                android:layout_width="40dp"
+	                android:layout_height="match_parent"
+	                android:gravity="center_vertical|right"
+	                android:scaleType="center"
+	                android:src="@drawable/editor" />
+	        </LinearLayout>
+	        
+	         <!-- 11号 周日 -->
+	        <LinearLayout  android:id="@+id/lin_11"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginRight="10dp"
+	            android:background="@drawable/text1"
+	            android:paddingLeft="5dp" >
+	
+	            <TextView  android:id="@+id/tv_11"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical"
+	                android:text="11号 周日" />
+	
+	            <EditText
+	                android:id="@+id/edt_11"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_marginLeft="5dp"
+	                android:layout_weight="1"
+	                android:background="@null"
+	                android:paddingLeft="5dp" 
+	                android:imeOptions="actionNext"
+	                android:singleLine="true"
+	                android:inputType="number"/>
+	
+	            <ImageView
+	                android:layout_width="40dp"
+	                android:layout_height="match_parent"
+	                android:gravity="center_vertical|right"
+	                android:scaleType="center"
+	                android:src="@drawable/editor" />
+	        </LinearLayout>
+	        
+	         <!-- 12号 周一-->
+	        <LinearLayout  android:id="@+id/lin_12"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginRight="10dp"
+	            android:background="@drawable/text1"
+	            android:paddingLeft="5dp" >
+	
+	            <TextView  android:id="@+id/tv_12"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical"
+	                android:text="12号 周一" />
+	
+	            <EditText
+	                android:id="@+id/edt_12"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_marginLeft="5dp"
+	                android:layout_weight="1"
+	                android:background="@null"
+	                android:paddingLeft="5dp"
+	                android:imeOptions="actionNext"
+	                android:singleLine="true" 
+	                android:inputType="number"/>
+	
+	            <ImageView
+	                android:layout_width="40dp"
+	                android:layout_height="match_parent"
+	                android:gravity="center_vertical|right"
+	                android:scaleType="center"
+	                android:src="@drawable/editor" />
+	        </LinearLayout>
+	        
+	         <!-- 13号 周二 -->
+	        <LinearLayout android:id="@+id/lin_13"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginRight="10dp"
+	            android:background="@drawable/text1"
+	            android:paddingLeft="5dp" >
+	
+	            <TextView android:id="@+id/tv_13"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical"
+	                android:text="13号 周二" />
+	
+	            <EditText
+	                android:id="@+id/edt_13"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_marginLeft="5dp"
+	                android:layout_weight="1"
+	                android:background="@null"
+	                android:paddingLeft="5dp" 
+	                android:imeOptions="actionNext"
+	                android:singleLine="true"
+	                android:inputType="number"/>
+	
+	            <ImageView
+	                android:layout_width="40dp"
+	                android:layout_height="match_parent"
+	                android:gravity="center_vertical|right"
+	                android:scaleType="center"
+	                android:src="@drawable/editor" />
+	        </LinearLayout>
+	        
+	         <!-- 14号 周三 -->
+	       <LinearLayout android:id="@+id/lin_14"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginRight="10dp"
+	            android:background="@drawable/text1"
+	            android:paddingLeft="5dp" >
+	
+	            <TextView android:id="@+id/tv_14"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical"
+	                android:text="14号 周三" />
+	
+	            <EditText
+	                android:id="@+id/edt_14"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_marginLeft="5dp"
+	                android:layout_weight="1"
+	                android:background="@null"
+	                android:paddingLeft="5dp" 
+	                android:imeOptions="actionNext"
+	                android:singleLine="true"
+	                android:inputType="number"/>
+	
+	            <ImageView
+	                android:layout_width="40dp"
+	                android:layout_height="match_parent"
+	                android:gravity="center_vertical|right"
+	                android:scaleType="center"
+	                android:src="@drawable/editor" />
+	        </LinearLayout>
+	        
+	         <!-- 15号 周四 -->
+	        <LinearLayout android:id="@+id/lin_15"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginRight="10dp"
+	            android:background="@drawable/text1"
+	            android:paddingLeft="5dp" >
+	
+	            <TextView android:id="@+id/tv_15"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical"
+	                android:text="15号 周四" />
+	
+	            <EditText
+	                android:id="@+id/edt_15"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_marginLeft="5dp"
+	                android:layout_weight="1"
+	                android:background="@null"
+	                android:paddingLeft="5dp" 
+	                android:imeOptions="actionNext"
+	                android:singleLine="true"
+	                android:inputType="number"/>
+	
+	            <ImageView
+	                android:layout_width="40dp"
+	                android:layout_height="match_parent"
+	                android:gravity="center_vertical|right"
+	                android:scaleType="center"
+	                android:src="@drawable/editor" />
+	        </LinearLayout>
+	        
+	        <!-- 16号 周五 -->
+	        <LinearLayout android:id="@+id/lin_16"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginRight="10dp"
+	            android:background="@drawable/text1"
+	            android:paddingLeft="5dp" >
+	
+	            <TextView android:id="@+id/tv_16"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical"
+	                android:text="16号 周五" />
+	
+	            <EditText
+	                android:id="@+id/edt_16"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_marginLeft="5dp"
+	                android:layout_weight="1"
+	                android:background="@null"
+	                android:paddingLeft="5dp" 
+	                android:imeOptions="actionNext"
+	                android:singleLine="true"
+	                android:inputType="number"/>
+	
+	            <ImageView
+	                android:layout_width="40dp"
+	                android:layout_height="match_parent"
+	                android:gravity="center_vertical|right"
+	                android:scaleType="center"
+	                android:src="@drawable/editor" />
+	        </LinearLayout>
+	        
+	        <!-- 17号 周六一 -->
+	        <LinearLayout android:id="@+id/lin_17"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginRight="10dp"
+	            android:background="@drawable/text1"
+	            android:paddingLeft="5dp" >
+	
+	            <TextView android:id="@+id/tv_17"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical"
+	                android:text="17号 周六" />
+	
+	            <EditText
+	                android:id="@+id/edt_17"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_marginLeft="5dp"
+	                android:layout_weight="1"
+	                android:background="@null"
+	                android:paddingLeft="5dp" 
+	                android:imeOptions="actionNext"
+	                android:singleLine="true"
+	                android:inputType="number"/>
+	
+	            <ImageView
+	                android:layout_width="40dp"
+	                android:layout_height="match_parent"
+	                android:gravity="center_vertical|right"
+	                android:scaleType="center"
+	                android:src="@drawable/editor" />
+	        </LinearLayout>
+	        
+	         <!-- 18号 周日 -->
+	        <LinearLayout android:id="@+id/lin_18"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginRight="10dp"
+	            android:background="@drawable/text1"
+	            android:paddingLeft="5dp" >
+	
+	            <TextView android:id="@+id/tv_18"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical"
+	                android:text="18号 周日" />
+	
+	            <EditText
+	                android:id="@+id/edt_18"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_marginLeft="5dp"
+	                android:layout_weight="1"
+	                android:background="@null"
+	                android:paddingLeft="5dp" 
+	                android:imeOptions="actionNext"
+	                android:singleLine="true"
+	                android:inputType="number"/>
+	
+	            <ImageView
+	                android:layout_width="40dp"
+	                android:layout_height="match_parent"
+	                android:gravity="center_vertical|right"
+	                android:scaleType="center"
+	                android:src="@drawable/editor" />
+	        </LinearLayout>
+	        
+	         <!-- 19号 周一-->
+	       <LinearLayout android:id="@+id/lin_19"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginRight="10dp"
+	            android:background="@drawable/text1"
+	            android:paddingLeft="5dp" >
+	
+	            <TextView android:id="@+id/tv_19"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical"
+	                android:text="19号 周一" />
+	
+	            <EditText
+	                android:id="@+id/edt_19"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_marginLeft="5dp"
+	                android:layout_weight="1"
+	                android:background="@null"
+	                android:paddingLeft="5dp" 
+	                android:imeOptions="actionNext"
+	                android:singleLine="true"
+	                android:inputType="number"/>
+	
+	            <ImageView
+	                android:layout_width="40dp"
+	                android:layout_height="match_parent"
+	                android:gravity="center_vertical|right"
+	                android:scaleType="center"
+	                android:src="@drawable/editor" />
+	        </LinearLayout>
+	        
+	         <!-- 20号 周二 -->
+	        <LinearLayout android:id="@+id/lin_20"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginRight="10dp"
+	            android:background="@drawable/text1"
+	            android:paddingLeft="5dp" >
+	
+	            <TextView android:id="@+id/tv_20"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical"
+	                android:text="20号 周二" />
+	
+	            <EditText
+	                android:id="@+id/edt_20"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_marginLeft="5dp"
+	                android:layout_weight="1"
+	                android:background="@null"
+	                android:paddingLeft="5dp" 
+	                android:imeOptions="actionNext"
+	                android:singleLine="true"
+	                android:inputType="number"/>
+	
+	            <ImageView
+	                android:layout_width="40dp"
+	                android:layout_height="match_parent"
+	                android:gravity="center_vertical|right"
+	                android:scaleType="center"
+	                android:src="@drawable/editor" />
+	        </LinearLayout>
+	        
+	         <!-- 21号 周三 -->
+	        <LinearLayout android:id="@+id/lin_21"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginRight="10dp"
+	            android:background="@drawable/text1"
+	            android:paddingLeft="5dp" >
+	            
+	            <TextView android:id="@+id/tv_21"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical"
+	                android:text="21号 周三" />
+	
+	            <EditText
+	                android:id="@+id/edt_21"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_marginLeft="5dp"
+	                android:layout_weight="1"
+	                android:background="@null"
+	                android:paddingLeft="5dp" 
+	                android:imeOptions="actionNext"
+	                android:singleLine="true"
+	                android:inputType="number"/>
+	
+	            <ImageView
+	                android:layout_width="40dp"
+	                android:layout_height="match_parent"
+	                android:gravity="center_vertical|right"
+	                android:scaleType="center"
+	                android:src="@drawable/editor" />
+	        </LinearLayout>
+	        
+	         <!-- 22号 周四 -->
+	        <LinearLayout android:id="@+id/lin_22"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginRight="10dp"
+	            android:background="@drawable/text1"
+	            android:paddingLeft="5dp" >
+	
+	            <TextView android:id="@+id/tv_22"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical"
+	                android:text="22号 周四" />
+	
+	            <EditText
+	                android:id="@+id/edt_22"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_marginLeft="5dp"
+	                android:layout_weight="1"
+	                android:background="@null"
+	                android:paddingLeft="5dp" 
+	                android:imeOptions="actionNext"
+	                android:singleLine="true"
+	                android:inputType="number"/>
+	
+	            <ImageView
+	                android:layout_width="40dp"
+	                android:layout_height="match_parent"
+	                android:gravity="center_vertical|right"
+	                android:scaleType="center"
+	                android:src="@drawable/editor" />
+	        </LinearLayout>
+	        
+	        <!-- 23号 周五 -->
+	        <LinearLayout android:id="@+id/lin_23"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginRight="10dp"
+	            android:background="@drawable/text1"
+	            android:paddingLeft="5dp" >
+	
+	            <TextView android:id="@+id/tv_23"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical"
+	                android:text="23号 周五" />
+	
+	            <EditText
+	                android:id="@+id/edt_23"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_marginLeft="5dp"
+	                android:layout_weight="1"
+	                android:background="@null"
+	                android:paddingLeft="5dp" 
+	                android:imeOptions="actionNext"
+	                android:singleLine="true"
+	                android:inputType="number"/>
+	
+	            <ImageView
+	                android:layout_width="40dp"
+	                android:layout_height="match_parent"
+	                android:gravity="center_vertical|right"
+	                android:scaleType="center"
+	                android:src="@drawable/editor" />
+	        </LinearLayout>
+	        
+	        <!-- 24号 周六一 -->
+	        <LinearLayout android:id="@+id/lin_24"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginRight="10dp"
+	            android:background="@drawable/text1"
+	            android:paddingLeft="5dp" >
+	
+	            <TextView android:id="@+id/tv_24"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical"
+	                android:text="24号 周六" />
+	
+	            <EditText
+	                android:id="@+id/edt_24"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_marginLeft="5dp"
+	                android:layout_weight="1"
+	                android:background="@null"
+	                android:paddingLeft="5dp" 
+	                android:imeOptions="actionNext"
+	                android:singleLine="true"
+	                android:inputType="number"/>
+	
+	            <ImageView
+	                android:layout_width="40dp"
+	                android:layout_height="match_parent"
+	                android:gravity="center_vertical|right"
+	                android:scaleType="center"
+	                android:src="@drawable/editor" />
+	        </LinearLayout>
+	        
+	         <!-- 25号 周日 -->
+	       <LinearLayout android:id="@+id/lin_25"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginRight="10dp"
+	            android:background="@drawable/text1"
+	            android:paddingLeft="5dp" >
+	            
+	            <TextView android:id="@+id/tv_25"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical"
+	                android:text="25号 周日" />
+	
+	            <EditText
+	                android:id="@+id/edt_25"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_marginLeft="5dp"
+	                android:layout_weight="1"
+	                android:background="@null"
+	                android:paddingLeft="5dp"
+	                android:imeOptions="actionNext"
+	                android:singleLine="true" 
+	                android:inputType="number"/>
+	
+	            <ImageView
+	                android:layout_width="40dp"
+	                android:layout_height="match_parent"
+	                android:gravity="center_vertical|right"
+	                android:scaleType="center"
+	                android:src="@drawable/editor" />
+	        </LinearLayout>
+	        
+	         <!-- 26号 周一-->
+	        <LinearLayout android:id="@+id/lin_26"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginRight="10dp"
+	            android:background="@drawable/text1"
+	            android:paddingLeft="5dp" >
+	
+	            <TextView android:id="@+id/tv_26"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical"
+	                android:text="26号 周一" />
+	
+	            <EditText
+	                android:id="@+id/edt_26"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_marginLeft="5dp"
+	                android:layout_weight="1"
+	                android:background="@null"
+	                android:paddingLeft="5dp"
+	                android:imeOptions="actionNext"
+	                android:singleLine="true" 
+	                android:inputType="number"/>
+	
+	            <ImageView
+	                android:layout_width="40dp"
+	                android:layout_height="match_parent"
+	                android:gravity="center_vertical|right"
+	                android:scaleType="center"
+	                android:src="@drawable/editor" />
+	        </LinearLayout>
+	        
+	         <!-- 27号 周二 -->
+	        <LinearLayout android:id="@+id/lin_27"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginRight="10dp"
+	            android:background="@drawable/text1"
+	            android:paddingLeft="5dp" >
+	
+	            <TextView android:id="@+id/tv_27"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical"
+	                android:text="27号 周二" />
+	
+	            <EditText 
+	                android:id="@+id/edt_27"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_marginLeft="5dp"
+	                android:layout_weight="1"
+	                android:background="@null"
+	                android:paddingLeft="5dp" 
+	                android:imeOptions="actionNext"
+	                android:singleLine="true"
+	                android:inputType="number"/>
+	
+	            <ImageView
+	                android:layout_width="40dp"
+	                android:layout_height="match_parent"
+	                android:gravity="center_vertical|right"
+	                android:scaleType="center"
+	                android:src="@drawable/editor" />
+	        </LinearLayout>
+	        
+	         <!-- 28号 周三 -->
+	       <LinearLayout android:id="@+id/lin_28"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginRight="10dp"
+	            android:background="@drawable/text1"
+	            android:paddingLeft="5dp" >
+	
+	            <TextView android:id="@+id/tv_28"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical"
+	                android:text="28号 周三" />
+	
+	            <EditText
+	                android:id="@+id/edt_28"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_marginLeft="5dp"
+	                android:layout_weight="1"
+	                android:background="@null"
+	                android:paddingLeft="5dp"
+	                android:imeOptions="actionNext"
+	                android:singleLine="true" 
+	                android:inputType="number"/>
+	
+	            <ImageView
+	                android:layout_width="40dp"
+	                android:layout_height="match_parent"
+	                android:gravity="center_vertical|right"
+	                android:scaleType="center"
+	                android:src="@drawable/editor" />
+	        </LinearLayout>
+	        
+	         <!-- 29号 周四 -->
+	        <LinearLayout android:id="@+id/lin_29"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginRight="10dp"
+	            android:background="@drawable/text1"
+	            android:paddingLeft="5dp" >
+	
+	            <TextView android:id="@+id/tv_29"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical"
+	                android:text="29号 周四" />
+	
+	            <EditText
+	                android:id="@+id/edt_29"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_marginLeft="5dp"
+	                android:layout_weight="1"
+	                android:background="@null"
+	                android:paddingLeft="5dp" 
+	                android:imeOptions="actionNext"
+	                android:singleLine="true"
+	                android:inputType="number"/>
+	
+	            <ImageView
+	                android:id="@+id/img_name29"
+	                android:layout_width="40dp"
+	                android:layout_height="match_parent"
+	                android:gravity="center_vertical|right"
+	                android:scaleType="center"
+	                android:src="@drawable/editor" />
+	        </LinearLayout>
+	        
+	        <!-- 30号 周五 -->
+	        <LinearLayout android:id="@+id/lin_30"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginRight="10dp"
+	            android:background="@drawable/text1"
+	            android:paddingLeft="5dp" >
+	
+	            <TextView android:id="@+id/tv_30"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical"
+	                android:text="30号 周五" />
+	
+	            <EditText
+	                android:id="@+id/edt_30"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_marginLeft="5dp"
+	                android:layout_weight="1"
+	                android:background="@null"
+	                android:paddingLeft="5dp"
+	                android:imeOptions="actionNext"
+	                android:singleLine="true" 
+	                android:inputType="number"/>
+	
+	            <ImageView
+	                android:id="@+id/img_name30"
+	                android:layout_width="40dp"
+	                android:layout_height="match_parent"
+	                android:gravity="center_vertical|right"
+	                android:scaleType="center"
+	                android:src="@drawable/editor" />
+	        </LinearLayout>
+	        
+	        <!-- 31号 周六一 -->
+	        <LinearLayout android:id="@+id/lin_31"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginRight="10dp"
+	            android:background="@drawable/text1"
+	            android:paddingLeft="5dp" >
+	
+	            <TextView android:id="@+id/tv_31"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="center_vertical"
+	                android:text="31号 周六" />
+	
+	            <EditText 
+	                android:id="@+id/edt_31"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_marginLeft="5dp"
+	                android:layout_weight="1"
+	                android:background="@null"
+	                android:paddingLeft="5dp" 
+	                android:singleLine="true"
+	                android:inputType="number"/>
+	
+	            <ImageView
+	                android:id="@+id/img_name31"
+	                android:layout_width="40dp"
+	                android:layout_height="match_parent"
+	                android:gravity="center_vertical|right"
+	                android:scaleType="center"
+	                android:src="@drawable/editor" />
+	        </LinearLayout>                    
+	   </LinearLayout> 
+	</ScrollView>        
+    
+	
+    <Button 
+        android:id="@+id/submit1"       
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:paddingTop="10dp" 
+        android:paddingBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/gtlk_submit" 
+        android:textColor="#ffffff"  
+        android:textSize="18sp"   
+        android:text="提交"/>
+</RelativeLayout>

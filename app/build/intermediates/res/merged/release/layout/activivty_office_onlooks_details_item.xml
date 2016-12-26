@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/allLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/list_background"
+        android:padding="10dp" >
+
+        <!-- 头像 -->
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/defaultimage02" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp" >
+
+            <!-- 昵称 -->
+
+            <TextView
+                android:id="@+id/nickname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="赫帅"
+                android:textColor="#646464"
+                android:textSize="16sp" />
+
+            
+
+                <TextView
+                    android:id="@+id/senddateTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="昨天夜深人静的时候"
+                    android:textColor="#969696"
+                    android:textSize="13sp" />
+                
+                
+                    <TextView
+                        android:id="@+id/content"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="来自猩猩的你来自猩猩的你来自猩猩的你来自猩猩的你来自猩猩的你"
+                        android:textColor="#646464"
+                        android:textSize="16sp" />
+          
+        </LinearLayout>
+    </LinearLayout>  
+    
+    <TextView 
+        android:id="@+id/emptyTextView"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="#f0f0f0"/>
+    
+	<View 
+	    android:id="@+id/view"
+	    android:layout_width="match_parent"
+	    android:layout_height="0.5dp"
+	    android:background="#e0e0e0"/>
+</LinearLayout>

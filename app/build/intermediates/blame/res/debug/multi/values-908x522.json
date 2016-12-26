@@ -1,0 +1,506 @@
+[
+    {
+        "outputFile": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\values-908x522\\values-908x522.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 43,
+                    "endOffset": 94
+                },
+                "from": {
+                    "file": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\values-908x522\\dimens_height.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 0,
+                        "startOffset": 99,
+                        "endColumn": 39,
+                        "endOffset": 138
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 99,
+                    "endColumn": 47,
+                    "endOffset": 142
+                },
+                "from": {
+                    "file": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\values-908x522\\dimens_height.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 0,
+                        "startOffset": 540,
+                        "endColumn": 43,
+                        "endOffset": 583
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 147,
+                    "endColumn": 49,
+                    "endOffset": 192
+                },
+                "from": {
+                    "file": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\values-908x522\\dimens_height.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 0,
+                        "startOffset": 493,
+                        "endColumn": 45,
+                        "endOffset": 538
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 197,
+                    "endColumn": 47,
+                    "endOffset": 240
+                },
+                "from": {
+                    "file": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\values-908x522\\dimens_height.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 140,
+                        "endColumn": 43,
+                        "endOffset": 183
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 245,
+                    "endColumn": 47,
+                    "endOffset": 288
+                },
+                "from": {
+                    "file": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\values-908x522\\dimens_height.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 0,
+                        "startOffset": 585,
+                        "endColumn": 43,
+                        "endOffset": 628
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 293,
+                    "endColumn": 46,
+                    "endOffset": 335
+                },
+                "from": {
+                    "file": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\values-908x522\\dimens_height.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 185,
+                        "endColumn": 42,
+                        "endOffset": 227
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 340,
+                    "endColumn": 47,
+                    "endOffset": 383
+                },
+                "from": {
+                    "file": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\values-908x522\\dimens_height.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 229,
+                        "endColumn": 43,
+                        "endOffset": 272
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 388,
+                    "endColumn": 45,
+                    "endOffset": 429
+                },
+                "from": {
+                    "file": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\values-908x522\\dimens_height.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 274,
+                        "endColumn": 41,
+                        "endOffset": 315
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 434,
+                    "endColumn": 47,
+                    "endOffset": 477
+                },
+                "from": {
+                    "file": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\values-908x522\\dimens_height.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 317,
+                        "endColumn": 43,
+                        "endOffset": 360
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 482,
+                    "endColumn": 46,
+                    "endOffset": 524
+                },
+                "from": {
+                    "file": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\values-908x522\\dimens_height.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 362,
+                        "endColumn": 42,
+                        "endOffset": 404
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 529,
+                    "endColumn": 47,
+                    "endOffset": 572
+                },
+                "from": {
+                    "file": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\values-908x522\\dimens_height.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 406,
+                        "endColumn": 43,
+                        "endOffset": 449
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 577,
+                    "endColumn": 44,
+                    "endOffset": 617
+                },
+                "from": {
+                    "file": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\values-908x522\\dimens_height.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 0,
+                        "startOffset": 451,
+                        "endColumn": 40,
+                        "endOffset": 491
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 622,
+                    "endColumn": 44,
+                    "endOffset": 662
+                },
+                "from": {
+                    "file": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\values-908x522\\dimens_height.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 1,
+                        "startOffset": 54,
+                        "endColumn": 41,
+                        "endOffset": 94
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\values-908x522\\values-908x522.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 43,
+                    "endOffset": 94
+                },
+                "from": {
+                    "file": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\values-908x522\\dimens_height.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 0,
+                        "startOffset": 99,
+                        "endColumn": 39,
+                        "endOffset": 138
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 99,
+                    "endColumn": 47,
+                    "endOffset": 142
+                },
+                "from": {
+                    "file": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\values-908x522\\dimens_height.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 0,
+                        "startOffset": 540,
+                        "endColumn": 43,
+                        "endOffset": 583
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 147,
+                    "endColumn": 49,
+                    "endOffset": 192
+                },
+                "from": {
+                    "file": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\values-908x522\\dimens_height.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 0,
+                        "startOffset": 493,
+                        "endColumn": 45,
+                        "endOffset": 538
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 197,
+                    "endColumn": 47,
+                    "endOffset": 240
+                },
+                "from": {
+                    "file": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\values-908x522\\dimens_height.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 140,
+                        "endColumn": 43,
+                        "endOffset": 183
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 245,
+                    "endColumn": 47,
+                    "endOffset": 288
+                },
+                "from": {
+                    "file": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\values-908x522\\dimens_height.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 0,
+                        "startOffset": 585,
+                        "endColumn": 43,
+                        "endOffset": 628
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 293,
+                    "endColumn": 46,
+                    "endOffset": 335
+                },
+                "from": {
+                    "file": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\values-908x522\\dimens_height.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 185,
+                        "endColumn": 42,
+                        "endOffset": 227
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 340,
+                    "endColumn": 47,
+                    "endOffset": 383
+                },
+                "from": {
+                    "file": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\values-908x522\\dimens_height.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 229,
+                        "endColumn": 43,
+                        "endOffset": 272
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 388,
+                    "endColumn": 45,
+                    "endOffset": 429
+                },
+                "from": {
+                    "file": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\values-908x522\\dimens_height.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 274,
+                        "endColumn": 41,
+                        "endOffset": 315
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 434,
+                    "endColumn": 47,
+                    "endOffset": 477
+                },
+                "from": {
+                    "file": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\values-908x522\\dimens_height.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 317,
+                        "endColumn": 43,
+                        "endOffset": 360
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 482,
+                    "endColumn": 46,
+                    "endOffset": 524
+                },
+                "from": {
+                    "file": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\values-908x522\\dimens_height.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 362,
+                        "endColumn": 42,
+                        "endOffset": 404
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 529,
+                    "endColumn": 47,
+                    "endOffset": 572
+                },
+                "from": {
+                    "file": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\values-908x522\\dimens_height.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 406,
+                        "endColumn": 43,
+                        "endOffset": 449
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 577,
+                    "endColumn": 44,
+                    "endOffset": 617
+                },
+                "from": {
+                    "file": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\values-908x522\\dimens_height.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 0,
+                        "startOffset": 451,
+                        "endColumn": 40,
+                        "endOffset": 491
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 622,
+                    "endColumn": 44,
+                    "endOffset": 662
+                },
+                "from": {
+                    "file": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\values-908x522\\dimens_height.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 1,
+                        "startOffset": 54,
+                        "endColumn": 41,
+                        "endOffset": 94
+                    }
+                }
+            }
+        ]
+    }
+]

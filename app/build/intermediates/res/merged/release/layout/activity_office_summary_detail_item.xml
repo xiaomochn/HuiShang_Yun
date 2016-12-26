@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#f0f0f0"
+    android:orientation="vertical" >
+    
+    
+    <!-- <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:paddingTop="10dp"
+         android:gravity="bottom"
+         >
+        <TextView 
+             android:layout_width="10dp"
+             android:layout_height="30dp"
+             android:background="#ffffff"
+            />
+         <ImageView
+             android:id="@+id/person_img"
+             android:layout_width="50dp"
+             android:layout_height="50dp"
+             android:src="@drawable/contact_person"
+            />
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="30dp"
+             android:background="#ffffff"
+             android:gravity="center_vertical" >
+         <TextView 
+             android:id="@+id/familyname"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="#ffffff"
+             android:layout_marginLeft="10dp"
+             android:text="李智"/>
+         </LinearLayout>
+     </LinearLayout>-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="bottom">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical" >
+                <TextView
+                    android:id="@+id/familyname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:layout_marginLeft="65dp"
+                    android:text="李智"/>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/person_img"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/contact_person"
+            />
+    </FrameLayout>
+
+     
+     <LinearLayout 
+		   android:layout_width="match_parent"
+		   android:layout_height="wrap_content"
+		   android:background="#ffffff"
+		   android:layout_marginLeft="10dp"
+		   android:layout_marginRight="10dp"
+		   android:orientation="vertical" >
+     
+     <!-- 今日工作 -->
+     <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center_vertical"
+            android:background="#ffffff"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/report_todaywork" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="今日工作"
+                android:textColor="#646464"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    <LinearLayout
+            android:id="@+id/todaylayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center_vertical"
+            android:background="#ffffff"
+            android:orientation="vertical" >
+
+        </LinearLayout>
+        
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#e0e0e0"/>
+    
+      <!-- 今日工作 -->
+     <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center_vertical"
+            android:background="#ffffff"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/report_tips" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="问题反馈"
+                android:textColor="#646464"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+          <TextView
+                android:id="@+id/exprenice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#ffffff"
+                android:gravity="top|left"
+                android:padding="5dp"
+                android:textColor="#969696"
+                android:textSize="15sp" />
+        
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#e0e0e0"/>
+    
+    
+      <!-- 今日工作 -->
+     <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center_vertical"
+            android:background="#ffffff"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/report_schedule" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="明日安排"
+                android:textColor="#646464"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    <LinearLayout
+            android:id="@+id/tomorrowlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center_vertical"
+            android:background="#ffffff"
+            android:orientation="vertical" >
+
+        </LinearLayout>
+        
+        <View 
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#e0e0e0"/>
+        
+        <TextView 
+            android:id="@+id/belongdate"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:textSize="13sp"
+            android:textColor="#969696"
+            android:text="时间：2014-08-08"/>
+   
+    </LinearLayout>
+    
+    
+
+</LinearLayout>

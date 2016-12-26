@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:id="@+id/top_bar" 
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:background="#00658f" >
+        
+        <!-- 我的围观，返回按钮 -->
+        <LinearLayout 
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:background="@drawable/title_background"
+	        android:clickable="true"
+	        android:gravity="center_vertical" >
+	        <TextView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:drawableLeft="@drawable/back"
+	            android:layout_marginLeft="15dp"
+	            android:paddingRight="15dp"
+	            android:text="  我的围观 "
+	            android:textColor="#ffffff"
+	            android:textSize="21sp" />
+        </LinearLayout>
+    </RelativeLayout>
+    
+    <FrameLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+ <com.huishangyun.swipelistview.MyXListView
+     android:id="@+id/mlistview"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:divider="@null"
+     android:dividerHeight="10dp">
+     
+ </com.huishangyun.swipelistview.MyXListView>
+ 
+   <ImageView 
+        android:id="@+id/no_information"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:src="@drawable/nomessagelist"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"/>
+   </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.huishangyun.View.BounceScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#eeeeee"
+        android:fillViewport="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/fragment_setting_userinfo"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/setting_back"
+                android:gravity="center_vertical"
+                android:layout_marginTop="20dp"
+                android:paddingRight="15dp"
+                android:paddingLeft="15dp"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/fragment_setting_icon"
+                    android:layout_width="31dp"
+                    android:layout_height="31dp"
+                    android:src="@drawable/contact_person" />
+
+                <TextView
+                    android:id="@+id/fragment_setting_name"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:text="作乐"
+                    android:textColor="#646464"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/right"
+                    android:textSize="@dimen/text_9" />
+            </LinearLayout>
+            
+            
+            <!-- <LinearLayout
+                android:id="@+id/fragment_setting_off"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/height_6_80"
+                android:layout_marginTop="20dip"
+                android:background="@drawable/settion_top_normal"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="20dip"
+                    android:layout_height="20dip"
+                    android:layout_marginLeft="@dimen/width_3_80"
+                    android:src="@drawable/about" />
+
+                <TextView
+                    android:id="@+id/fragment_setting_name"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/width_2_80"
+                    android:text="是否缓存联系人"
+                    android:textSize="@dimen/text_6" />
+
+                <com.suokete.view.Switch 
+                    android:id="@+id/fragment_setting_save_contact"
+                    android:layout_width="80dip"
+                    android:layout_height="28dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="8.0dip"/>
+            </LinearLayout> -->
+
+            <LinearLayout
+                android:id="@+id/fragment_setting_about"
+                android:layout_width="fill_parent"
+                android:layout_height="44dp"
+                android:layout_marginTop="20dip"
+                android:background="@drawable/setting_back"
+                android:gravity="center_vertical"
+                android:paddingRight="15dp"
+                android:paddingLeft="15dp"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="20dip"
+                    android:layout_height="20dip"
+                    android:src="@drawable/set_about" />
+
+                <TextView
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/width_2_80"
+                    android:text="关于"
+                    android:textColor="#646464"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/right"
+                    android:textSize="@dimen/text_9" />
+            </LinearLayout>
+            
+            <LinearLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:orientation="horizontal"
+                android:background="#FFFFFF">
+                <View 
+	                android:layout_width="fill_parent"
+	                android:layout_height="1px"
+	                android:layout_marginLeft="15dp"
+	                android:background="#e0e0e0"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/fragment_setting_updatanew"
+                android:layout_width="fill_parent"
+                android:layout_height="44dp"
+                android:background="@drawable/setting_back"
+                android:gravity="center_vertical"
+                android:paddingRight="15dp"
+                android:paddingLeft="15dp"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="20dip"
+                    android:layout_height="20dip"
+                    android:src="@drawable/ver_update" />
+
+                <TextView
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/width_2_80"
+                    android:text="版本更新"
+                    android:textColor="#646464"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/fragment_setting_updata_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#969696"
+                    android:textSize="12sp"
+                    android:text="@string/updatanew_no"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:orientation="horizontal"
+                android:background="#FFFFFF">
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:layout_marginLeft="15dp"
+                    android:background="#e0e0e0"/>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/fragment_setting_updata"
+                android:layout_width="fill_parent"
+                android:layout_height="44dp"
+                android:background="@drawable/setting_back"
+                android:gravity="center_vertical"
+                android:paddingRight="15dp"
+                android:paddingLeft="15dp"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="20dip"
+                    android:layout_height="20dip"
+                    android:src="@drawable/set_synchronousdata" />
+
+                <TextView
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/width_2_80"
+                    android:text="同步基础数据"
+                    android:textColor="#646464"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/right"
+                    android:textSize="@dimen/text_9" />
+            </LinearLayout>
+            
+             <LinearLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:orientation="horizontal"
+                android:background="#FFFFFF">
+                <View 
+	                android:layout_width="fill_parent"
+	                android:layout_height="1px"
+	                android:layout_marginLeft="15dp"
+	                android:background="#e0e0e0"/>
+            </LinearLayout>
+            <!--清楚缓存-->
+            <LinearLayout
+                android:id="@+id/fragment_setting_cache"
+                android:layout_width="fill_parent"
+                android:layout_height="44dp"
+                android:background="@drawable/setting_back"
+                android:gravity="center_vertical"
+                android:paddingRight="15dp"
+                android:paddingLeft="15dp"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="20dip"
+                    android:layout_height="20dip"
+                    android:src="@drawable/clear_cache" />
+
+                <TextView
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/width_2_80"
+                    android:text="清除缓存"
+                    android:textColor="#646464"
+                    android:textSize="15sp" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/right"
+                    android:textSize="@dimen/text_9" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:orientation="horizontal"
+                android:background="#FFFFFF">
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:layout_marginLeft="15dp"
+                    android:background="#e0e0e0"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/fragment_setting_tx"
+                android:layout_width="fill_parent"
+                android:layout_height="44dp"
+                android:background="@drawable/setting_back"
+                android:gravity="center_vertical"
+                android:paddingRight="15dp"
+                android:paddingLeft="15dp"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="20dip"
+                    android:layout_height="20dip"
+                    android:src="@drawable/set_notificationbar" />
+
+                <TextView
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/width_2_80"
+                    android:text="通知栏设置"
+                    android:textColor="#646464"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/right"
+                    android:textSize="@dimen/text_9" />
+            </LinearLayout>
+            <LinearLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:orientation="horizontal"
+                android:background="#FFFFFF">
+                <View 
+	                android:layout_width="fill_parent"
+	                android:layout_height="1px"
+	                android:layout_marginLeft="15dp"
+	                android:background="#e0e0e0"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/fragment_setting_fx"
+                android:layout_width="fill_parent"
+                android:layout_height="44dp"
+                android:background="@drawable/setting_back"
+                android:gravity="center_vertical"
+                android:paddingRight="15dp"
+                android:paddingLeft="15dp"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="20dip"
+                    android:layout_height="20dip"
+                    android:src="@drawable/set_share" />
+
+                <TextView
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/width_2_80"
+                    android:text="分享至好友"
+                    android:textColor="#646464"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/right"
+                    android:textSize="@dimen/text_9" />
+            </LinearLayout>
+            
+
+            
+             <!-- <LinearLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:orientation="horizontal"
+                android:background="#FFFFFF">
+                <View 
+	                android:layout_width="fill_parent"
+	                android:layout_height="1px"
+	                android:background="#e0e0e0"/>
+            </LinearLayout> -->
+            
+            
+            <LinearLayout
+                android:id="@+id/fragment_setting_newpass"
+                android:layout_width="fill_parent"
+                android:layout_height="44dp"
+                android:layout_marginTop="20dp"
+                android:paddingRight="15dp"
+                android:paddingLeft="15dp"
+                android:background="@drawable/setting_back"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="20dip"
+                    android:layout_height="20dip"
+                    android:src="@drawable/password_change" />
+
+                <TextView
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/width_2_80"
+                    android:text="修改密码"
+                    android:textColor="#646464"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/right"/>
+            </LinearLayout>
+            
+            <LinearLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:orientation="horizontal"
+                android:background="#FFFFFF">
+                <View 
+	                android:layout_width="fill_parent"
+	                android:layout_height="1px"
+	                android:layout_marginLeft="15dp"
+	                android:background="#e0e0e0"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/fragment_setting_canaell"
+                android:layout_width="fill_parent"
+                android:layout_height="44dp"
+                android:paddingRight="15dp"
+                android:paddingLeft="15dp"
+                android:background="@drawable/setting_back"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="20dip"
+                    android:layout_height="20dip"
+                    android:src="@drawable/set_cancellation" />
+
+                <TextView
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/width_2_80"
+                    android:text="注销"
+                    android:textColor="#646464"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/right"/>
+            </LinearLayout>
+            
+            <LinearLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:orientation="horizontal"
+                android:background="#FFFFFF">
+                <View 
+	                android:layout_width="fill_parent"
+	                android:layout_height="1px"
+	                android:layout_marginLeft="15dp"
+	                android:background="#e0e0e0"/>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/fragment_setting_exit"
+                android:layout_width="fill_parent"
+                android:layout_height="44dp"
+                android:paddingRight="15dp"
+                android:paddingLeft="15dp"
+                android:background="@drawable/setting_back"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="20dip"
+                    android:layout_height="20dip"
+                    android:src="@drawable/set_exit" />
+
+                <TextView
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/width_2_80"
+                    android:text="退出"
+                    android:textColor="#646464"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/right"
+                    android:textSize="@dimen/text_9" />
+            </LinearLayout>
+
+           <!--  <Button
+                android:id="@+id/fragment_setting_exit"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/height_6_80"
+                android:layout_marginTop="20dip"
+                android:background="@drawable/setting_normals"
+                android:text="退出"
+                android:textColor="@color/r_blue"
+                android:textSize="@dimen/text_7" /> -->
+        </LinearLayout>
+    </com.huishangyun.View.BounceScrollView>
+
+</LinearLayout>

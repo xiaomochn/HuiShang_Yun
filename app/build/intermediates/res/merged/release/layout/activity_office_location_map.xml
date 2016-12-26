@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical">
+    
+    
+    <RelativeLayout
+        android:id="@+id/head_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#00658f" >
+
+        <RelativeLayout
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:background="@drawable/title_background" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/back" />
+
+            <TextView
+                android:id="@+id/headname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="40dp"
+                android:paddingRight="15dp"
+                android:text="人员位置"
+                android:textColor="#ffffff"
+                android:textSize="21sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+    
+   <LinearLayout 
+       android:id="@+id/selectLayout"
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:background="@drawable/list_background"
+       android:orientation="horizontal"
+       android:gravity="center_vertical">
+       
+     <TextView 
+        android:id="@+id/UserName"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textSize="17sp"
+        android:textColor="#646464"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp"
+        android:text="谢水林"/>
+     
+     <com.huishangyun.Office.Attendance.MarqueeText
+        android:id="@+id/dateTime"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:textSize="15sp"
+        android:textColor="#969696"
+        android:gravity="center_vertical|left"
+        android:ellipsize="end"
+        android:paddingLeft="10dp"
+        android:paddingTop="1dp"
+        android:visibility="invisible"
+        android:text="获取时间：2015-3-10 15:32"/>
+     
+     <LinearLayout
+         android:layout_width="0.0dp"
+         android:layout_height="match_parent"
+         android:layout_weight="1.0" 
+         android:gravity="center_vertical|right"
+         android:orientation="vertical">
+     
+     <ImageView 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginRight="10dp"
+         android:src="@drawable/right"/>
+     </LinearLayout>
+</LinearLayout>
+<View 
+    android:layout_width="match_parent"
+    android:layout_height="0.5dp"
+    android:background="#e0e0e0"/>
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/bmapView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true" />
+
+
+</LinearLayout>

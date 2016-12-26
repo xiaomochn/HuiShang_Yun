@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#ffffff">
+    
+    <!-- 账号 -->
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        >
+    	<TextView
+		    android:layout_height="wrap_content"
+		    android:layout_width="wrap_content"
+		    android:layout_marginLeft="15dp"
+		    android:text="账号"
+		    android:textSize="16sp"
+		    android:textColor="#646464"/>	
+    	
+		<EditText
+		    android:layout_height="wrap_content"
+		    android:layout_width="match_parent"
+		    android:maxLength="12"
+		    android:paddingTop="15dp"
+    		android:paddingBottom="15dp"
+		    android:paddingRight="15dp"
+		    android:paddingLeft="5dp"
+		    
+		    android:background="@null"		    
+		    android:gravity="right"
+		    android:textColor="#969696"
+		    android:textSize="15sp"
+		    android:id="@+id/item02_01"/>
+	</LinearLayout>
+	<View
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:background="#dcdcdc"
+        android:layout_marginLeft="15dp"/>
+	
+	<!-- 密码 -->
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        >
+    	<TextView
+		    android:layout_height="wrap_content"
+		    android:layout_width="wrap_content"
+		    android:layout_marginLeft="15dp"
+		    android:text="密码"
+		    android:textSize="16sp"
+		    android:textColor="#646464"/>	
+   	
+		<EditText
+		    android:layout_height="wrap_content"
+		    android:layout_width="fill_parent"
+		    android:maxLength="12"
+		    android:paddingTop="15dp"
+    		android:paddingBottom="15dp"
+    		android:paddingRight="15dp"
+		    android:paddingLeft="5dp"
+		    
+		    android:background="@null"
+		    android:inputType="textPassword"
+		    android:gravity="right"
+		    android:textColor="#969696"
+		    android:textSize="15sp"
+		    android:id="@+id/item02_02"/>
+	</LinearLayout>
+	<View
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:background="#dcdcdc"
+        android:layout_marginLeft="15dp"/>
+	
+	<!-- 确认密码 -->
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        >
+    	<TextView
+		    android:layout_height="wrap_content"
+		    android:layout_width="wrap_content"
+		    android:layout_marginLeft="15dp"
+		    android:layout_centerVertical="true"
+		    android:text="确认密码"
+		    android:textSize="16sp"
+		    android:textColor="#646464"/>
+		
+		<EditText
+		    android:layout_height="wrap_content"
+		    android:layout_width="match_parent"
+		    android:maxLength="12"
+		    android:paddingTop="15dp"
+    		android:paddingBottom="15dp"
+    		android:paddingRight="15dp"
+		    android:paddingLeft="5dp"
+		    
+		    android:background="@null"
+		    android:inputType="textPassword"
+		    android:gravity="right"
+		    android:textColor="#969696"
+		    android:textSize="15sp"
+		    android:id="@+id/item02_03"/>
+	</LinearLayout>
+	<View
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:background="#dcdcdc"/>
+</LinearLayout>

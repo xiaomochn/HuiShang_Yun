@@ -1,0 +1,2838 @@
+[
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_dinghuodan.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_dinghuodan.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_visit_viewpager_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_visit_viewpager_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_task_choosefile.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_task_choosefile.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_opport_detail_edit.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_opport_detail_edit.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_clue_listview_item.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_listview_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_summary_detail_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_summary_detail_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_email_content.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_email_content.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_onlooks_popuwindow.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_onlooks_popuwindow.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contact_pager2.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\contact_pager2.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\viewpager_fragment2.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\viewpager_fragment2.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_top_onlook.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_top_onlook.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_customer.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\popupwindow_customer.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_competing_new.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_competing_new.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_dingdan.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_dingdan.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_businesstrip_mylistview_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_businesstrip_mylistview_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_compan_head.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_item_compan_head.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chat_histroy.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_chat_histroy.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\workspace_line.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\workspace_line.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_task_opport.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_task_opport.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\viewpager_fragment2.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\viewpager_fragment2.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_log.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_log.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_stock_classify.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_stock_classify.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_summary_searchfragment.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_summary_searchfragment.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_onlooks_my.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_onlooks_my.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_allaskforleavefragment.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_allaskforleavefragment.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_notice.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\dialog_notice.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_onlooks_mycomment.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_onlooks_mycomment.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_recent_msg.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\item_recent_msg.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_addressnew.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_addressnew.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_stock_record_item.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_stock_record_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_work.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_work.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_visit_record_item.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_visit_record_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_clue_main_department.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_main_department.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_setting.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_setting.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_plan_customerslist.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_plan_customerslist.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_image_detail.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_image_detail.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\radiogroup_app.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\radiogroup_app.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_opport_stage_listview_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_opport_stage_listview_item.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fenlei_shipin.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_fenlei_shipin.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_clue_main_ordinary_entry.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_main_ordinary_entry.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_onlooks_main.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_onlooks_main.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_gouwuche.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_gouwuche.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_notice.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_notice.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_location_map_text.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_location_map_text.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chatheadview.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\chatheadview.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_dingdan.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_dingdan.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_display_item.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_display_item.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\photo.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\photo.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\scroll_top.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\scroll_top.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_task_item.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\listview_task_item.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\groupdata_line_parent.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\groupdata_line_parent.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chageuserinfo.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\chageuserinfo.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_customer_all.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_customer_all.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_serviceinfo.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_serviceinfo.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_approval_remindsfragment.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_approval_remindsfragment.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\softupdata.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\softupdata.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_businesstrip_listview_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_businesstrip_listview_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activitty_plan_detail.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activitty_plan_detail.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\guide_four.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\guide_four.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_task_choosefile.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_task_choosefile.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_task_list.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_task_list.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\photo_customer.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\photo_customer.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\service_layout.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\service_layout.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_onlooks_create.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_onlooks_create.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_opport_turn_task.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_opport_turn_task.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_memberinfo.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_memberinfo.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_customer_all.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_customer_all.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\settingabout.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\settingabout.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_display_new.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_display_new.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_businesstrip_detail.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_businesstrip_detail.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_plan_person_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_plan_person_item.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\task_item_file.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\task_item_file.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_customer_accper.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_customer_accper.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_competing.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_competing.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_classify.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_classify.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\message_header.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\message_header.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_chat_left.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\item_chat_left.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_myattendance_secondfragment.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_myattendance_secondfragment.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_apport_popuwindow.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_apport_popuwindow.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_myatendance_fistfragment.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_myatendance_fistfragment.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_businersstrip_mylistview_item_2.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_businersstrip_mylistview_item_2.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\alertdialog_luyin.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\alertdialog_luyin.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\guide_splash.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\guide_splash.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_location_map.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_location_map.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_memberinfo.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_memberinfo.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_customer_launchb.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_customer_launchb.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_approval_searchfragment.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_approval_searchfragment.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_box.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\search_box.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_app.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_app.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_notice_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_notice_item.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_approval_remindsfragment.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_approval_remindsfragment.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_shengshi.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_shengshi.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_clue_new_customvisitdialog.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_new_customvisitdialog.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_task_send.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_task_send.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_chat_item.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_chat_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_choose_group.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\item_choose_group.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_onlooks_create.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_onlooks_create.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\customprogressdialog.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\customprogressdialog.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_goodfiles.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_goodfiles.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\loading.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\loading.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xlistview_header.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\xlistview_header.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_dingdanlist.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_dingdanlist.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\markman_pop_item.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\markman_pop_item.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_task_back.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_task_back.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_contact.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\item_contact.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_opport_mian.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_opport_mian.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_opport_create.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_opport_create.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\loaddialog.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\loaddialog.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_visit_skim_photo.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_visit_skim_photo.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\back_title.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\back_title.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\title_chat.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\title_chat.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_askforleave_detail.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_askforleave_detail.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\guide_one.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\guide_one.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_markman_list.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_markman_list.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_task_list.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_task_list.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_stock_record.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_stock_record.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contact_group.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\contact_group.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_changxian.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_changxian.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_information_main.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_information_main.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_markmain.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\item_markmain.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_summary_all_item.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_summary_all_item.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_register_success.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_register_success.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_customerfiles.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_customerfiles.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_customer_details.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_customer_details.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_contact.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\item_contact.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_left_service.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\chat_left_service.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_summary_my_item.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_summary_my_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_dingdan.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_dingdan.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_competing_item.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_competing_item.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_lightapp.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_lightapp.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_clue_new_customdialog_listviewitem.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_new_customdialog_listviewitem.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_summary_report.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_summary_report.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_ordinary_service.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\chat_ordinary_service.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_summary_my_note_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_summary_my_note_item.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_opport_create.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_opport_create.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chat.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_chat.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_clue_custom_toast.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_custom_toast.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_summary_my_note_item.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_summary_my_note_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chathistory.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\chathistory.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xiaoliangshangbao.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\xiaoliangshangbao.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_businesstrip_add.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_businesstrip_add.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_erp.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_erp.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_clue_listview_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_listview_item.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\view.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_title.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_title.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_forget_pass.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_forget_pass.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_summary_detail.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_summary_detail.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_goodslist.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_goodslist.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_myattendance_secondfragment.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_myattendance_secondfragment.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_channel.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_channel.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\guide_two.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\guide_two.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_service_webview.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\chat_service_webview.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pridata.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_pridata.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_clue_new_staff_list.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_new_staff_list.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_task_type.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\item_task_type.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_setting.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_setting.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_myatendance_fistfragment.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_myatendance_fistfragment.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_register.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_register.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_attendance_mian.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_attendance_mian.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\title.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\title.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_erp.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_erp.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\customer_item04.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\customer_item04.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_plan_create_secondstep.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_plan_create_secondstep.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_display_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_display_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xlistview_footer.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\xlistview_footer.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_plan_customers_listview_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_plan_customers_listview_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_stock_record_myitem.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_stock_record_myitem.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_log.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_log.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\title.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\title.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_office.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_office.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_horizontal.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_vertical.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_submit.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_submit.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_competing_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_competing_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_task_send.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_task_send.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chat_histroy.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_chat_histroy.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_order.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_main_order.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_delivery.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_delivery.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\groupdata_line.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\groupdata_line.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_task_back.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_task_back.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_notice.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\dialog_notice.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_adjust.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_adjust.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_businesstrip_main.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_businesstrip_main.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_huodanding.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_huodanding.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_stock_table.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_stock_table.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_gouwuche.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_gouwuche.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\task_popwindow.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\task_popwindow.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_opport_viewpager_all.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_opport_viewpager_all.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_image_detail.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_image_detail.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_writeremail.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_writeremail.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_approval_main.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_approval_main.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_markman.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_markman.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\saomiao.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\saomiao.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_dinghuodan.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_dinghuodan.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_evection_add.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_evection_add.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_notice_item.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_notice_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_plan_customerslist.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_plan_customerslist.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_task_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\listview_task_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\radio_group.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\radio_group.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mprogressdialog.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\mprogressdialog.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\alertdialog_goodsnub.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\alertdialog_goodsnub.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\guide_viewpager.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\guide_viewpager.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_askforleave_main.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_askforleave_main.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\customerset.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\customerset.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_screen.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_screen.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\group_item_contact.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\group_item_contact.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_huodantui.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_huodantui.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_customer_launchb.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_customer_launchb.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_title.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\main_title.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\customerset.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\customerset.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\task_item_choosefile.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\task_item_choosefile.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_select.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_select.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_ordinary_service.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\chat_ordinary_service.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_businesstrip_detail.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_businesstrip_detail.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contact_pager1.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\contact_pager1.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\net_status_bar_info_top.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\net_status_bar_info_top.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\task_item_filelist.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\task_item_filelist.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\radio_group.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\radio_group.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_main.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_item_main.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\swipeback_layout.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\swipeback_layout.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_compan.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_item_compan.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_fenlei.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_fenlei.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fenlei_shipin.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_fenlei_shipin.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\viewpager_fragment3.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\viewpager_fragment3.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\vw_xscrollview_layout.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\vw_xscrollview_layout.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_task_type.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\item_task_type.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\file_view.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\file_view.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\alertdialog_customer.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\alertdialog_customer.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contact_pager3.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\contact_pager3.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_group_info.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_group_info.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_stock_report_forms_item.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_stock_report_forms_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_competing_new.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_competing_new.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_opport_turn_task.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_opport_turn_task.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\markman_pop_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\markman_pop_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_checkcontacter.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_checkcontacter.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pridata.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_pridata.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\priinfo_top.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\priinfo_top.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\alertdialog_customer2.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\alertdialog_customer2.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\refresh_header.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\refresh_header.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\task_item_prog.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\task_item_prog.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\task_scroll_top.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\task_scroll_top.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_summary_report.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_summary_report.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_visit_record.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_visit_record.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\setting_about.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\setting_about.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_select.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_select.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_stock_report_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_stock_report_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\task_item_filelist.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\task_item_filelist.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popup_horizontal.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\popup_horizontal.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xlistview_footer.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\xlistview_footer.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activitty_plan_detail.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activitty_plan_detail.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\viewpager_fragment.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\viewpager_fragment.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_onlooks_details.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_onlooks_details.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_title.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\main_title.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_mrakman.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_add_mrakman.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_dingdan.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_dingdan.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_dingdancommon.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_dingdancommon.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_onlooks_recording_play.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_onlooks_recording_play.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\customer_item02.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\customer_item02.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_clue_new_customvisitdialog.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_new_customvisitdialog.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_compan.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_item_compan.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\swipeback_layout.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\swipeback_layout.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_customerset.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_customerset.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_markman.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_markman.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_plan_customers_imgitem.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_plan_customers_imgitem.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_app.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_app.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\alertdialog_customer.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\alertdialog_customer.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\group_item_contact.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\group_item_contact.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contact_pager1.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\contact_pager1.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\loading.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\loading.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_phone.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_phone.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\guide_viewpager.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\guide_viewpager.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_opport_time_listview_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_opport_time_listview_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\settingabout.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\settingabout.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_list_item.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\app_list_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\define_progressbar.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\define_progressbar.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat__error_page.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\chat__error_page.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_compan_head.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_item_compan_head.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_location_map_text.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_location_map_text.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_weihu.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_weihu.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_clue_new_customvisitdialog_listviewitem.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_new_customvisitdialog_listviewitem.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_all.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_all.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_xiaoliang.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_xiaoliang.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_shengshi.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_shengshi.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_clue_modify.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_modify.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_onlooks_popuwindow.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_onlooks_popuwindow.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\customer_item02.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\customer_item02.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_works.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_works.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_plan_customers_item.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_plan_customers_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\customprogressdialog.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\customprogressdialog.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_askforleave_my_item.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_askforleave_my_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_task_filelist.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_task_filelist.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sub_app_item.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\sub_app_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\task_detail_info.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\task_detail_info.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_clue_mian_my.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_mian_my.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_onlooks_recording_play.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_onlooks_recording_play.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\customer_item04.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\customer_item04.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\service_layout.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\service_layout.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_summary_my.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_summary_my.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\face.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\face.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_checkcontacter.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_checkcontacter.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_summary_my.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_summary_my.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_clue_new_staff_list.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_new_staff_list.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\net_status_bar_info_top.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\net_status_bar_info_top.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_forgetpassword.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_forgetpassword.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_title.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_title.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_register_fail.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_register_fail.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contact_chat_list.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\contact_chat_list.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sub_app_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\sub_app_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_stock_product.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_stock_product.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\file_view.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\file_view.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_mrakman.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_add_mrakman.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_left_service.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\chat_left_service.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_plan_create_first_step.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_plan_create_first_step.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activivty_office_onlooks_details_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activivty_office_onlooks_details_item.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\priinfo_top.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\priinfo_top.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\alertdialog_luyin.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\alertdialog_luyin.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_clue_main_search.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_main_search.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_chat_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_chat_item.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_clue_mian_all.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_mian_all.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_clue_new_customdialog.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_new_customdialog.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_stock_no_classify.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_stock_no_classify.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\setting_about.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\setting_about.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\task_detail_info.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\task_detail_info.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_opport_detail.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_opport_detail.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_onlooks_details.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_onlooks_details.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\define_progressbar.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\define_progressbar.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_huodantui.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_huodantui.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\task_accepted_listview.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\task_accepted_listview.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_forgetpassword.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_forgetpassword.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_screen.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_screen.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mprogressdialog.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\mprogressdialog.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_msg.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_msg.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_poi_detail.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\item_poi_detail.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_markmain.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\item_markmain.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_goodfiles.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_goodfiles.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_msg.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_msg.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_stock_report_item.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_stock_report_item.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\vw_xscrollview_layout.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\vw_xscrollview_layout.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\alertdialog_customer2.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\alertdialog_customer2.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_businesstrip_listview_item.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_businesstrip_listview_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_clue_new_customdialog.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_new_customdialog.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_opport_viewpager_department.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_opport_viewpager_department.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_opport_listview_item.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_opport_listview_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_addressnew.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_addressnew.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_changxian.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_changxian.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat__error_page.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\chat__error_page.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_allaskforleavefragment.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_allaskforleavefragment.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_askforleave_detail.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_askforleave_detail.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\task_item_file.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\task_item_file.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_opport_listview_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_opport_listview_item.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_office.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_office.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_xiaoshoujihua.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_xiaoshoujihua.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_plan_customers_imgitem.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_plan_customers_imgitem.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\workspace_line.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\workspace_line.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_goodslist_tui.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_goodslist_tui.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\message_header.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\message_header.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_visit_record_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_visit_record_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_writeremail.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_writeremail.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\task_detail_progre.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\task_detail_progre.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_land.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_land.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_visit_new.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_visit_new.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_new_password.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_new_password.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_cuxiao.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_cuxiao.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_onlooks_mycomment.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_onlooks_mycomment.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_onlooks_main.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_onlooks_main.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_box.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\search_box.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_top_onlook.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_top_onlook.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_approval_todofragment.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_approval_todofragment.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custormer_popwindow.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\custormer_popwindow.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\softupdata.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\softupdata.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_businesstrip_detail_item.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_businesstrip_detail_item.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_goodslist_tui.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_goodslist_tui.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custormer_popwindow.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\custormer_popwindow.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\customer_item01.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\customer_item01.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_notice.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_notice.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_xiaoshoujihua.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_xiaoshoujihua.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_markmanlist.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\item_markmanlist.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_address.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_address.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_companynews.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_companynews.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_delivery.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_delivery.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\office_common_datetime.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\office_common_datetime.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\service_menu.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\service_menu.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\weihu.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\weihu.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_menu.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_menu.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_opport_mian.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_opport_mian.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_vertical.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_clue_custom_toast.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_custom_toast.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_weihu.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_weihu.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_customer_list.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\item_customer_list.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_businesstrip_detail_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_businesstrip_detail_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_stock_table.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_stock_table.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_clue_mian_all.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_mian_all.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_clue_mian_my.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_mian_my.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_stock_record_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_stock_record_item.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_plan_create_first_step.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_plan_create_first_step.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_clue_modify.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_modify.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ordergoods.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_ordergoods.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_visit_record.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_visit_record.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_task_menu.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_task_menu.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\loaddialog.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\loaddialog.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_summary_my_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_summary_my_item.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\back_title.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\back_title.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_goodslist_not.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_goodslist_not.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xiaoliangshangbao.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\xiaoliangshangbao.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contact_pager2.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\contact_pager2.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_location_map.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_location_map.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activivty_office_onlooks_details_item.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activivty_office_onlooks_details_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_onlooks_my.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_onlooks_my.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_works.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_works.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\task_popwindow.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\task_popwindow.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_imagefragment.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_imagefragment.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow_customer.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\popupwindow_customer.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_opport_money_listview_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_opport_money_listview_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_askforleave_my_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_askforleave_my_item.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_clue_main.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_main.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_onlooks_girdview_item.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_onlooks_girdview_item.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_plan.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_plan.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_task_filelist.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_task_filelist.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_alarm_widget.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_alarm_widget.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_approval_searchfragment.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_approval_searchfragment.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_recent_msg.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\item_recent_msg.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_summary_all_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_summary_all_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\customer_popmenu.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\customer_popmenu.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notif_view.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\notif_view.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_classify.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_classify.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_apport_popuwindow.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_apport_popuwindow.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_businesstrip_main.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_businesstrip_main.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_clue_main_ordinary_entry.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_main_ordinary_entry.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_chat_right.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\item_chat_right.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_plan_create_secondstep.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_plan_create_secondstep.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_service_webview.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\chat_service_webview.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_customer_location.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_customer_location.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_clue_search.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_search.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_onlooks_mycomment_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_onlooks_mycomment_item.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_information_main.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_information_main.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_all.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_all.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\alertdialog_address.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\alertdialog_address.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_notice_content.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_notice_content.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_land.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_land.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\task_item_choosefile.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\task_item_choosefile.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_horizontal.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\saomiao.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\saomiao.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_plan_customers_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_plan_customers_item.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_opport_morelistview.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_opport_morelistview.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_approval_todofragment.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_approval_todofragment.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_customer_details.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_customer_details.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_poi_detail.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\item_poi_detail.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_plan_person_item.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_plan_person_item.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\radiogroup_app.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\radiogroup_app.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\office_common_datetime.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\office_common_datetime.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ordergoods.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_ordergoods.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\map_view.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\map_view.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_contact.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_contact.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\task_item_prog.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\task_item_prog.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_opport_viewpager_my.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_opport_viewpager_my.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chatheadview.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\chatheadview.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_clue_new_customvisitdialog_listviewitem.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_new_customvisitdialog_listviewitem.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_visit_skim_photo.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_visit_skim_photo.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\popupwindow.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_menu.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_menu.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\task_scroll_top.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\task_scroll_top.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_address.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_address.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_markmanlist.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\item_markmanlist.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_summary_main.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_summary_main.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gridview_work.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\gridview_work.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\guide_four.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\guide_four.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_businesstrip_add.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_businesstrip_add.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_list_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\app_list_item.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_clue_main_search.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_main_search.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_summary_searchfragment.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_summary_searchfragment.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_customer_group.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_customer_group.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_log.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_log.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_allbusinesstripfragment.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_allbusinesstripfragment.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_stock_no_classify.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_stock_no_classify.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_display.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_display.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\register_main.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\register_main.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\service_menu.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\service_menu.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_customerset.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_customerset.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\alertdialog_goodsnub.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\alertdialog_goodsnub.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_plan_mian.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_plan_mian.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_askforleave_all_item.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_askforleave_all_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\photo.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\photo.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_phone.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_phone.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_customerset04.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_customerset04.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contact_chat_list.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\contact_chat_list.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_address.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_address.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_xiaoliang.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_xiaoliang.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_visit_new.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_visit_new.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\task_detail_progre.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\task_detail_progre.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\scroll_top.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\scroll_top.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popup_horizontal.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\popup_horizontal.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_clue_main.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_main.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_goodslist_not.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_goodslist_not.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_register_provision.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_register_provision.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\viewpager_fragment.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\viewpager_fragment.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_askforleave_all_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_askforleave_all_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\viewpager_fragment3.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\viewpager_fragment3.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\guide_three.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\guide_three.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_address.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_address.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_chat_left.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\item_chat_left.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_group.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\item_group.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_gathering.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_gathering.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_task_opport.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_task_opport.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_task_menu.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_task_menu.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_attendance_remind.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_attendance_remind.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_customer_group.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_customer_group.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_register_provision.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_register_provision.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_imagefragment.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_imagefragment.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_onlooks_details_scrollview_item.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_onlooks_details_scrollview_item.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_stock_delete_dialog.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_stock_delete_dialog.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\title_work.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\title_work.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\group_user_item.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\group_user_item.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_summary_detail_item.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_summary_detail_item.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\screen_item.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\screen_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_search.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_search.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xiaoshoujihua.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\xiaoshoujihua.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\customer_popmenu.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\customer_popmenu.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_stock_delete_dialog.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_stock_delete_dialog.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_clue_new.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_new.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contact_group.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\contact_group.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_attendance_remind.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_attendance_remind.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_markman_list.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_markman_list.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_approval_startfragment.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_approval_startfragment.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_shoucang.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_shoucang.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_businersstrip_mylistview_item_2.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_businersstrip_mylistview_item_2.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\guide_splash.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\guide_splash.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_askforleave_main.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_askforleave_main.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_opport_viewpager_all.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_opport_viewpager_all.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_group.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\item_group.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_approval_main.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_approval_main.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_opport_stage_listview_item.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_opport_stage_listview_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_task_add.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_task_add.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tuihuodan.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_tuihuodan.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_payments.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_payments.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_summary_detail.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_summary_detail.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_onlooks_main_item.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_onlooks_main_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_register_phone.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_register_phone.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_evection_add.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_evection_add.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\markman_pop.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\markman_pop.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_log.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_log.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_email_content.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_email_content.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_channel.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_channel.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\weihu.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\weihu.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_task_details.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_task_details.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_attendance_mian.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_attendance_mian.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_order.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_main_order.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\register_main.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\register_main.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_datails.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_datails.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_stock_record.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_stock_record.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_contact.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_contact.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\guide_two.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\guide_two.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_main.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_item_main.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\writeremail_line.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\writeremail_line.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chathistoryitem.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\chathistoryitem.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_dingdandatails.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_dingdandatails.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\task_launch_listview.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\task_launch_listview.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\task_alllistview.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\task_alllistview.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xlistview_header.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\xlistview_header.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_opport_detail.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_opport_detail.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_register_success_in.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_register_success_in.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_chat_right.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\item_chat_right.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_history_service.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\chat_history_service.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\group_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\group_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_lightapp.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_lightapp.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contact_pager3.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\contact_pager3.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_find.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_find.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_business_cancel_popwindow.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_business_cancel_popwindow.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_shoucang.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_shoucang.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\task_accepted_listview.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\task_accepted_listview.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_clue_search.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_search.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_opport_time_listview_item.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_opport_time_listview_item.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_stock_product.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_stock_product.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_plan_mian.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_plan_mian.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_register_phone.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_register_phone.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_submit.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_submit.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_clue_new.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_new.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_display.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_display.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_gathering.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_gathering.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_onlooks_main_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_onlooks_main_item.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_customerfiles.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_customerfiles.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_approval_startfragment.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_approval_startfragment.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_cuxiao.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_cuxiao.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_history_service.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\chat_history_service.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_onlooks_girdview_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_onlooks_girdview_item.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_opport_money_listview_item.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_opport_money_listview_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_notice_content.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_notice_content.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_stock_report.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_stock_report.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_shoping_car.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_shoping_car.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\map_view.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\map_view.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_image_pager.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_image_pager.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_onlookers_create_item.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_onlookers_create_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_all.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_all.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\group_user_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\group_user_item.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_fenlei.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_fenlei.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_allbusinesstripfragment.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_allbusinesstripfragment.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\title_work.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\title_work.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\gridview_work.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\gridview_work.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\markman_pop.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\markman_pop.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_visit_viewpager_item.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_visit_viewpager_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\groupdata_line.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\groupdata_line.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\view.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_channel_customer.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_channel_customer.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\customer_item03.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\customer_item03.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_serviceinfo.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_serviceinfo.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_customer_location.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_customer_location.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_attendance_my.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_attendance_my.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_zxing.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\main_zxing.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_customerset04.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_customerset04.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_alarm_widget.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_alarm_widget.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\task_alllistview.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\task_alllistview.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_businesstrip_mylistview_item.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_businesstrip_mylistview_item.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\customer_item01.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\customer_item01.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_dingdandatails.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_dingdandatails.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_image_pager.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_image_pager.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_work.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_work.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_all.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_all.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_adjust.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_adjust.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_opport_viewpager_my.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_opport_viewpager_my.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_datails.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_datails.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_business_cancel_popwindow.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_business_cancel_popwindow.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_onlooks_recording.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_onlooks_recording.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\photo_customer.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\photo_customer.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_clue_detail.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_detail.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\writeremail_line.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\writeremail_line.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_compan_setting.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_compan_setting.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_onlooks_mycomment_item.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_onlooks_mycomment_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_companynews.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_companynews.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_plan_customers_listview_item.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_plan_customers_listview_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\guide_three.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\guide_three.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_reportsearch.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_reportsearch.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chathistoryitem.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\chathistoryitem.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_askforleave_add.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_askforleave_add.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_stock_report.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_stock_report.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_opport_morelistview.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_opport_morelistview.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_clue_new_customdialog_listviewitem.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_new_customdialog_listviewitem.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\title_chat.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\title_chat.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_opport_detail_edit.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_opport_detail_edit.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_huodanding.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_huodanding.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xiaoshoujihua.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\xiaoshoujihua.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_register.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_register.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_onlooks_recording.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_onlooks_recording.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_register_fail.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_register_fail.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_register_success.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_register_success.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notif_view.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\notif_view.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\alertdialog_address.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\alertdialog_address.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_plan.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_plan.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_customer_accper.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_customer_accper.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_summary_main.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_summary_main.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_stock_classify.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_stock_classify.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_cuxiao.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_cuxiao.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_register_success_in.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_register_success_in.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pridata_line.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\pridata_line.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_forget_pass.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_forget_pass.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_competing.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_competing.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\guide_one.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\guide_one.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_test.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_test.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\refresh_header.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\refresh_header.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tuihuodan.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_tuihuodan.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_clue_detail.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_detail.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_group_info.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_group_info.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_askforleave_add.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_askforleave_add.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_stock_report_forms_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_stock_report_forms_item.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chat.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_chat.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_cuxiao.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_cuxiao.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_channel_customer.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_channel_customer.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_compan_setting.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_compan_setting.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_zxing.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\main_zxing.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_goodslist.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\list_goodslist.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_opport_viewpager_department.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_opport_viewpager_department.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_shoping_car.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_shoping_car.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_choose_group.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\item_choose_group.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\task_launch_listview.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\task_launch_listview.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pridata_line.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\pridata_line.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\groupdata_line_parent.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\groupdata_line_parent.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_summary_note_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_summary_note_item.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_stock_record_myitem.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_stock_record_myitem.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_clue_main_department.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_clue_main_department.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\face.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\face.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_reportsearch.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_reportsearch.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_search.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_search.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\group_item.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\group_item.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_dingdancommon.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_dingdancommon.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chek_message.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\chek_message.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_new_password.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\fragment_new_password.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_customer_list.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\item_customer_list.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_attendance_my.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_attendance_my.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_summary_note_item.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_summary_note_item.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chathistory.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\chathistory.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_dingdanlist.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_dingdanlist.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\screen_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\screen_item.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\popupwindow.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\popupwindow.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_onlookers_create_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_onlookers_create_item.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chageuserinfo.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\chageuserinfo.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\customer_item03.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\customer_item03.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chek_message.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\chek_message.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_find.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_find.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_payments.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_payments.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_office_onlooks_details_scrollview_item.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_office_onlooks_details_scrollview_item.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_display_new.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_display_new.xml"
+    },
+    {
+        "merged": "E:\\as_workspace\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_task_details.xml",
+        "source": "E:\\as_workspace\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_task_details.xml"
+    },
+    {
+        "merged": "E:\\androidApplication\\HuiShang_Yun\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_task_add.xml",
+        "source": "E:\\androidApplication\\HuiShang_Yun\\app\\src\\main\\res\\layout\\activity_task_add.xml"
+    }
+]

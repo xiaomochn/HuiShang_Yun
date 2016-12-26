@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 陈列页面 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#f0f0f0"
+     >
+
+ <!-- 头部 -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#00658f" >
+      
+        <LinearLayout
+            android:id="@+id/display_add"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/title_background"
+            android:clickable="true">
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:scaleType="center"
+	            android:src="@drawable/visit_add" />
+	            
+		</LinearLayout>
+		<LinearLayout 
+		    android:id="@+id/display_back"
+		    android:layout_width="wrap_content"
+		    android:layout_height="match_parent"
+		    android:gravity="center_vertical"
+		    android:background="@drawable/title_background"
+		    android:clickable="true">
+		    <ImageView 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/ret_urn"
+		        android:layout_marginLeft="15dp"/>
+		    <TextView 
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="陈列"
+                android:textColor="#FFFFFF"
+                android:textSize="21sp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"/>
+		</LinearLayout>
+
+    </RelativeLayout>
+
+ <!-- 南昌纵捷 -->
+
+    <LinearLayout
+        android:id="@+id/display_client_layout"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:background="#ffffff" 
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/display_top_client"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:text="南昌索科特科技有限公司"
+            android:textColor="#323232"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <TextView 
+        android:id="@+id/customer_name"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:textSize="16sp"
+        android:textColor="#646464"
+        android:text="客户名称"
+        android:background="#ffffff"
+        />
+    <FrameLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<!-- 陈列中的详细内容 -->
+   
+    <com.huishangyun.swipelistview.MyXListView
+             android:id="@+id/display_list"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:cacheColorHint="#00000000"
+             android:divider="@null"
+             android:dividerHeight="0.0dp"
+             android:fadingEdge="none"
+             android:scrollbars="none" 
+             />
+       <ImageView 
+        android:id="@+id/no_information"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/nomessagelist"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"/>
+</FrameLayout>
+</LinearLayout>

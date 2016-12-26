@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f0f0f0">
+    
+	  <!-- 头部 -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:background="#00658f"
+        android:id="@+id/tou">
+		
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:background="@drawable/title_background"
+            android:id="@+id/back">
+	        <ImageView
+	            android:layout_height="wrap_content"
+	            android:layout_width="wrap_content"
+	            android:src="@drawable/ret_urn"	            
+	            android:layout_gravity="center_vertical"/>
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center_vertical"
+	            android:text="购物车"
+	            android:textSize="21sp"
+	            android:textColor="#ffffff" 
+	            android:layout_marginLeft="10dp"
+	            android:id="@+id/text"/>
+        </LinearLayout>       
+    </RelativeLayout>
+     
+    <!-- 内容 -->
+    <FrameLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+        
+        <ImageView android:id="@+id/no_img"
+		    android:layout_height="wrap_content"
+		    android:layout_width="wrap_content"
+		    android:src="@drawable/nomessagelist"
+		    android:layout_gravity="center"
+		    android:layout_marginBottom="50dp"
+		    android:visibility="gone"/>
+        
+        <LinearLayout android:id="@+id/content"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+	        
+		    <ListView
+			    android:layout_height="0dp"
+			    android:layout_width="match_parent"
+			    android:layout_weight="1"
+			    android:id="@+id/listview"
+			    android:divider="#f0f0f0"        
+			    android:dividerHeight="-5dp"
+			    android:fadingEdge="none"
+			    android:cacheColorHint="#00000000"
+			    android:scrollbars="none"/>
+		    
+		    <!-- 下面合计提交框 -->  
+		    <RelativeLayout
+		        android:layout_height="60dp"
+		        android:layout_width="match_parent"
+		        android:background="#ffffff">
+		        <View
+			        android:layout_height="1dp"
+			        android:layout_width="match_parent"
+			        android:layout_alignParentTop="true"
+			        android:background="#e0e0e0"/>        
+		        
+		        <TextView
+		           android:layout_height="wrap_content"
+		           android:layout_width="wrap_content"
+		           android:layout_centerVertical="true"
+		           android:layout_marginLeft="15dp"
+		           android:textColor="#039958"
+		           android:textSize="19sp"
+		           android:text="合计金额：￥"
+		           android:id="@+id/heji"/>
+		        <TextView
+		           android:layout_height="wrap_content"
+		           android:layout_width="wrap_content"
+		           android:layout_toRightOf="@id/heji"
+		           android:layout_alignTop="@id/heji"
+		           android:textColor="#039958"
+		           android:textSize="19sp"
+		           android:id="@+id/money"/>
+		        
+		        <TextView
+		           android:layout_height="40dp"
+		           android:layout_width="wrap_content"
+		           android:background="@drawable/title_background"
+		           android:gravity="center"
+		           android:layout_alignParentRight="true"
+		           android:layout_centerVertical="true"
+		           android:layout_marginRight="15dp"
+		           android:paddingLeft="5dp"
+		           android:paddingRight="5dp"
+		           android:text="提交订单"
+		           android:textColor="#ffffff"
+		           android:textSize="16sp"
+		           android:id="@+id/submit"/>
+		    </RelativeLayout>
+       </LinearLayout>
+       </FrameLayout>
+       
+</LinearLayout>

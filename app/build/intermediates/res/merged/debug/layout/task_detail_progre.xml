@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff0f0f0" >
+	
+    <ScrollView
+        android:id="@+id/task_detail_scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <ListView
+                android:id="@+id/task_prog_list"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:divider="@null"
+                android:dividerHeight="0.0dp" />
+
+            <LinearLayout
+                android:id="@+id/task_detail_linear"
+                android:layout_marginTop="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="53dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="fill_parent"
+                        android:background="#039958"
+                        android:ems="1"
+                        android:gravity="center"
+                        android:text="进度"
+                        android:textColor="#fff"
+                        android:textSize="14sp" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/task_progtxt"
+                        android:gravity="center_vertical" >
+
+                        <LinearLayout
+                            android:layout_width="0.0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp" 
+                            android:gravity="center">
+
+                            <!-- <SeekBar
+                                android:id="@+id/sBar"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:maxHeight="5dip"
+                                android:minHeight="5dip"
+                                android:progress="70"
+                                android:progressDrawable="@drawable/seek_img"
+                                android:thumb="@drawable/thumb" /> -->
+                                <SeekBar
+		                            android:id="@+id/sBar"
+		                            android:layout_width="match_parent"
+		                            android:layout_height="wrap_content"
+		                            android:progressDrawable="@drawable/seek_img"
+		                            android:maxHeight="3dip"
+                                	android:minHeight="3dip"
+		                            android:thumb="@drawable/thumb"
+		                            android:layout_weight="1" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/sBartxt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_marginRight="10dp"
+                            android:gravity="center_vertical"
+                            android:textColor="#969696"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="85dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="fill_parent"
+                        android:background="#039958"
+                        android:ems="1"
+                        android:gravity="center"
+                        android:text="进度描述"
+                        android:textColor="#fff"
+                        android:textSize="14sp" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/task_progtxt"
+                        android:gravity="center_vertical" >
+
+                        <EditText
+                            android:id="@+id/task_prog_miaoshu"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:background="@null"
+                            android:gravity="top"
+                            android:padding="5dp"
+                            android:hint="请输任务详细进度"
+                            android:textColor="#969696"
+                            android:textColorHint="#c8c8c8"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="fill_parent"
+                        android:background="#039958"
+                        android:ems="1"
+                        android:gravity="center"
+                        android:text="附件  +"
+                        android:textColor="#fff"
+                        android:textSize="14sp" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/task_progtxt"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical" >
+
+                        <ListView
+                            android:id="@+id/task_prog_filelist"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:divider="@null"
+                            android:dividerHeight="0.0dp" />
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="28dp"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal" >
+
+                            <Button
+                                android:id="@+id/task_prog_takephotp"
+                                android:layout_width="0.0dp"
+                                android:layout_height="20dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="5dp"
+                                android:layout_weight="1.0"
+                                android:background="@drawable/task_takephoto"
+                                android:drawableStart="@drawable/photos"
+                                android:paddingLeft="5dp"
+                                android:text="拍照"
+                                android:textColor="@color/white"
+                                android:textSize="12sp" />
+
+                            <Button
+                                android:id="@+id/task_prog_takevideo"
+                                android:layout_width="0.0dp"
+                                android:layout_height="20dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+                                android:layout_weight="1.0"
+                                android:background="@drawable/task_takevideo"
+                                android:drawableStart="@drawable/videos"
+                                android:paddingLeft="5dp"
+                                android:text="摄像"
+                                android:textColor="@color/white"
+                                android:textSize="12sp" />
+
+                            <Button
+                                android:id="@+id/task_prog_takerecord"
+                                android:layout_width="0.0dp"
+                                android:layout_height="20dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+                                android:layout_weight="1.0"
+                                android:background="@drawable/task_takerece"
+                                android:drawableStart="@drawable/record"
+                                android:paddingLeft="5dp"
+                                android:text="录音"
+                                android:textColor="@color/white"
+                                android:textSize="12sp" />
+
+                            <Button
+                                android:id="@+id/task_prog_takefile"
+                                android:layout_width="0.0dp"
+                                android:layout_height="20dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_weight="1.0"
+                                android:background="@drawable/task_takefile"
+                                android:drawableStart="@drawable/selectfile"
+                                android:paddingLeft="5dp"
+                                android:text="文件"
+                                android:textColor="@color/white"
+                                android:textSize="12sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+				<FrameLayout 
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/task_prog_submit"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_tuch"
+                    android:lineSpacingMultiplier="1.2"
+                    android:text="提交"
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
+                
+                <Button
+                    android:id="@+id/task_prog_record"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_tuch"
+                    android:lineSpacingMultiplier="1.2"
+                    android:text="按住说话"
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:visibility="gone" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+	<ImageView
+	    android:visibility="visible" 
+	    android:id="@+id/task_detail_wu"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:textColor="#000000"
+	    android:textSize="18sp"
+	    android:layout_marginBottom="50dp"
+	    android:src="@drawable/nomessagelist"/>
+	
+	<LinearLayout 
+        android:id="@+id/prog_mic_layout"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:background="#AA000000"
+        android:orientation="vertical">
+        <ImageView 
+            android:id="@+id/prog_mic_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/voice_vol01"/>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+	 <include 
+        android:id="@+id/search_kehu"
+        layout="@layout/search_box"/>
+	 <FrameLayout 
+        android:layout_below="@+id/search_kehu"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+	   <ListView
+	        android:id="@+id/listview_contact_group"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+			android:scrollbars="none"
+			android:dividerHeight="0.0dp"
+			android:divider="#00000000"
+			android:fadingEdge="none" />
+	   <ListView
+	    android:id="@+id/searchcontact_kehu"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+		android:scrollbars="none"
+		android:dividerHeight="0.0dp"
+		android:divider="#00000000"
+		android:visibility="gone"
+		android:fadingEdge="@null"/>
+	   <ImageButton 
+		    android:id="@+id/contact_ke_back"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@null"
+		    android:src="@drawable/contact_back"
+		    android:layout_gravity="bottom|right"
+		    android:layout_marginBottom="30dp"
+		    android:layout_marginRight="30dp"/>
+    </FrameLayout>
+    <com.huishangyun.View.SideBar
+	    android:id="@+id/fast_ke_scroller"
+       	android:layout_width="@dimen/height_3_80"
+       	android:layout_height="fill_parent"
+       	android:layout_alignParentRight="true"
+       	android:layout_marginTop="0dip"/>
+    <TextView
+        android:id="@+id/fast_ke_position"
+        android:layout_width="70dip"
+        android:layout_height="70dip"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_margin="34dip"
+        android:background="#AA000000"
+        android:gravity="center"
+        android:padding="2dip"
+        android:textColor="#ffffff"
+        android:textSize="48dip"
+        android:visibility="invisible" />
+
+</RelativeLayout>
